@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/lto_inl test_Bench.par > /dev/null || exit; done",
+      "mean": 0.33229706282000004,
+      "stddev": null,
+      "median": 0.33229706282000004,
+      "user": 0.28296661999999995,
+      "system": 0.04883144,
+      "min": 0.33229706282000004,
+      "max": 0.33229706282000004,
+      "times": [
+        0.33229706282000004
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/full test_Bench.par > /dev/null || exit; done",
+      "mean": 0.48698657782000004,
+      "stddev": null,
+      "median": 0.48698657782000004,
+      "user": 0.43629861999999997,
+      "system": 0.050285439999999994,
+      "min": 0.48698657782000004,
+      "max": 0.48698657782000004,
+      "times": [
+        0.48698657782000004
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/tuned test_Bench.par > /dev/null || exit; done",
+      "mean": 0.33115811182000005,
+      "stddev": null,
+      "median": 0.33115811182000005,
+      "user": 0.28992261999999996,
+      "system": 0.040858439999999996,
+      "min": 0.33115811182000005,
+      "max": 0.33115811182000005,
+      "times": [
+        0.33115811182000005
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/o3 test_Bench.par > /dev/null || exit; done",
+      "mean": 0.32964096382,
+      "stddev": null,
+      "median": 0.32964096382,
+      "user": 0.27664461999999995,
+      "system": 0.05246944,
+      "min": 0.32964096382,
+      "max": 0.32964096382,
+      "times": [
+        0.32964096382
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    }
+  ]
+}

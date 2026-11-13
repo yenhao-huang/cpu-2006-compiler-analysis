@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "for n in $(seq 1 10); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/454.calculix/tuned 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1 > /dev/null; test $? -eq 1 || exit; done",
+      "mean": 0.61780618224,
+      "stddev": null,
+      "median": 0.61780618224,
+      "user": 0.5597709000000001,
+      "system": 0.05757386,
+      "min": 0.61780618224,
+      "max": 0.61780618224,
+      "times": [
+        0.61780618224
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 10); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/454.calculix/o3 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1 > /dev/null; test $? -eq 1 || exit; done",
+      "mean": 0.69787564824,
+      "stddev": null,
+      "median": 0.69787564824,
+      "user": 0.6485949,
+      "system": 0.04902086,
+      "min": 0.69787564824,
+      "max": 0.69787564824,
+      "times": [
+        0.69787564824
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 10); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/454.calculix/full 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1 > /dev/null; test $? -eq 1 || exit; done",
+      "mean": 0.70433568924,
+      "stddev": null,
+      "median": 0.70433568924,
+      "user": 0.6595469,
+      "system": 0.044304859999999995,
+      "min": 0.70433568924,
+      "max": 0.70433568924,
+      "times": [
+        0.70433568924
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 10); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/454.calculix/lto_inl 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1 > /dev/null; test $? -eq 1 || exit; done",
+      "mean": 0.68843000924,
+      "stddev": null,
+      "median": 0.68843000924,
+      "user": 0.6367999,
+      "system": 0.05131686,
+      "min": 0.68843000924,
+      "max": 0.68843000924,
+      "times": [
+        0.68843000924
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    }
+  ]
+}

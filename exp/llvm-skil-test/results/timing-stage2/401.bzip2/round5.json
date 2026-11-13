@@ -1,0 +1,156 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/401.bzip2/lto_native -3 < input.ref > /dev/null",
+      "mean": 1.5255519819599999,
+      "stddev": null,
+      "median": 1.5255519819599999,
+      "user": 1.52352488,
+      "system": 0.0018100399999999997,
+      "min": 1.5255519819599999,
+      "max": 1.5255519819599999,
+      "times": [
+        1.5255519819599999
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_native"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/401.bzip2/lto_noslp -3 < input.ref > /dev/null",
+      "mean": 1.53063235896,
+      "stddev": null,
+      "median": 1.53063235896,
+      "user": 1.52757988,
+      "system": 0.00280804,
+      "min": 1.53063235896,
+      "max": 1.53063235896,
+      "times": [
+        1.53063235896
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_noslp"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/401.bzip2/lto_unroll -3 < input.ref > /dev/null",
+      "mean": 1.52489919396,
+      "stddev": null,
+      "median": 1.52489919396,
+      "user": 1.52017288,
+      "system": 0.00451504,
+      "min": 1.52489919396,
+      "max": 1.52489919396,
+      "times": [
+        1.52489919396
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_unroll"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/401.bzip2/o2 -3 < input.ref > /dev/null",
+      "mean": 1.5141948709600002,
+      "stddev": null,
+      "median": 1.5141948709600002,
+      "user": 1.50708488,
+      "system": 0.00680804,
+      "min": 1.5141948709600002,
+      "max": 1.5141948709600002,
+      "times": [
+        1.5141948709600002
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o2"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/401.bzip2/full -3 < input.ref > /dev/null",
+      "mean": 1.48506005596,
+      "stddev": null,
+      "median": 1.48506005596,
+      "user": 1.48104888,
+      "system": 0.0036490399999999997,
+      "min": 1.48506005596,
+      "max": 1.48506005596,
+      "times": [
+        1.48506005596
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/401.bzip2/o3_native -3 < input.ref > /dev/null",
+      "mean": 1.52162917096,
+      "stddev": null,
+      "median": 1.52162917096,
+      "user": 1.51570888,
+      "system": 0.005550039999999999,
+      "min": 1.52162917096,
+      "max": 1.52162917096,
+      "times": [
+        1.52162917096
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3_native"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/401.bzip2/o3 -3 < input.ref > /dev/null",
+      "mean": 1.51432862696,
+      "stddev": null,
+      "median": 1.51432862696,
+      "user": 1.50946388,
+      "system": 0.00459304,
+      "min": 1.51432862696,
+      "max": 1.51432862696,
+      "times": [
+        1.51432862696
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/401.bzip2/lto_inl -3 < input.ref > /dev/null",
+      "mean": 1.51275121596,
+      "stddev": null,
+      "median": 1.51275121596,
+      "user": 1.50976688,
+      "system": 0.00259804,
+      "min": 1.51275121596,
+      "max": 1.51275121596,
+      "times": [
+        1.51275121596
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    }
+  ]
+}

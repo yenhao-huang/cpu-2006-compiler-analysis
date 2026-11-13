@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/o3 > /dev/null",
+      "mean": 0.6633817757200001,
+      "stddev": null,
+      "median": 0.6633817757200001,
+      "user": 0.64422024,
+      "system": 0.018966979999999998,
+      "min": 0.6633817757200001,
+      "max": 0.6633817757200001,
+      "times": [
+        0.6633817757200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/full > /dev/null",
+      "mean": 0.6283257977200001,
+      "stddev": null,
+      "median": 0.6283257977200001,
+      "user": 0.61343024,
+      "system": 0.01479498,
+      "min": 0.6283257977200001,
+      "max": 0.6283257977200001,
+      "times": [
+        0.6283257977200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/lto_inl > /dev/null",
+      "mean": 0.5926605097200001,
+      "stddev": null,
+      "median": 0.5926605097200001,
+      "user": 0.57854324,
+      "system": 0.01184198,
+      "min": 0.5926605097200001,
+      "max": 0.5926605097200001,
+      "times": [
+        0.5926605097200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/tuned > /dev/null",
+      "mean": 0.59390405972,
+      "stddev": null,
+      "median": 0.59390405972,
+      "user": 0.5773282399999999,
+      "system": 0.01644998,
+      "min": 0.59390405972,
+      "max": 0.59390405972,
+      "times": [
+        0.59390405972
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    }
+  ]
+}

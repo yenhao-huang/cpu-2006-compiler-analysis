@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/403.gcc/o3 spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.24717914100000002,
+      "stddev": null,
+      "median": 0.24717914100000002,
+      "user": 0.23612519999999998,
+      "system": 0.0109439,
+      "min": 0.24717914100000002,
+      "max": 0.24717914100000002,
+      "times": [
+        0.24717914100000002
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/403.gcc/tuned spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.23892457600000003,
+      "stddev": null,
+      "median": 0.23892457600000003,
+      "user": 0.22988119999999998,
+      "system": 0.008883899999999998,
+      "min": 0.23892457600000003,
+      "max": 0.23892457600000003,
+      "times": [
+        0.23892457600000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/403.gcc/full spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.258167931,
+      "stddev": null,
+      "median": 0.258167931,
+      "user": 0.2465202,
+      "system": 0.011601899999999998,
+      "min": 0.258167931,
+      "max": 0.258167931,
+      "times": [
+        0.258167931
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/403.gcc/lto_inl spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.237201281,
+      "stddev": null,
+      "median": 0.237201281,
+      "user": 0.2281392,
+      "system": 0.009003899999999999,
+      "min": 0.237201281,
+      "max": 0.237201281,
+      "times": [
+        0.237201281
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    }
+  ]
+}

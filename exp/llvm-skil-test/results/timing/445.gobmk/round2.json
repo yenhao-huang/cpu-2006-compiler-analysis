@@ -1,0 +1,156 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/445.gobmk/o2 --quiet --mode gtp < ../../train/input/arb.tst > /dev/null",
+      "mean": 2.1138263301,
+      "stddev": null,
+      "median": 2.1138263301,
+      "user": 2.10349036,
+      "system": 0.009859179999999999,
+      "min": 2.1138263301,
+      "max": 2.1138263301,
+      "times": [
+        2.1138263301
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o2"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/445.gobmk/lto_native --quiet --mode gtp < ../../train/input/arb.tst > /dev/null",
+      "mean": 2.0754993651,
+      "stddev": null,
+      "median": 2.0754993651,
+      "user": 2.06233736,
+      "system": 0.011774179999999999,
+      "min": 2.0754993651,
+      "max": 2.0754993651,
+      "times": [
+        2.0754993651
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_native"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/445.gobmk/o3 --quiet --mode gtp < ../../train/input/arb.tst > /dev/null",
+      "mean": 2.1137751891,
+      "stddev": null,
+      "median": 2.1137751891,
+      "user": 2.1075703599999995,
+      "system": 0.00577818,
+      "min": 2.1137751891,
+      "max": 2.1137751891,
+      "times": [
+        2.1137751891
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/445.gobmk/o3_native --quiet --mode gtp < ../../train/input/arb.tst > /dev/null",
+      "mean": 2.0960999051,
+      "stddev": null,
+      "median": 2.0960999051,
+      "user": 2.09017436,
+      "system": 0.00549818,
+      "min": 2.0960999051,
+      "max": 2.0960999051,
+      "times": [
+        2.0960999051
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3_native"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/445.gobmk/full_control --quiet --mode gtp < ../../train/input/arb.tst > /dev/null",
+      "mean": 2.3795380681,
+      "stddev": null,
+      "median": 2.3795380681,
+      "user": 2.37274336,
+      "system": 0.00645518,
+      "min": 2.3795380681,
+      "max": 2.3795380681,
+      "times": [
+        2.3795380681
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full_control"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/445.gobmk/full --quiet --mode gtp < ../../train/input/arb.tst > /dev/null",
+      "mean": 2.3757165921000003,
+      "stddev": null,
+      "median": 2.3757165921000003,
+      "user": 2.3679633599999996,
+      "system": 0.007362179999999999,
+      "min": 2.3757165921000003,
+      "max": 2.3757165921000003,
+      "times": [
+        2.3757165921000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/445.gobmk/os --quiet --mode gtp < ../../train/input/arb.tst > /dev/null",
+      "mean": 2.1382935671000003,
+      "stddev": null,
+      "median": 2.1382935671000003,
+      "user": 2.13233136,
+      "system": 0.0055261799999999995,
+      "min": 2.1382935671000003,
+      "max": 2.1382935671000003,
+      "times": [
+        2.1382935671000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "os"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/445.gobmk/lto --quiet --mode gtp < ../../train/input/arb.tst > /dev/null",
+      "mean": 2.0583152711,
+      "stddev": null,
+      "median": 2.0583152711,
+      "user": 2.05044236,
+      "system": 0.00756618,
+      "min": 2.0583152711,
+      "max": 2.0583152711,
+      "times": [
+        2.0583152711
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto"
+      }
+    }
+  ]
+}

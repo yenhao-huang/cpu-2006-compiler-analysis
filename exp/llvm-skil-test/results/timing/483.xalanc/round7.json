@@ -1,0 +1,156 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/o2 -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.73469165778,
+      "stddev": null,
+      "median": 0.73469165778,
+      "user": 0.69470362,
+      "system": 0.039774699999999996,
+      "min": 0.73469165778,
+      "max": 0.73469165778,
+      "times": [
+        0.73469165778
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o2"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/full -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.8442689037800001,
+      "stddev": null,
+      "median": 0.8442689037800001,
+      "user": 0.8026296199999999,
+      "system": 0.04148469999999999,
+      "min": 0.8442689037800001,
+      "max": 0.8442689037800001,
+      "times": [
+        0.8442689037800001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/o3_native -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.7245210457800001,
+      "stddev": null,
+      "median": 0.7245210457800001,
+      "user": 0.68083462,
+      "system": 0.043485699999999995,
+      "min": 0.7245210457800001,
+      "max": 0.7245210457800001,
+      "times": [
+        0.7245210457800001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3_native"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/os -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.79091077978,
+      "stddev": null,
+      "median": 0.79091077978,
+      "user": 0.74114162,
+      "system": 0.04954069999999999,
+      "min": 0.79091077978,
+      "max": 0.79091077978,
+      "times": [
+        0.79091077978
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "os"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/full_control -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.8323774247800001,
+      "stddev": null,
+      "median": 0.8323774247800001,
+      "user": 0.7984236199999999,
+      "system": 0.033827699999999995,
+      "min": 0.8323774247800001,
+      "max": 0.8323774247800001,
+      "times": [
+        0.8323774247800001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full_control"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/o3 -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.72303007078,
+      "stddev": null,
+      "median": 0.72303007078,
+      "user": 0.6761506199999999,
+      "system": 0.044409699999999996,
+      "min": 0.72303007078,
+      "max": 0.72303007078,
+      "times": [
+        0.72303007078
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/lto_native -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.71658233678,
+      "stddev": null,
+      "median": 0.71658233678,
+      "user": 0.67558462,
+      "system": 0.040841699999999995,
+      "min": 0.71658233678,
+      "max": 0.71658233678,
+      "times": [
+        0.71658233678
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_native"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/lto -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.71431624778,
+      "stddev": null,
+      "median": 0.71431624778,
+      "user": 0.6813466199999999,
+      "system": 0.032815699999999996,
+      "min": 0.71431624778,
+      "max": 0.71431624778,
+      "times": [
+        0.71431624778
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto"
+      }
+    }
+  ]
+}

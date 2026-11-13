@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/o3 ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.8741556275,
+      "stddev": null,
+      "median": 0.8741556275,
+      "user": 0.70646488,
+      "system": 0.16484224,
+      "min": 0.8741556275,
+      "max": 0.8741556275,
+      "times": [
+        0.8741556275
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/tuned ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.8549703975,
+      "stddev": null,
+      "median": 0.8549703975,
+      "user": 0.68949788,
+      "system": 0.16244424,
+      "min": 0.8549703975,
+      "max": 0.8549703975,
+      "times": [
+        0.8549703975
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/full ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.9387495875,
+      "stddev": null,
+      "median": 0.9387495875,
+      "user": 0.77624488,
+      "system": 0.15977323999999998,
+      "min": 0.9387495875,
+      "max": 0.9387495875,
+      "times": [
+        0.9387495875
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/lto_inl ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.8360630015,
+      "stddev": null,
+      "median": 0.8360630015,
+      "user": 0.67804788,
+      "system": 0.15571723999999998,
+      "min": 0.8360630015,
+      "max": 0.8360630015,
+      "times": [
+        0.8360630015
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    }
+  ]
+}

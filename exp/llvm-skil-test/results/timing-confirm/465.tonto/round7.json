@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/465.tonto/lto_inl < stdin > /dev/null",
+      "mean": 0.32006871842,
+      "stddev": null,
+      "median": 0.32006871842,
+      "user": 0.3198159,
+      "system": 0.00017277999999999998,
+      "min": 0.32006871842,
+      "max": 0.32006871842,
+      "times": [
+        0.32006871842
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/465.tonto/tuned < stdin > /dev/null",
+      "mean": 0.32330582742,
+      "stddev": null,
+      "median": 0.32330582742,
+      "user": 0.3173329,
+      "system": 0.00580378,
+      "min": 0.32330582742,
+      "max": 0.32330582742,
+      "times": [
+        0.32330582742
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/465.tonto/o3 < stdin > /dev/null",
+      "mean": 0.32696537242,
+      "stddev": null,
+      "median": 0.32696537242,
+      "user": 0.32636689999999996,
+      "system": 0.00049278,
+      "min": 0.32696537242,
+      "max": 0.32696537242,
+      "times": [
+        0.32696537242
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/465.tonto/full < stdin > /dev/null",
+      "mean": 0.39000078842,
+      "stddev": null,
+      "median": 0.39000078842,
+      "user": 0.3883969,
+      "system": 0.0015247799999999999,
+      "min": 0.39000078842,
+      "max": 0.39000078842,
+      "times": [
+        0.39000078842
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

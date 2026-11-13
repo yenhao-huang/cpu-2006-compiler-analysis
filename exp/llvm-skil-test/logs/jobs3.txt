@@ -1,0 +1,3 @@
+400.perlbench lto_inl_noslp
+454.calculix lto_inl_noslp
+445.gobmk lto_inl_unroll

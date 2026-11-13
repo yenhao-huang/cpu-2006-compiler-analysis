@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/tuned -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.68103202036,
+      "stddev": null,
+      "median": 0.68103202036,
+      "user": 0.64138882,
+      "system": 0.03950462,
+      "min": 0.68103202036,
+      "max": 0.68103202036,
+      "times": [
+        0.68103202036
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/full -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.8356091573600001,
+      "stddev": null,
+      "median": 0.8356091573600001,
+      "user": 0.79386982,
+      "system": 0.04148462,
+      "min": 0.8356091573600001,
+      "max": 0.8356091573600001,
+      "times": [
+        0.8356091573600001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/lto_inl -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.67754519236,
+      "stddev": null,
+      "median": 0.67754519236,
+      "user": 0.64048482,
+      "system": 0.03678162,
+      "min": 0.67754519236,
+      "max": 0.67754519236,
+      "times": [
+        0.67754519236
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/o3 -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.70537143436,
+      "stddev": null,
+      "median": 0.70537143436,
+      "user": 0.6648118199999999,
+      "system": 0.040391619999999996,
+      "min": 0.70537143436,
+      "max": 0.70537143436,
+      "times": [
+        0.70537143436
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    }
+  ]
+}

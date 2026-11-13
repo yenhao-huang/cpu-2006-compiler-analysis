@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/445.gobmk/tuned --quiet --mode gtp < ../../train/input/arb.tst > /dev/null",
+      "mean": 2.04565800022,
+      "stddev": null,
+      "median": 2.04565800022,
+      "user": 2.0368649,
+      "system": 0.00835824,
+      "min": 2.04565800022,
+      "max": 2.04565800022,
+      "times": [
+        2.04565800022
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/445.gobmk/lto_inl --quiet --mode gtp < ../../train/input/arb.tst > /dev/null",
+      "mean": 2.04641108322,
+      "stddev": null,
+      "median": 2.04641108322,
+      "user": 2.0370369,
+      "system": 0.008841239999999998,
+      "min": 2.04641108322,
+      "max": 2.04641108322,
+      "times": [
+        2.04641108322
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/445.gobmk/full --quiet --mode gtp < ../../train/input/arb.tst > /dev/null",
+      "mean": 2.3612266492200003,
+      "stddev": null,
+      "median": 2.3612266492200003,
+      "user": 2.3529109,
+      "system": 0.00784124,
+      "min": 2.3612266492200003,
+      "max": 2.3612266492200003,
+      "times": [
+        2.3612266492200003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/445.gobmk/o3 --quiet --mode gtp < ../../train/input/arb.tst > /dev/null",
+      "mean": 2.11523856722,
+      "stddev": null,
+      "median": 2.11523856722,
+      "user": 2.1089639,
+      "system": 0.00584224,
+      "min": 2.11523856722,
+      "max": 2.11523856722,
+      "times": [
+        2.11523856722
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    }
+  ]
+}

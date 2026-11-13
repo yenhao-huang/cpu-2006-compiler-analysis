@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/445.gobmk/full --quiet --mode gtp < ../../train/input/arb.tst > /dev/null",
+      "mean": 2.3903351576,
+      "stddev": null,
+      "median": 2.3903351576,
+      "user": 2.38098812,
+      "system": 0.00886376,
+      "min": 2.3903351576,
+      "max": 2.3903351576,
+      "times": [
+        2.3903351576
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/445.gobmk/tuned --quiet --mode gtp < ../../train/input/arb.tst > /dev/null",
+      "mean": 2.0419385926,
+      "stddev": null,
+      "median": 2.0419385926,
+      "user": 2.0326031199999997,
+      "system": 0.008855759999999999,
+      "min": 2.0419385926,
+      "max": 2.0419385926,
+      "times": [
+        2.0419385926
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/445.gobmk/lto_inl --quiet --mode gtp < ../../train/input/arb.tst > /dev/null",
+      "mean": 2.0521323855999998,
+      "stddev": null,
+      "median": 2.0521323855999998,
+      "user": 2.0449661199999998,
+      "system": 0.0067687599999999995,
+      "min": 2.0521323855999998,
+      "max": 2.0521323855999998,
+      "times": [
+        2.0521323855999998
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/445.gobmk/o3 --quiet --mode gtp < ../../train/input/arb.tst > /dev/null",
+      "mean": 2.1080587076,
+      "stddev": null,
+      "median": 2.1080587076,
+      "user": 2.10005812,
+      "system": 0.00758276,
+      "min": 2.1080587076,
+      "max": 2.1080587076,
+      "times": [
+        2.1080587076
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/o3 --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 0.6988634374,
+      "stddev": null,
+      "median": 0.6988634374,
+      "user": 0.6975905199999999,
+      "system": 0.00114428,
+      "min": 0.6988634374,
+      "max": 0.6988634374,
+      "times": [
+        0.6988634374
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/full --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 2.2051055064,
+      "stddev": null,
+      "median": 2.2051055064,
+      "user": 2.2042095199999996,
+      "system": 0.00046827999999999995,
+      "min": 2.2051055064,
+      "max": 2.2051055064,
+      "times": [
+        2.2051055064
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/tuned --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 0.6893135354000001,
+      "stddev": null,
+      "median": 0.6893135354000001,
+      "user": 0.68755852,
+      "system": 0.00155428,
+      "min": 0.6893135354000001,
+      "max": 0.6893135354000001,
+      "times": [
+        0.6893135354000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/lto_inl --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 0.6845585444,
+      "stddev": null,
+      "median": 0.6845585444,
+      "user": 0.68356352,
+      "system": 0.0008272799999999999,
+      "min": 0.6845585444,
+      "max": 0.6845585444,
+      "times": [
+        0.6845585444
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    }
+  ]
+}

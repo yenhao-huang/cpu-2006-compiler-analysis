@@ -1,0 +1,156 @@
+{
+  "results": [
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/o3_native_nofma > /dev/null",
+      "mean": 0.6043792938200001,
+      "stddev": null,
+      "median": 0.6043792938200001,
+      "user": 0.5863504199999999,
+      "system": 0.01781226,
+      "min": 0.6043792938200001,
+      "max": 0.6043792938200001,
+      "times": [
+        0.6043792938200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3_native_nofma"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/lto_native_nofma > /dev/null",
+      "mean": 0.5711413998200001,
+      "stddev": null,
+      "median": 0.5711413998200001,
+      "user": 0.5573744199999999,
+      "system": 0.01353826,
+      "min": 0.5711413998200001,
+      "max": 0.5711413998200001,
+      "times": [
+        0.5711413998200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_native_nofma"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/lto_noslp > /dev/null",
+      "mean": 0.6152267198200001,
+      "stddev": null,
+      "median": 0.6152267198200001,
+      "user": 0.60005342,
+      "system": 0.01482426,
+      "min": 0.6152267198200001,
+      "max": 0.6152267198200001,
+      "times": [
+        0.6152267198200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_noslp"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/lto_inl > /dev/null",
+      "mean": 0.5711358888200001,
+      "stddev": null,
+      "median": 0.5711358888200001,
+      "user": 0.56003542,
+      "system": 0.01082626,
+      "min": 0.5711358888200001,
+      "max": 0.5711358888200001,
+      "times": [
+        0.5711358888200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/lto_unroll > /dev/null",
+      "mean": 0.5646187158200001,
+      "stddev": null,
+      "median": 0.5646187158200001,
+      "user": 0.5556524199999999,
+      "system": 0.00883926,
+      "min": 0.5646187158200001,
+      "max": 0.5646187158200001,
+      "times": [
+        0.5646187158200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_unroll"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/full > /dev/null",
+      "mean": 0.6101891258200001,
+      "stddev": null,
+      "median": 0.6101891258200001,
+      "user": 0.5945274199999999,
+      "system": 0.01551926,
+      "min": 0.6101891258200001,
+      "max": 0.6101891258200001,
+      "times": [
+        0.6101891258200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/o3 > /dev/null",
+      "mean": 0.6307524338200001,
+      "stddev": null,
+      "median": 0.6307524338200001,
+      "user": 0.6191604199999999,
+      "system": 0.01148326,
+      "min": 0.6307524338200001,
+      "max": 0.6307524338200001,
+      "times": [
+        0.6307524338200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/o2 > /dev/null",
+      "mean": 0.6245153078200001,
+      "stddev": null,
+      "median": 0.6245153078200001,
+      "user": 0.6119464199999999,
+      "system": 0.01241126,
+      "min": 0.6245153078200001,
+      "max": 0.6245153078200001,
+      "times": [
+        0.6245153078200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o2"
+      }
+    }
+  ]
+}

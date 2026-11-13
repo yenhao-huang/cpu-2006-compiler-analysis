@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/lto_inl test_Bench.par > /dev/null || exit; done",
+      "mean": 0.33374745624,
+      "stddev": null,
+      "median": 0.33374745624,
+      "user": 0.28293952,
+      "system": 0.05037466,
+      "min": 0.33374745624,
+      "max": 0.33374745624,
+      "times": [
+        0.33374745624
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/o3 test_Bench.par > /dev/null || exit; done",
+      "mean": 0.32774415324,
+      "stddev": null,
+      "median": 0.32774415324,
+      "user": 0.27148452,
+      "system": 0.05588366,
+      "min": 0.32774415324,
+      "max": 0.32774415324,
+      "times": [
+        0.32774415324
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/full test_Bench.par > /dev/null || exit; done",
+      "mean": 0.49130233524,
+      "stddev": null,
+      "median": 0.49130233524,
+      "user": 0.44488252,
+      "system": 0.04422966,
+      "min": 0.49130233524,
+      "max": 0.49130233524,
+      "times": [
+        0.49130233524
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/tuned test_Bench.par > /dev/null || exit; done",
+      "mean": 0.32987383724,
+      "stddev": null,
+      "median": 0.32987383724,
+      "user": 0.28064452,
+      "system": 0.04883666,
+      "min": 0.32987383724,
+      "max": 0.32987383724,
+      "times": [
+        0.32987383724
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    }
+  ]
+}

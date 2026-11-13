@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/tuned test_Bench.par > /dev/null || exit; done",
+      "mean": 0.33266380964000003,
+      "stddev": null,
+      "median": 0.33266380964000003,
+      "user": 0.28527078,
+      "system": 0.046950559999999995,
+      "min": 0.33266380964000003,
+      "max": 0.33266380964000003,
+      "times": [
+        0.33266380964000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/full test_Bench.par > /dev/null || exit; done",
+      "mean": 0.48767883964000003,
+      "stddev": null,
+      "median": 0.48767883964000003,
+      "user": 0.44533278,
+      "system": 0.04172056,
+      "min": 0.48767883964000003,
+      "max": 0.48767883964000003,
+      "times": [
+        0.48767883964000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/lto_inl test_Bench.par > /dev/null || exit; done",
+      "mean": 0.32763857664,
+      "stddev": null,
+      "median": 0.32763857664,
+      "user": 0.27611878,
+      "system": 0.051105559999999994,
+      "min": 0.32763857664,
+      "max": 0.32763857664,
+      "times": [
+        0.32763857664
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/o3 test_Bench.par > /dev/null || exit; done",
+      "mean": 0.33015754464,
+      "stddev": null,
+      "median": 0.33015754464,
+      "user": 0.27776178,
+      "system": 0.05201056,
+      "min": 0.33015754464,
+      "max": 0.33015754464,
+      "times": [
+        0.33015754464
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/462.libquantum/tuned 143 25 > /dev/null",
+      "mean": 0.37674933512000003,
+      "stddev": null,
+      "median": 0.37674933512000003,
+      "user": 0.37484648,
+      "system": 0.0018514999999999998,
+      "min": 0.37674933512000003,
+      "max": 0.37674933512000003,
+      "times": [
+        0.37674933512000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/462.libquantum/full 143 25 > /dev/null",
+      "mean": 0.42158533812000004,
+      "stddev": null,
+      "median": 0.42158533812000004,
+      "user": 0.42057748,
+      "system": 0.0008515,
+      "min": 0.42158533812000004,
+      "max": 0.42158533812000004,
+      "times": [
+        0.42158533812000004
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/462.libquantum/lto_inl 143 25 > /dev/null",
+      "mean": 0.38063306812000003,
+      "stddev": null,
+      "median": 0.38063306812000003,
+      "user": 0.37962648,
+      "system": 0.0008515,
+      "min": 0.38063306812000003,
+      "max": 0.38063306812000003,
+      "times": [
+        0.38063306812000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/462.libquantum/o3 143 25 > /dev/null",
+      "mean": 0.38576742812000003,
+      "stddev": null,
+      "median": 0.38576742812000003,
+      "user": 0.38476748,
+      "system": 0.0008515,
+      "min": 0.38576742812000003,
+      "max": 0.38576742812000003,
+      "times": [
+        0.38576742812000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    }
+  ]
+}

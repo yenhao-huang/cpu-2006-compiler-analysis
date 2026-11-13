@@ -1,0 +1,15 @@
+# variant	opt -passes	ir_input	origin (skill section)	opt_extra
+full	(copy of repo research pipeline binary)	raw	reference: repo's explicit 15-pass pipeline
+o3	(copy of repo default<O3> binary)	raw	Optimization Levels: -O3
+o2	default<O2>	raw	Optimization Levels: -O2
+os	default<Os>	raw	Optimization Levels: -Os (size)
+o3_native	default<O3>	native	Vectorization: wider/target-specific vector ISA
+lto	lto-pre-link<O3>,internalize,lto<O3>	raw	Link-Time Optimization: whole-program
+lto_native	lto-pre-link<O3>,internalize,lto<O3>	native	LTO + target ISA combined
+o3_native_nofma	default<O3>	native_nofma	Vectorization ISA without FMA contraction (bit-exact Fortran)
+lto_native_nofma	lto-pre-link<O3>,internalize,lto<O3>	native_nofma	LTO + ISA without FMA contraction
+lto_inl	lto-pre-link<O3>,internalize,lto<O3>	strict_native	Stage-2 tuning: Inlining threshold 250->500	-inline-threshold=500
+lto_noslp	lto-pre-link<O3>,internalize,lto<O3>	strict_native	Stage-2 tuning: SLP effectively off	-slp-threshold=1000
+lto_unroll	lto-pre-link<O3>,internalize,lto<O3>	strict_native	Stage-2 tuning: Loop unrolling threshold 300->600	-unroll-threshold=600
+lto_inl_noslp	lto-pre-link<O3>,internalize,lto<O3>	strict_native	Stage-3 combo: inline 500 + SLP off	-inline-threshold=500 -slp-threshold=1000
+lto_inl_unroll	lto-pre-link<O3>,internalize,lto<O3>	strict_native	Stage-3 combo: inline 500 + unroll 600	-inline-threshold=500 -unroll-threshold=600

@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/tuned --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 0.6899589541200001,
+      "stddev": null,
+      "median": 0.6899589541200001,
+      "user": 0.6884718999999999,
+      "system": 0.0013793199999999999,
+      "min": 0.6899589541200001,
+      "max": 0.6899589541200001,
+      "times": [
+        0.6899589541200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/lto_inl --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 0.6899533601200001,
+      "stddev": null,
+      "median": 0.6899533601200001,
+      "user": 0.6899729,
+      "system": 0.0,
+      "min": 0.6899533601200001,
+      "max": 0.6899533601200001,
+      "times": [
+        0.6899533601200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/full --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 2.21079234612,
+      "stddev": null,
+      "median": 2.21079234612,
+      "user": 2.2095469,
+      "system": 0.00084132,
+      "min": 2.21079234612,
+      "max": 2.21079234612,
+      "times": [
+        2.21079234612
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/o3 --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 0.78665019012,
+      "stddev": null,
+      "median": 0.78665019012,
+      "user": 0.7860199,
+      "system": 0.00043131999999999996,
+      "min": 0.78665019012,
+      "max": 0.78665019012,
+      "times": [
+        0.78665019012
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    }
+  ]
+}

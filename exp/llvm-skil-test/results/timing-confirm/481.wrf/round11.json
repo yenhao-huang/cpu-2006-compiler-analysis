@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/o3 > /dev/null",
+      "mean": 0.63424201772,
+      "stddev": null,
+      "median": 0.63424201772,
+      "user": 0.6192441000000001,
+      "system": 0.014909579999999999,
+      "min": 0.63424201772,
+      "max": 0.63424201772,
+      "times": [
+        0.63424201772
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/full > /dev/null",
+      "mean": 0.62478027172,
+      "stddev": null,
+      "median": 0.62478027172,
+      "user": 0.6106941,
+      "system": 0.013893579999999999,
+      "min": 0.62478027172,
+      "max": 0.62478027172,
+      "times": [
+        0.62478027172
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/tuned > /dev/null",
+      "mean": 0.58425752572,
+      "stddev": null,
+      "median": 0.58425752572,
+      "user": 0.5662581,
+      "system": 0.01790258,
+      "min": 0.58425752572,
+      "max": 0.58425752572,
+      "times": [
+        0.58425752572
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/lto_inl > /dev/null",
+      "mean": 0.57093112872,
+      "stddev": null,
+      "median": 0.57093112872,
+      "user": 0.5589031,
+      "system": 0.01190258,
+      "min": 0.57093112872,
+      "max": 0.57093112872,
+      "times": [
+        0.57093112872
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    }
+  ]
+}

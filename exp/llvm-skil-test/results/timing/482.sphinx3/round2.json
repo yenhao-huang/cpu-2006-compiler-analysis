@@ -1,0 +1,156 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/os ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.9223304274,
+      "stddev": null,
+      "median": 0.9223304274,
+      "user": 0.7370808999999999,
+      "system": 0.1821911,
+      "min": 0.9223304274,
+      "max": 0.9223304274,
+      "times": [
+        0.9223304274
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "os"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/o3 ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.9309855394000001,
+      "stddev": null,
+      "median": 0.9309855394000001,
+      "user": 0.7365518999999999,
+      "system": 0.1903221,
+      "min": 0.9309855394000001,
+      "max": 0.9309855394000001,
+      "times": [
+        0.9309855394000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/full_control ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.9872829184,
+      "stddev": null,
+      "median": 0.9872829184,
+      "user": 0.8172698999999999,
+      "system": 0.1671691,
+      "min": 0.9872829184,
+      "max": 0.9872829184,
+      "times": [
+        0.9872829184
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full_control"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/lto_native ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.9011256164000001,
+      "stddev": null,
+      "median": 0.9011256164000001,
+      "user": 0.6982968999999999,
+      "system": 0.19982509999999998,
+      "min": 0.9011256164000001,
+      "max": 0.9011256164000001,
+      "times": [
+        0.9011256164000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_native"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/full ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.9714182284000001,
+      "stddev": null,
+      "median": 0.9714182284000001,
+      "user": 0.8001299,
+      "system": 0.1684021,
+      "min": 0.9714182284000001,
+      "max": 0.9714182284000001,
+      "times": [
+        0.9714182284000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/o2 ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.8663412174,
+      "stddev": null,
+      "median": 0.8663412174,
+      "user": 0.7013738999999999,
+      "system": 0.16230809999999998,
+      "min": 0.8663412174,
+      "max": 0.8663412174,
+      "times": [
+        0.8663412174
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o2"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/o3_native ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.8618222554000001,
+      "stddev": null,
+      "median": 0.8618222554000001,
+      "user": 0.6894619,
+      "system": 0.1696151,
+      "min": 0.8618222554000001,
+      "max": 0.8618222554000001,
+      "times": [
+        0.8618222554000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3_native"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/lto ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.8595353834000001,
+      "stddev": null,
+      "median": 0.8595353834000001,
+      "user": 0.6822938999999999,
+      "system": 0.17468509999999998,
+      "min": 0.8595353834000001,
+      "max": 0.8595353834000001,
+      "times": [
+        0.8595353834000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto"
+      }
+    }
+  ]
+}

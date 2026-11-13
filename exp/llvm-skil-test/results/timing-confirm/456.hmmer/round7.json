@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/full --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 2.2250392,
+      "stddev": null,
+      "median": 2.2250392,
+      "user": 2.22288576,
+      "system": 0.00183238,
+      "min": 2.2250392,
+      "max": 2.2250392,
+      "times": [
+        2.2250392
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/tuned --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 0.777012264,
+      "stddev": null,
+      "median": 0.777012264,
+      "user": 0.77605876,
+      "system": 0.00083338,
+      "min": 0.777012264,
+      "max": 0.777012264,
+      "times": [
+        0.777012264
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/lto_inl --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 0.6830652300000001,
+      "stddev": null,
+      "median": 0.6830652300000001,
+      "user": 0.68200576,
+      "system": 0.00083338,
+      "min": 0.6830652300000001,
+      "max": 0.6830652300000001,
+      "times": [
+        0.6830652300000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/o3 --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 0.692126419,
+      "stddev": null,
+      "median": 0.692126419,
+      "user": 0.69213176,
+      "system": 0.0,
+      "min": 0.692126419,
+      "max": 0.692126419,
+      "times": [
+        0.692126419
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    }
+  ]
+}

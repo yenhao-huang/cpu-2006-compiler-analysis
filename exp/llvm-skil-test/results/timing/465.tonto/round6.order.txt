@@ -1,0 +1,1 @@
+os,o3_native_nofma,o2,o3_native,o3,lto_native_nofma,lto,full,lto_native,full_control

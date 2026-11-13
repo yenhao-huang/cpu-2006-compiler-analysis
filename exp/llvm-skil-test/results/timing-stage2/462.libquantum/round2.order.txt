@@ -1,0 +1,1 @@
+o2,o3,full,lto_inl,lto_noslp,lto_native,o3_native,lto_unroll

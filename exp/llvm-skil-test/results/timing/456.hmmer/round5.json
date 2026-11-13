@@ -1,0 +1,156 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/full_control --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 2.22769804314,
+      "stddev": null,
+      "median": 2.22769804314,
+      "user": 2.2256207,
+      "system": 0.00169936,
+      "min": 2.22769804314,
+      "max": 2.22769804314,
+      "times": [
+        2.22769804314
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full_control"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/o3_native --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 0.69522209314,
+      "stddev": null,
+      "median": 0.69522209314,
+      "user": 0.6942687,
+      "system": 0.00086536,
+      "min": 0.69522209314,
+      "max": 0.69522209314,
+      "times": [
+        0.69522209314
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3_native"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/o3 --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 0.70973726414,
+      "stddev": null,
+      "median": 0.70973726414,
+      "user": 0.7080557,
+      "system": 0.00156136,
+      "min": 0.70973726414,
+      "max": 0.70973726414,
+      "times": [
+        0.70973726414
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/lto --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 0.68155982014,
+      "stddev": null,
+      "median": 0.68155982014,
+      "user": 0.6805376999999999,
+      "system": 0.00086536,
+      "min": 0.68155982014,
+      "max": 0.68155982014,
+      "times": [
+        0.68155982014
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/lto_native --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 0.81111825914,
+      "stddev": null,
+      "median": 0.81111825914,
+      "user": 0.8090926999999999,
+      "system": 0.0018643599999999998,
+      "min": 0.81111825914,
+      "max": 0.81111825914,
+      "times": [
+        0.81111825914
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_native"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/full --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 2.2344666971400002,
+      "stddev": null,
+      "median": 2.2344666971400002,
+      "user": 2.2340887,
+      "system": 0.0,
+      "min": 2.2344666971400002,
+      "max": 2.2344666971400002,
+      "times": [
+        2.2344666971400002
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/o2 --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 0.71178619714,
+      "stddev": null,
+      "median": 0.71178619714,
+      "user": 0.7107566999999999,
+      "system": 0.0008643599999999999,
+      "min": 0.71178619714,
+      "max": 0.71178619714,
+      "times": [
+        0.71178619714
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o2"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/456.hmmer/os --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null",
+      "mean": 0.7315969121400001,
+      "stddev": null,
+      "median": 0.7315969121400001,
+      "user": 0.7299656999999999,
+      "system": 0.00145736,
+      "min": 0.7315969121400001,
+      "max": 0.7315969121400001,
+      "times": [
+        0.7315969121400001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "os"
+      }
+    }
+  ]
+}

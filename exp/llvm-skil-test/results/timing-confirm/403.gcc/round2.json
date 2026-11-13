@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/403.gcc/lto_inl spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.23835566346000003,
+      "stddev": null,
+      "median": 0.23835566346000003,
+      "user": 0.2308077,
+      "system": 0.0074511199999999994,
+      "min": 0.23835566346000003,
+      "max": 0.23835566346000003,
+      "times": [
+        0.23835566346000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/403.gcc/tuned spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.24233816646000003,
+      "stddev": null,
+      "median": 0.24233816646000003,
+      "user": 0.2347607,
+      "system": 0.007509119999999999,
+      "min": 0.24233816646000003,
+      "max": 0.24233816646000003,
+      "times": [
+        0.24233816646000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/403.gcc/full spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.26128749446000005,
+      "stddev": null,
+      "median": 0.26128749446000005,
+      "user": 0.2483457,
+      "system": 0.012853119999999999,
+      "min": 0.26128749446000005,
+      "max": 0.26128749446000005,
+      "times": [
+        0.26128749446000005
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/403.gcc/o3 spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.23951686946000003,
+      "stddev": null,
+      "median": 0.23951686946000003,
+      "user": 0.2278617,
+      "system": 0.01155612,
+      "min": 0.23951686946000003,
+      "max": 0.23951686946000003,
+      "times": [
+        0.23951686946000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    }
+  ]
+}
