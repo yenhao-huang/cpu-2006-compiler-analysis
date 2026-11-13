@@ -1,0 +1,6 @@
+Ir                      file:function
+--------------------------------------------------------------------------------
+4,471,050,264 (40.43%)  ???:test_sum [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/lto]
+3,426,674,956 (30.99%)  ???:addn_inv [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/lto]
+2,668,452,584 (24.13%)  ???:addn [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/lto]
+

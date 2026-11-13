@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 1 bash -c \"cd '/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/401.bzip2/work' && '/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/401.bzip2/bin/o3' -3 -c < input.ref > /dev/null\"",
+      "mean": 2.476853145,
+      "stddev": null,
+      "median": 2.476853145,
+      "user": 2.458871,
+      "system": 0.005928,
+      "min": 2.476853145,
+      "max": 2.476853145,
+      "times": [
+        2.476853145
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 1 bash -c \"cd '/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/401.bzip2/work' && '/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/401.bzip2/bin/o3_tbaa' -3 -c < input.ref > /dev/null\"",
+      "mean": 2.413446332,
+      "stddev": null,
+      "median": 2.413446332,
+      "user": 2.402466,
+      "system": 0.0,
+      "min": 2.413446332,
+      "max": 2.413446332,
+      "times": [
+        2.413446332
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3_tbaa"
+      }
+    }
+  ]
+}

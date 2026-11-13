@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 1 bash -c \"'/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/o3' 143 25 > /dev/null\"",
+      "mean": 0.655915792,
+      "stddev": null,
+      "median": 0.655915792,
+      "user": 0.6536529999999999,
+      "system": 0.0,
+      "min": 0.655915792,
+      "max": 0.655915792,
+      "times": [
+        0.655915792
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 1 bash -c \"'/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/baseline' 143 25 > /dev/null\"",
+      "mean": 1.530562114,
+      "stddev": null,
+      "median": 1.530562114,
+      "user": 1.516837,
+      "system": 0.006803,
+      "min": 1.530562114,
+      "max": 1.530562114,
+      "times": [
+        1.530562114
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "baseline"
+      }
+    }
+  ]
+}

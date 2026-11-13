@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 1 bash -c \"cd '/home/claude/cpu-2006-compiler-analysis/spec-cpu2006-redist/modified/445.gobmk/data/all/input' && '/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/445.gobmk/bin/o3' --quiet --mode gtp < '/home/claude/cpu-2006-compiler-analysis/spec-cpu2006-redist/modified/445.gobmk/data/train/input/arb.tst' > /dev/null\"",
+      "mean": 3.296847267,
+      "stddev": null,
+      "median": 3.296847267,
+      "user": 3.270205,
+      "system": 0.011974,
+      "min": 3.296847267,
+      "max": 3.296847267,
+      "times": [
+        3.296847267
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 1 bash -c \"cd '/home/claude/cpu-2006-compiler-analysis/spec-cpu2006-redist/modified/445.gobmk/data/all/input' && '/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/445.gobmk/bin/lto_pgo_native' --quiet --mode gtp < '/home/claude/cpu-2006-compiler-analysis/spec-cpu2006-redist/modified/445.gobmk/data/train/input/arb.tst' > /dev/null\"",
+      "mean": 3.249765564,
+      "stddev": null,
+      "median": 3.249765564,
+      "user": 3.1950499999999997,
+      "system": 0.018808,
+      "min": 3.249765564,
+      "max": 3.249765564,
+      "times": [
+        3.249765564
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_pgo_native"
+      }
+    }
+  ]
+}

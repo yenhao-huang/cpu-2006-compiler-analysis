@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 1 bash -c \"cd '/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/403.gcc/work' && '/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/403.gcc/bin/o3' '/home/claude/cpu-2006-compiler-analysis/spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in' -o /dev/stdout > /dev/null\"",
+      "mean": 0.529005798,
+      "stddev": null,
+      "median": 0.529005798,
+      "user": 0.508671,
+      "system": 0.015548,
+      "min": 0.529005798,
+      "max": 0.529005798,
+      "times": [
+        0.529005798
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 1 bash -c \"cd '/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/403.gcc/work' && '/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/403.gcc/bin/best_pgo_native' '/home/claude/cpu-2006-compiler-analysis/spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in' -o /dev/stdout > /dev/null\"",
+      "mean": 0.443618422,
+      "stddev": null,
+      "median": 0.443618422,
+      "user": 0.41490099999999996,
+      "system": 0.01866,
+      "min": 0.443618422,
+      "max": 0.443618422,
+      "times": [
+        0.443618422
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "best_pgo_native"
+      }
+    }
+  ]
+}

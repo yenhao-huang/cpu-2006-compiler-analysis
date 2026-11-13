@@ -1,0 +1,6 @@
+Ir                      file:function
+--------------------------------------------------------------------------------
+9,453,733,967 (42.96%)  ???:mainGtU [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/401.bzip2/bin/o3]
+8,898,407,773 (40.43%)  ???:fallbackSort [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/401.bzip2/bin/o3]
+1,562,006,231 ( 7.10%)  ???:BZ2_blockSort [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/401.bzip2/bin/o3]
+

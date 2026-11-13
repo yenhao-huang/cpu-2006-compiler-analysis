@@ -1,0 +1,5 @@
+Ir                       file:function
+--------------------------------------------------------------------------------
+12,433,059,228 (53.56%)  ???:BZ2_blockSort [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/401.bzip2/bin/best_pgo]
+ 8,686,836,311 (37.42%)  ???:fallbackSort [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/401.bzip2/bin/best_pgo]
+

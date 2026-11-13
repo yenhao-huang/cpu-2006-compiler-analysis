@@ -1,0 +1,17 @@
+# name	tier	target	input	extra opt flags (- = none)	opt pipeline
+# tier: ref = parent-study references; skill = what llvm-optimization SKILL.md prescribes;
+#       extra = standard tuning beyond the skill; analysis = derived from this experiment's
+#       callgrind + opt-remarks analysis (see Result.md). PGO variants (name contains "pgo")
+#       get an instrumented build + training run on a different input automatically.
+baseline	ref	v3	raw	-	verify
+full	ref	v3	raw	-	function(mem2reg),cgscc(inline),function(mem2reg,instcombine<max-iterations=100>,simplifycfg,loop-simplify,lcssa,loop(loop-rotate),loop-mssa(licm),loop(indvars),loop-vectorize,slp-vectorizer,loop-unroll<O3>,instcombine<max-iterations=100>,dce,simplifycfg,dce)
+o3	ref	v3	raw	-	default<O3>
+lto	skill	v3	raw	-	lto-pre-link<O3>,internalize,lto<O3>
+o3_native	extra	native	raw	-	default<O3>
+lto_native	extra	native	raw	-	lto-pre-link<O3>,internalize,lto<O3>
+lto_pgo	extra	v3	raw	-	lto-pre-link<O3>,internalize,lto<O3>
+lto_pgo_native	extra	native	raw	-	lto-pre-link<O3>,internalize,lto<O3>
+o3_ldist	analysis	v3	raw	-enable-loop-distribute	default<O3>
+o3_tbaa	analysis	v3	raw.tbaa	-	default<O3>
+best_pgo	analysis	v3	raw.tbaa	-enable-loop-distribute	lto-pre-link<O3>,internalize,lto<O3>
+best_pgo_native	analysis	native	raw.tbaa	-enable-loop-distribute	lto-pre-link<O3>,internalize,lto<O3>

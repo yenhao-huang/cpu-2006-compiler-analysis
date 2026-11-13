@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 1 bash -c \"'/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/lto_native' 143 25 > /dev/null\"",
+      "mean": 0.580757049,
+      "stddev": null,
+      "median": 0.580757049,
+      "user": 0.574272,
+      "system": 0.002803,
+      "min": 0.580757049,
+      "max": 0.580757049,
+      "times": [
+        0.580757049
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_native"
+      }
+    },
+    {
+      "command": "taskset -c 1 bash -c \"'/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/o3' 143 25 > /dev/null\"",
+      "mean": 0.5318925560000001,
+      "stddev": null,
+      "median": 0.5318925560000001,
+      "user": 0.5272359999999999,
+      "system": 0.0,
+      "min": 0.5318925560000001,
+      "max": 0.5318925560000001,
+      "times": [
+        0.5318925560000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    }
+  ]
+}

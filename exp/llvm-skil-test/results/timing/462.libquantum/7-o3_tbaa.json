@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 1 bash -c \"'/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/o3_tbaa' 143 25 > /dev/null\"",
+      "mean": 0.655775781,
+      "stddev": null,
+      "median": 0.655775781,
+      "user": 0.652064,
+      "system": 0.0,
+      "min": 0.655775781,
+      "max": 0.655775781,
+      "times": [
+        0.655775781
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3_tbaa"
+      }
+    },
+    {
+      "command": "taskset -c 1 bash -c \"'/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/o3' 143 25 > /dev/null\"",
+      "mean": 0.6736030660000001,
+      "stddev": null,
+      "median": 0.6736030660000001,
+      "user": 0.668333,
+      "system": 0.0,
+      "min": 0.6736030660000001,
+      "max": 0.6736030660000001,
+      "times": [
+        0.6736030660000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    }
+  ]
+}

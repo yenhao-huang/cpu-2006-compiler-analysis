@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 1 bash -c \"'/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/best_pgo_native' 143 25 > /dev/null\"",
+      "mean": 0.671241187,
+      "stddev": null,
+      "median": 0.671241187,
+      "user": 0.670689,
+      "system": 0.0,
+      "min": 0.671241187,
+      "max": 0.671241187,
+      "times": [
+        0.671241187
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "best_pgo_native"
+      }
+    },
+    {
+      "command": "taskset -c 1 bash -c \"'/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/o3' 143 25 > /dev/null\"",
+      "mean": 0.6617241030000001,
+      "stddev": null,
+      "median": 0.6617241030000001,
+      "user": 0.661242,
+      "system": 0.0,
+      "min": 0.6617241030000001,
+      "max": 0.6617241030000001,
+      "times": [
+        0.6617241030000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Ir                       file:function
+--------------------------------------------------------------------------------
+10,855,606,586 (56.59%)  ???:quantum_toffoli [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/baseline]
+ 3,663,268,589 (19.10%)  ???:quantum_sigma_x [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/baseline]
+ 2,675,657,750 (13.95%)  ???:quantum_cnot [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/baseline]
+ 1,231,739,880 ( 6.42%)  ???:quantum_swaptheleads [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/baseline]
+

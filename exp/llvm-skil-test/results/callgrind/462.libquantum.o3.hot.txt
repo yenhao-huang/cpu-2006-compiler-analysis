@@ -1,0 +1,9 @@
+Ir                      file:function
+--------------------------------------------------------------------------------
+2,647,379,331 (23.58%)  ???:test_sum [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/o3]
+1,972,644,996 (17.57%)  ???:quantum_sigma_x [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/o3]
+1,771,742,562 (15.78%)  ???:quantum_cnot [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/o3]
+1,694,615,451 (15.09%)  ???:muxfa [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/o3]
+1,680,717,570 (14.97%)  ???:muxfa_inv [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/o3]
+  681,255,750 ( 6.07%)  ???:quantum_swaptheleads [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/o3]
+

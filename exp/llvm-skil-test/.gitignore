@@ -1,0 +1,6 @@
+# Large/regenerable artefacts stay local (same policy as the parent repo):
+# opt remarks (~4.9 GB) and per-variant build logs, raw callgrind profiles.
+/logs/*
+!/logs/*.txt
+/results/callgrind/*.out
+/results/callgrind/*.log

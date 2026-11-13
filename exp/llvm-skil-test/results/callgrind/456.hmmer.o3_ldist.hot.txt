@@ -1,0 +1,4 @@
+Ir                       file:function
+--------------------------------------------------------------------------------
+11,735,411,176 (93.98%)  ???:P7Viterbi [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/456.hmmer/bin/o3_ldist]
+

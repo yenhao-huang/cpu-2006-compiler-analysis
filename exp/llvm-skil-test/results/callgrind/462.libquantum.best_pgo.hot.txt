@@ -1,0 +1,7 @@
+Ir                      file:function
+--------------------------------------------------------------------------------
+2,192,995,543 (34.43%)  ???:test_sum [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/best_pgo]
+1,506,569,181 (23.65%)  ???:muxfa [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/best_pgo]
+1,488,909,611 (23.37%)  ???:muxfa_inv [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/best_pgo]
+  744,331,987 (11.69%)  ???:add_mod_n [/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/462.libquantum/bin/best_pgo]
+

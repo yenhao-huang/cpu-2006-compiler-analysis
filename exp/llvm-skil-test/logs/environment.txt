@@ -1,0 +1,11 @@
+date: 2026-11-13T12:16:23+08:00
+Linux vm 6.18.44-fc-v445 #1 SMP PREEMPT_DYNAMIC @0 x86_64 x86_64 x86_64 GNU/Linux
+CPU(s):                                  2
+Model name:                              Intel(R) Xeon(R) Processor @ 2.10GHz
+Ubuntu clang version 18.1.3 (1ubuntu1)
+Ubuntu LLVM version 18.1.3
+hyperfine 1.18.0
+valgrind-3.22.0
+spec-cpu2006-redist: 39effd74541743ddc74d7b27cbbb315790c56d12
+skill: gmh5225/awesome-llvm-security b7609b41421052c4cda2a35b931272f8c1ca51ef .claude/skills/llvm-optimization/SKILL.md
+host target-cpu: sapphirerapids

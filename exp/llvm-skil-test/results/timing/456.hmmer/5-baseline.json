@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 1 bash -c \"cd '/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/456.hmmer/work' && cp ig.orig ig.hmm && '/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/456.hmmer/bin/o3' --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null\"",
+      "mean": 1.028419652,
+      "stddev": null,
+      "median": 1.028419652,
+      "user": 1.014058,
+      "system": 0.005513,
+      "min": 1.028419652,
+      "max": 1.028419652,
+      "times": [
+        1.028419652
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 1 bash -c \"cd '/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/456.hmmer/work' && cp ig.orig ig.hmm && '/home/claude/cpu-2006-compiler-analysis/data/llvm-skil-test/456.hmmer/bin/baseline' --fixed 500 --num 10000 --seed 1 ig.hmm > /dev/null\"",
+      "mean": 6.775254096,
+      "stddev": null,
+      "median": 6.775254096,
+      "user": 6.714453,
+      "system": 0.0,
+      "min": 6.775254096,
+      "max": 6.775254096,
+      "times": [
+        6.775254096
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "baseline"
+      }
+    }
+  ]
+}
