@@ -135,6 +135,16 @@ Flang 前端產生的 IR 是 `target-cpu="x86-64"`，且浮點運算帶 `contrac
 - 調整只在本機 i7-14700K 驗證；`alderlake` ISA 的執行檔不能在不支援 AVX2 的 CPU 執行。
 - `tuned` 是在同一輸入上選出的設定，雖經獨立重測，換輸入或機器時仍需重新驗證。
 
+## 簡報
+
+[slides/llvm-skill-test.html](slides/llvm-skill-test.html)（單一檔案，字型已內嵌，可離線開啟）與 [PDF](slides/llvm-skill-test.pdf)，12 頁，以 frontend-slides skill 製作。所有數字由 [slides/build_deck.py](slides/build_deck.py) 從 `results/` 產生；渲染與 PDF 匯出用 [slides/render.mjs](slides/render.mjs)，驗證紀錄見 [slides/STATE.md](slides/STATE.md)。
+
+```bash
+# 需要含 fonttools、brotli 的 Python；Chromium 主機需 fontconfig（見 STATE.md）
+VIEWPORT_CSS=<frontend-slides>/references/viewport-base.css python -I slides/build_deck.py
+CHROME=<chrome-headless-shell> node slides/render.mjs slides/llvm-skill-test.html build/shots
+```
+
 ## 重現
 
 ```bash
