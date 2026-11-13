@@ -1,5 +1,7 @@
 # 13 項 transform-pass 消融：重現入口
 
+GitHub 使用者可先閱讀 [README 的來源萃取到分析流程](../README.md)。`data/` 與 `external/` 不隨 repo 發布，請依下列建置步驟產生；下方「已保留套件」描述原實驗主機。只重新分析 repo 中的計時 JSON 不需要這些本機產物。
+
 研究根目錄：`/workspace/compiler_optimization/transform_pass_research`。來源固定為 `miyuki/spec-cpu2006-redist` commit `39effd74541743ddc74d7b27cbbb315790c56d12`。原 clone 保持乾淨；相容性修改只在 `data/expansion` 工作副本。
 
 使用 Git、Debian 套件、Clang/LLVM/Flang、原 configure/make、CMake、binutils、hyperfine、jq、GNU datamash/coreutils。**沒有自製 benchmark runner、compiler wrapper 或 LLVM plugin。** Shell 只列舉檔案／配置及呼叫外部工具；CMakeLists 是建置設定。輸入來自 repo 範例或原程式的產生功能。
