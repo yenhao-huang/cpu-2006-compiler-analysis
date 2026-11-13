@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 data/462.libquantum/full 143 25",
+      "mean": 0.49237253378,
+      "stddev": null,
+      "median": 0.49237253378,
+      "user": 0.48988802,
+      "system": 0.00241496,
+      "min": 0.49237253378,
+      "max": 0.49237253378,
+      "times": [
+        0.49237253378
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/462.libquantum/no_mem2reg 143 25",
+      "mean": 0.49827563578,
+      "stddev": null,
+      "median": 0.49827563578,
+      "user": 0.49538502,
+      "system": 0.0028489599999999998,
+      "min": 0.49827563578,
+      "max": 0.49827563578,
+      "times": [
+        0.49827563578
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_mem2reg"
+      }
+    }
+  ]
+}

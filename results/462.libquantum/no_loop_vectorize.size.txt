@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  49994	    804	     96	  50894	   c6ce	data/462.libquantum/no_loop_vectorize

@@ -1,0 +1,232 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../no_licm -o /dev/null birds5000.xml birds.xsl",
+      "mean": 1.03808890482,
+      "stddev": null,
+      "median": 1.03808890482,
+      "user": 0.98714806,
+      "system": 0.050789,
+      "min": 1.03808890482,
+      "max": 1.03808890482,
+      "times": [
+        1.03808890482
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_licm"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.9947033048200001,
+      "stddev": null,
+      "median": 0.9947033048200001,
+      "user": 0.9541730599999999,
+      "system": 0.040391,
+      "min": 0.9947033048200001,
+      "max": 0.9947033048200001,
+      "times": [
+        0.9947033048200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_simplifycfg -o /dev/null birds5000.xml birds.xsl",
+      "mean": 1.05549455382,
+      "stddev": null,
+      "median": 1.05549455382,
+      "user": 1.00873106,
+      "system": 0.046554,
+      "min": 1.05549455382,
+      "max": 1.05549455382,
+      "times": [
+        1.05549455382
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_simplifycfg"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_vectors -o /dev/null birds5000.xml birds.xsl",
+      "mean": 1.00271288682,
+      "stddev": null,
+      "median": 1.00271288682,
+      "user": 0.97374206,
+      "system": 0.028779,
+      "min": 1.00271288682,
+      "max": 1.00271288682,
+      "times": [
+        1.00271288682
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_vectors"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_mem2reg -o /dev/null birds5000.xml birds.xsl",
+      "mean": 1.3395188358199999,
+      "stddev": null,
+      "median": 1.3395188358199999,
+      "user": 1.3068080599999998,
+      "system": 0.032537,
+      "min": 1.3395188358199999,
+      "max": 1.3395188358199999,
+      "times": [
+        1.3395188358199999
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_mem2reg"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../baseline -o /dev/null birds5000.xml birds.xsl",
+      "mean": 3.3671221188200002,
+      "stddev": null,
+      "median": 3.3671221188200002,
+      "user": 3.32302706,
+      "system": 0.042468,
+      "min": 3.3671221188200002,
+      "max": 3.3671221188200002,
+      "times": [
+        3.3671221188200002
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "baseline"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_inline -o /dev/null birds5000.xml birds.xsl",
+      "mean": 2.7715428488200002,
+      "stddev": null,
+      "median": 2.7715428488200002,
+      "user": 2.7261440599999998,
+      "system": 0.04248,
+      "min": 2.7715428488200002,
+      "max": 2.7715428488200002,
+      "times": [
+        2.7715428488200002
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_inline"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_loop_vectorize -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.9947428948200001,
+      "stddev": null,
+      "median": 0.9947428948200001,
+      "user": 0.9496870599999999,
+      "system": 0.044818,
+      "min": 0.9947428948200001,
+      "max": 0.9947428948200001,
+      "times": [
+        0.9947428948200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_loop_vectorize"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_slp -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.9810807978200001,
+      "stddev": null,
+      "median": 0.9810807978200001,
+      "user": 0.93610706,
+      "system": 0.04479,
+      "min": 0.9810807978200001,
+      "max": 0.9810807978200001,
+      "times": [
+        0.9810807978200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_slp"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_unroll -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.98251919082,
+      "stddev": null,
+      "median": 0.98251919082,
+      "user": 0.94048506,
+      "system": 0.041763,
+      "min": 0.98251919082,
+      "max": 0.98251919082,
+      "times": [
+        0.98251919082
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_unroll"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../o3 -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.8172935328200001,
+      "stddev": null,
+      "median": 0.8172935328200001,
+      "user": 0.77441006,
+      "system": 0.042753,
+      "min": 0.8172935328200001,
+      "max": 0.8172935328200001,
+      "times": [
+        0.8172935328200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_dce -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.9877506908200001,
+      "stddev": null,
+      "median": 0.9877506908200001,
+      "user": 0.94145506,
+      "system": 0.046127,
+      "min": 0.9877506908200001,
+      "max": 0.9877506908200001,
+      "times": [
+        0.9877506908200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_dce"
+      }
+    }
+  ]
+}

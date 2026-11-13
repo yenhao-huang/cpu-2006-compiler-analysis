@@ -1,0 +1,9 @@
+Benchmark 1: ulimit -s unlimited; taskset -c 2 ../full
+  Time (abs ≡):        749.8 ms               [User: 737.5 ms, System: 10.8 ms]
+ 
+Benchmark 2: ulimit -s unlimited; taskset -c 2 ../no_loop_vectorize
+  Time (abs ≡):         1.261 s               [User: 1.239 s, System: 0.022 s]
+ 
+Summary
+  'ulimit -s unlimited; taskset -c 2 ../full' ran
+    1.68 times faster than 'ulimit -s unlimited; taskset -c 2 ../no_loop_vectorize'

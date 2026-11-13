@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full -s water.tpr -deffnm timed
+  Time (abs ≡):         1.592 s               [User: 1.591 s, System: 0.001 s]
+ 
+Benchmark 2: taskset -c 2 ../no_mem2reg -s water.tpr -deffnm timed
+  Time (abs ≡):         2.312 s               [User: 2.309 s, System: 0.002 s]
+ 
+Summary
+  'taskset -c 2 ../full -s water.tpr -deffnm timed' ran
+    1.45 times faster than 'taskset -c 2 ../no_mem2reg -s water.tpr -deffnm timed'

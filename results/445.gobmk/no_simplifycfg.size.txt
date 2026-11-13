@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+2329821	2027012	2328992	6685825	 660481	data/445.gobmk/no_simplifycfg

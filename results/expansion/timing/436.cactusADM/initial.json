@@ -1,0 +1,232 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../o3 test_Bench.par",
+      "mean": 0.02021879416,
+      "stddev": null,
+      "median": 0.02021879416,
+      "user": 0.01837192,
+      "system": 0.00182374,
+      "min": 0.02021879416,
+      "max": 0.02021879416,
+      "times": [
+        0.02021879416
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_licm test_Bench.par",
+      "mean": 0.03040621916,
+      "stddev": null,
+      "median": 0.03040621916,
+      "user": 0.030556919999999998,
+      "system": 0.0,
+      "min": 0.03040621916,
+      "max": 0.03040621916,
+      "times": [
+        0.03040621916
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_licm"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_simplifycfg test_Bench.par",
+      "mean": 0.03006130116,
+      "stddev": null,
+      "median": 0.03006130116,
+      "user": 0.02654792,
+      "system": 0.00348974,
+      "min": 0.03006130116,
+      "max": 0.03006130116,
+      "times": [
+        0.03006130116
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_simplifycfg"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../baseline test_Bench.par",
+      "mean": 0.03357996716,
+      "stddev": null,
+      "median": 0.03357996716,
+      "user": 0.03099492,
+      "system": 0.00254074,
+      "min": 0.03357996716,
+      "max": 0.03357996716,
+      "times": [
+        0.03357996716
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "baseline"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_slp test_Bench.par",
+      "mean": 0.02886734616,
+      "stddev": null,
+      "median": 0.02886734616,
+      "user": 0.026355919999999998,
+      "system": 0.00247774,
+      "min": 0.02886734616,
+      "max": 0.02886734616,
+      "times": [
+        0.02886734616
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_slp"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_mem2reg test_Bench.par",
+      "mean": 0.028765395160000002,
+      "stddev": null,
+      "median": 0.028765395160000002,
+      "user": 0.02521592,
+      "system": 0.00351674,
+      "min": 0.028765395160000002,
+      "max": 0.028765395160000002,
+      "times": [
+        0.028765395160000002
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_mem2reg"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../full test_Bench.par",
+      "mean": 0.03054164716,
+      "stddev": null,
+      "median": 0.03054164716,
+      "user": 0.02798492,
+      "system": 0.00253574,
+      "min": 0.03054164716,
+      "max": 0.03054164716,
+      "times": [
+        0.03054164716
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_vectors test_Bench.par",
+      "mean": 0.02802490916,
+      "stddev": null,
+      "median": 0.02802490916,
+      "user": 0.02255292,
+      "system": 0.00546974,
+      "min": 0.02802490916,
+      "max": 0.02802490916,
+      "times": [
+        0.02802490916
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_vectors"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_unroll test_Bench.par",
+      "mean": 0.034760714160000004,
+      "stddev": null,
+      "median": 0.034760714160000004,
+      "user": 0.02639792,
+      "system": 0.00461174,
+      "min": 0.034760714160000004,
+      "max": 0.034760714160000004,
+      "times": [
+        0.034760714160000004
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_unroll"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_dce test_Bench.par",
+      "mean": 0.02975982816,
+      "stddev": null,
+      "median": 0.02975982816,
+      "user": 0.025217919999999998,
+      "system": 0.00453674,
+      "min": 0.02975982816,
+      "max": 0.02975982816,
+      "times": [
+        0.02975982816
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_dce"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_loop_vectorize test_Bench.par",
+      "mean": 0.02835625616,
+      "stddev": null,
+      "median": 0.02835625616,
+      "user": 0.026514919999999997,
+      "system": 0.00183374,
+      "min": 0.02835625616,
+      "max": 0.02835625616,
+      "times": [
+        0.02835625616
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_loop_vectorize"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_inline test_Bench.par",
+      "mean": 0.03168975016,
+      "stddev": null,
+      "median": 0.03168975016,
+      "user": 0.02831092,
+      "system": 0.0033777399999999997,
+      "min": 0.03168975016,
+      "max": 0.03168975016,
+      "times": [
+        0.03168975016
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_inline"
+      }
+    }
+  ]
+}

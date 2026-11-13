@@ -1,0 +1,18 @@
+/external/
+/data/
+/.env
+/.env.*
+/.venv/
+
+# Generated correctness payloads remain local; summaries and hashes are tracked.
+/results/expansion/correctness/xalan/*.xml
+/results/expansion/correctness/wrf/*.nc
+
+# Keep compact validation/environment evidence; omit large compiler traces.
+/logs/*
+!/logs/*.txt
+!/logs/*.sha256
+!/logs/expansion/
+/logs/expansion/*
+!/logs/expansion/*.txt
+!/logs/expansion/timing/

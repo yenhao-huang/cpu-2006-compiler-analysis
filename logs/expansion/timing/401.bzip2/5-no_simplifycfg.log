@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_simplifycfg -3 < input.ref > /dev/null
+  Time (abs ≡):         1.995 s               [User: 1.948 s, System: 0.004 s]
+ 
+Benchmark 2: taskset -c 2 ../full -3 < input.ref > /dev/null
+  Time (abs ≡):         1.892 s               [User: 1.886 s, System: 0.002 s]
+ 
+Summary
+  'taskset -c 2 ../full -3 < input.ref > /dev/null' ran
+    1.05 times faster than 'taskset -c 2 ../no_simplifycfg -3 < input.ref > /dev/null'

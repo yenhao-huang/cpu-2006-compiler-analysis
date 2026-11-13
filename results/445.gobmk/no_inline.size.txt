@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+2058094	2027020	2328992	6414106	 61df1a	data/445.gobmk/no_inline

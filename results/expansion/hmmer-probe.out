@@ -1,0 +1,17 @@
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 spec-cpu2006-redist/modified/456.hmmer/Docs/datasets/ig.hmm
+Length fixed to:          100
+Number of samples:        1000
+random seed:              1
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+HMM    : ig
+mu     :   -33.918690
+lambda :     0.226184
+max    :    -9.024000
+//

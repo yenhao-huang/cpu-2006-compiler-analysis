@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+3397420	 161232	 749640	4308292	 41bd44	data/403.gcc/no_inline

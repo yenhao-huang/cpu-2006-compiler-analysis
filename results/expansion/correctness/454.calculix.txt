@@ -1,0 +1,1 @@
+12 solver variants residual <=1e-8 on known 20^3 system

@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 data/462.libquantum/full_control 143 25",
+      "mean": 0.49108044788000005,
+      "stddev": null,
+      "median": 0.49108044788000005,
+      "user": 0.4885946,
+      "system": 0.0023459399999999995,
+      "min": 0.49108044788000005,
+      "max": 0.49108044788000005,
+      "times": [
+        0.49108044788000005
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full_control"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/462.libquantum/full 143 25",
+      "mean": 0.49274538888,
+      "stddev": null,
+      "median": 0.49274538888,
+      "user": 0.4901356,
+      "system": 0.0024969399999999996,
+      "min": 0.49274538888,
+      "max": 0.49274538888,
+      "times": [
+        0.49274538888
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

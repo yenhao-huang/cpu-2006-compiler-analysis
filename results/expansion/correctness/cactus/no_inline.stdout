@@ -1,0 +1,160 @@
+--------------------------------------------------------------------------------
+
+       10                                  
+  1   0101       ************************  
+  01  1010 10      The Cactus Code V4.0    
+ 1010 1101 011      www.cactuscode.org     
+  1001 100101    ************************  
+    00010101                               
+     100011     (c) Copyright The Authors  
+      0100      GNU Licensed. No Warranty  
+      0101                                 
+
+--------------------------------------------------------------------------------
+
+Cactus version: 4.0.b11
+Parameter file: test_Bench.par
+--------------------------------------------------------------------------------
+
+Activating thorn Cactus...Success -> active implementation Cactus
+Activation requested for 
+--->time pugh pughreduce cartgrid3d einstein benchADM IDLinearWaves ioascii ioutil iobasic pughslab<---
+Activating thorn benchADM...Success -> active implementation benchadm
+Activating thorn cartgrid3d...Success -> active implementation grid
+Activating thorn einstein...Success -> active implementation einstein
+Activating thorn IDLinearWaves...Success -> active implementation idlinearwaves
+Activating thorn ioascii...Success -> active implementation IOASCII
+Activating thorn iobasic...Success -> active implementation IOBasic
+Activating thorn ioutil...Success -> active implementation IO
+Activating thorn pugh...Success -> active implementation driver
+Activating thorn pughreduce...Success -> active implementation reduce
+Activating thorn pughslab...Success -> active implementation Hyperslab
+Activating thorn time...Success -> active implementation time
+[1mWarning:[0m Quoted string contains newline for token IOASCII::out1D_vars
+This could indicated a parameter file error or missing quote
+--------------------------------------------------------------------------------
+  if (recover)
+    Recover parameters
+  endif
+
+  Startup routines
+    BenchADM: Register slicings
+    CartGrid3D: Register GH Extension for GridSymmetry
+    CartGrid3D: Register coordinates for the Cartesian grid
+    PUGH: Startup routine
+    IOUtil: Startup routine
+    IOASCII: Startup routine
+    IOBasic: Startup routine
+    PUGHReduce: Startup routine.
+
+  Parameter checking routines
+    BenchADM: Check parameters
+    CartGrid3D: Check coordinates for CartGrid3D
+
+  Initialisation
+    CartGrid3D: Set up spatial 3D Cartesian coordinates on the GH
+    Einstein: Set up GF symmetries
+    Einstein: Initialize slicing, setup priorities for mixed slicings
+    IOASCII: Choose 1D output lines
+    IOASCII: Choose 2D output planes
+    PUGH: Report on PUGH set up
+    Time: Initialise Time variables
+    Time: Set timestep based on Courant condition
+    Einstein: Initialisation for Einstein methods
+    Einstein: Set initial lapse to one
+    BenchADM: Setup for ADM
+    IDLinearWaves: Construct linear planewave initial data
+    BenchADM: Time asymmetric initial data for staggered leapfrog
+    if (recover)
+    endif
+    if (checkpoint initial data)
+    endif
+    if (analysis)
+      Einstein: Compute the trace of the extrinsic curvature
+      Einstein: Calculate the spherical metric in r,theta(q), phi(p)
+      Einstein: Calculate the spherical ex. curvature in r, theta(q), phi(p)
+    endif
+
+  do loop over timesteps
+    Rotate timelevels
+    iteration = iteration + 1
+    t = t+dt
+    Einstein: Identify the slicing for the next iteration
+    BenchADM: Evolve using Staggered Leapfrog
+    if (checkpoint)
+    endif
+    if (analysis)
+      Einstein: Compute the trace of the extrinsic curvature
+      Einstein: Calculate the spherical metric in r,theta(q), phi(p)
+      Einstein: Calculate the spherical ex. curvature in r, theta(q), phi(p)
+    endif
+  enddo
+  Termination routines
+    PUGH: Termination routine
+  Shutdown routines
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Driver provided by PUGH
+--------------------------------------------------------------------------------
+
+INFO (IOASCII): I/O Method 'IOASCII_1D' registered
+INFO (IOASCII): IOASCII_1D: Output of 1D lines of grid functions/arrays to ASCII files
+INFO (IOASCII): I/O Method 'IOASCII_2D' registered
+INFO (IOASCII): IOASCII_2D: Output of 2D planes of grid functions/arrays to ASCII files
+INFO (IOASCII): I/O Method 'IOASCII_3D' registered
+INFO (IOASCII): IOASCII_3D: Output of 3D grid functions/arrays to ASCII files
+INFO (IOASCII): IOASCII_1D: Output every 10 iterations
+INFO (IOASCII): IOASCII_2D: Output not activated
+INFO (IOASCII): IOASCII_3D: Output not activated
+INFO (IOBasic): I/O Method 'Scalar' registered
+INFO (IOBasic): Scalar: Output of scalar quantities (grid scalars, reductions) to ASCII files
+INFO (IOBasic): I/O Method 'Info' registered
+INFO (IOBasic): Info: Output of scalar quantities (grid scalars, reductions) to screen
+INFO (BenchADM): Evolve using the ADM system
+INFO (BenchADM):   with staggered leapfrog
+INFO (CartGrid3D): Grid Spacings:
+INFO (CartGrid3D):  dx=>1.0000000e-02  dy=>1.0000000e-02  dz=>1.0000000e-02  
+INFO (CartGrid3D): Computational Coordinates:
+INFO (CartGrid3D):  x=>[-0.005, 0.015]  y=>[-0.005, 0.015]  z=>[-0.995, 0.995]  
+INFO (CartGrid3D): Indices of Physical Coordinates:
+INFO (CartGrid3D):  x=>[0,2]  y=>[0,2]  z=>[0,199]  
+INFO (PUGH): Single processor evolution
+INFO (PUGH): 3-dimensional grid functions
+INFO (PUGH):   Size: 3 3 200
+INFO (IDLinearWaves): Plane waves
+INFO (IDLinearWaves):  amplitude = .1000000E-02
+INFO (IDLinearWaves):  wavecenter = 0.000000
+INFO (IDLinearWaves):  wavelength = 2.000000
+INFO (IDLinearWaves):   wavepulse = 1.000000
+INFO (IOASCII): IOASCII_1D: Output requested for  BENCHADM::ADM_gxx BENCHADM::ADM_gxy BENCHADM::ADM_gxz BENCHADM::ADM_gyy BENCHADM::ADM_gyz BENCHADM::ADM_gzz
+INFO (IOBasic): Scalar: Output every 10 iterations
+INFO (IOBasic): Scalar: Output requested for BENCHADM::ADM_gxx EINSTEIN::alp
+INFO (IOBasic): Info: Output every 5 iterations
+INFO (IOBasic): Info: Output requested for BENCHADM::ADM_gxx
+------------------------------------------------
+  it  |          | BENCHADM::ADM_gxx           |
+      |    t     | minimum      | maximum      |
+------------------------------------------------
+    0 |    0.000 |   1.00000000 |   1.00199778 |
+    5 |    0.013 |   1.00000000 |   1.00199778 |
+   10 |    0.025 |   1.00000000 |   1.00199778 |
+   15 |    0.037 |   1.00000000 |   1.00199778 |
+   20 |    0.050 |   1.00000000 |   1.00199778 |
+   25 |    0.063 |   1.00000000 |   1.00199778 |
+   30 |    0.075 |   1.00000000 |   1.00199778 |
+   35 |    0.088 |   1.00000000 |   1.00199778 |
+   40 |    0.100 |   1.00000000 |   1.00199778 |
+   45 |    0.113 |   1.00000000 |   1.00199778 |
+   50 |    0.125 |   1.00000000 |   1.00199778 |
+   55 |    0.138 |   1.00000000 |   1.00199778 |
+   60 |    0.150 |   1.00000000 |   1.00199778 |
+   65 |    0.163 |   1.00000000 |   1.00199778 |
+   70 |    0.175 |   1.00000000 |   1.00199778 |
+   75 |    0.188 |   1.00000000 |   1.00199778 |
+   80 |    0.200 |   1.00000000 |   1.00199778 |
+   85 |    0.213 |   1.00000000 |   1.00199778 |
+   90 |    0.225 |   1.00000000 |   1.00199778 |
+   95 |    0.238 |   1.00000000 |   1.00199778 |
+  100 |    0.250 |   1.00000000 |   1.00199778 |
+--------------------------------------------------------------------------------
+Done.

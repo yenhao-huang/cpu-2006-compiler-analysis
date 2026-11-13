@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+4151895	 161216	 749672	5062783	 4d407f	data/403.gcc/no_licm

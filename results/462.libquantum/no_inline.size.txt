@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  44280	    804	     96	  45180	   b07c	data/462.libquantum/no_inline

@@ -1,0 +1,15 @@
+e66721b4fd2c47aa326a4100d9dfdbd8838e04c17479da560d88ac1aab5ea863  external/debs/clang-14_1%3a14.0.6-12_amd64.deb
+314170ebaa798d0e3e3ef6d98e29f8bfb602326466134503cfb7d143e1ca306b  external/debs/datamash_1.7-2_amd64.deb
+a652add8d272fa0635f9bb38cfeab49df4d218a5c328dde3618166feedec076c  external/debs/hyperfine_1.15.0-2_amd64.deb
+838781bfc798bcbdca68516db6546cf83677078efa57851bb957c19e265de7c6  external/debs/libclang-common-14-dev_1%3a14.0.6-12_all.deb
+964b13d74e9aece340cde93fecd2a2f18dd63afcb707a797ce7b39d430a01c46  external/debs/libclang-cpp14_1%3a14.0.6-12_amd64.deb
+d0fb8eb1aa43a27ed9c3cca2a65108ab433735cb4cf1322444dbf269008e93a9  external/debs/libclang1-14_1%3a14.0.6-12_amd64.deb
+6c361b5ffedbb58f15b65ea1c4ed9c7c9656bbc9ffcd730ce8c1af3c9a234e2b  external/debs/libcurl3-nss_7.88.1-10+deb12u15_amd64.deb
+cd986403cfe53f47c41b80667f6b344c40fe35de4c5081dad9358b4c77cf64a8  external/debs/libllvm14_1%3a14.0.6-12_amd64.deb
+739c1255e9f39f6b094780ed02665eeb58abe5cfa7a156d83dfac45c34e8fe87  external/debs/libpfm4_4.13.0-1_amd64.deb
+6221ca25ad5abcfbe1965801029d85a88b4775320384b4b716de8fab7a4d2f7a  external/debs/libz3-4_4.8.12-3.1_amd64.deb
+6aa497a334836a9bfa7e2cc6d24edea553467482b6f6493154f766bbb697e846  external/debs/llvm-14-linker-tools_1%3a14.0.6-12_amd64.deb
+d9284f6434963a5d338c0851967adfb383182f513f0b1c8135b26cd7af5b2834  external/debs/llvm-14-runtime_1%3a14.0.6-12_amd64.deb
+228b10afde4f9cae59c8bbc4f4ea973f1f192d957c19f0427aafb78ab24e3b29  external/debs/llvm-14_1%3a14.0.6-12_amd64.deb
+b9dbb951ab04ef779225907b29cc29be59ecfa7c4bf9cd97ea1ae51a15091648  external/debs/sysstat_12.6.1-1_amd64.deb
+10257c6fe888e6578550b1f20705d282dd630b76f8df0c006aec3031fefe5e23  external/debs/time_1.9-0.2_amd64.deb

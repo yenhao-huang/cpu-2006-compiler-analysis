@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../full --fixed 500 --num 10000 --seed 1 ig.hmm",
+      "mean": 2.65850367144,
+      "stddev": null,
+      "median": 2.65850367144,
+      "user": 2.65511426,
+      "system": 0.00037026,
+      "min": 2.65850367144,
+      "max": 2.65850367144,
+      "times": [
+        2.65850367144
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_licm --fixed 500 --num 10000 --seed 1 ig.hmm",
+      "mean": 2.73836646844,
+      "stddev": null,
+      "median": 2.73836646844,
+      "user": 2.72932426,
+      "system": 0.00148126,
+      "min": 2.73836646844,
+      "max": 2.73836646844,
+      "times": [
+        2.73836646844
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_licm"
+      }
+    }
+  ]
+}

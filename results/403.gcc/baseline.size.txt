@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+3852310	 161216	 749608	4763134	 48adfe	data/403.gcc/baseline

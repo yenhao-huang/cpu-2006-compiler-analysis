@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 /workspace/compiler_optimization/transform_pass_research/data/445.gobmk/baseline --quiet --mode gtp < /workspace/compiler_optimization/transform_pass_research/spec-cpu2006-redist/modified/445.gobmk/data/train/input/arb.tst
+  Time (abs ≡):         4.052 s               [User: 4.042 s, System: 0.009 s]
+ 
+Benchmark 2: taskset -c 2 /workspace/compiler_optimization/transform_pass_research/data/445.gobmk/full --quiet --mode gtp < /workspace/compiler_optimization/transform_pass_research/spec-cpu2006-redist/modified/445.gobmk/data/train/input/arb.tst
+  Time (abs ≡):         2.795 s               [User: 2.788 s, System: 0.005 s]
+ 
+Summary
+  'taskset -c 2 /workspace/compiler_optimization/transform_pass_research/data/445.gobmk/full --quiet --mode gtp < /workspace/compiler_optimization/transform_pass_research/spec-cpu2006-redist/modified/445.gobmk/data/train/input/arb.tst' ran
+    1.45 times faster than 'taskset -c 2 /workspace/compiler_optimization/transform_pass_research/data/445.gobmk/baseline --quiet --mode gtp < /workspace/compiler_optimization/transform_pass_research/spec-cpu2006-redist/modified/445.gobmk/data/train/input/arb.tst'

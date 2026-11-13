@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ./no_licm 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test "$status" -eq 1
+  Time (abs ≡):         83.2 ms               [User: 76.7 ms, System: 6.4 ms]
+ 
+Benchmark 2: taskset -c 2 ./full 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test "$status" -eq 1
+  Time (abs ≡):         84.9 ms               [User: 82.4 ms, System: 2.4 ms]
+ 
+Summary
+  'taskset -c 2 ./no_licm 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test "$status" -eq 1' ran
+    1.02 times faster than 'taskset -c 2 ./full 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test "$status" -eq 1'

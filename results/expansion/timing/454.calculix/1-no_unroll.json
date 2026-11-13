@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ./no_unroll 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.08560881198,
+      "stddev": null,
+      "median": 0.08560881198,
+      "user": 0.0818271,
+      "system": 0.00378776,
+      "min": 0.08560881198,
+      "max": 0.08560881198,
+      "times": [
+        0.08560881198
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_unroll"
+      }
+    },
+    {
+      "command": "taskset -c 2 ./full 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.08885717798000001,
+      "stddev": null,
+      "median": 0.08885717798000001,
+      "user": 0.0812611,
+      "system": 0.007588759999999999,
+      "min": 0.08885717798000001,
+      "max": 0.08885717798000001,
+      "times": [
+        0.08885717798000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

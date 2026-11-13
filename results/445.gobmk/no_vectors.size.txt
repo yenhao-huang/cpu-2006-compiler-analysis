@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+2307802	2027012	2328976	6663790	 65ae6e	data/445.gobmk/no_vectors

@@ -1,0 +1,33 @@
+data/462.libquantum/baseline  :
+section               size    addr
+.interp                 28     792
+.note.gnu.property      32     824
+.note.gnu.build-id      36     856
+.note.ABI-tag           32     892
+.hash                  188     928
+.gnu.hash               36    1120
+.dynsym                672    1160
+.dynstr                285    1832
+.gnu.version            56    2118
+.gnu.version_r          96    2176
+.rela.dyn              216    2272
+.rela.plt              504    2488
+.init                   23    4096
+.plt                   352    4128
+.plt.got                 8    4480
+.text                33150    4496
+.fini                    9   37648
+.rodata               2416   40960
+.eh_frame_hdr          980   43376
+.eh_frame             3504   44360
+.init_array              8   52648
+.fini_array              8   52656
+.dynamic               512   52664
+.got                    48   53176
+.got.plt               192   53224
+.data                   20   53416
+.bss                    96   53440
+.comment                67       0
+Total                43574
+
+

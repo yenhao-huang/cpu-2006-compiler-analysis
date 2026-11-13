@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+2271765	2027012	2328976	6627753	 6521a9	data/445.gobmk/no_unroll

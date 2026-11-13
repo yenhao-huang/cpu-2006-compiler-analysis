@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 data/403.gcc/no_slp spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.33866034152,
+      "stddev": null,
+      "median": 0.33866034152,
+      "user": 0.3059885,
+      "system": 0.0077979799999999995,
+      "min": 0.33866034152,
+      "max": 0.33866034152,
+      "times": [
+        0.33866034152
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_slp"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/403.gcc/full spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.32552559252,
+      "stddev": null,
+      "median": 0.32552559252,
+      "user": 0.3076095,
+      "system": 0.017811979999999998,
+      "min": 0.32552559252,
+      "max": 0.32552559252,
+      "times": [
+        0.32552559252
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

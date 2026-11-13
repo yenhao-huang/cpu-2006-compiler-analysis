@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../no_mem2reg test_Bench.par",
+      "mean": 0.02823374478,
+      "stddev": null,
+      "median": 0.02823374478,
+      "user": 0.02260568,
+      "system": 0.00562926,
+      "min": 0.02823374478,
+      "max": 0.02823374478,
+      "times": [
+        0.02823374478
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_mem2reg"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../full test_Bench.par",
+      "mean": 0.03046148178,
+      "stddev": null,
+      "median": 0.03046148178,
+      "user": 0.02798668,
+      "system": 0.0024442599999999997,
+      "min": 0.03046148178,
+      "max": 0.03046148178,
+      "times": [
+        0.03046148178
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

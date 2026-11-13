@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ./full 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test "$status" -eq 1
+  Time (abs ≡):         85.0 ms               [User: 80.8 ms, System: 4.2 ms]
+ 
+Benchmark 2: taskset -c 2 ./no_inline 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test "$status" -eq 1
+  Time (abs ≡):         88.0 ms               [User: 83.2 ms, System: 4.8 ms]
+ 
+Summary
+  'taskset -c 2 ./full 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test "$status" -eq 1' ran
+    1.04 times faster than 'taskset -c 2 ./no_inline 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test "$status" -eq 1'

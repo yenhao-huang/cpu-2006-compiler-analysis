@@ -1,0 +1,15 @@
+games/arb/game01.sgf PRESENT
+games/arb/game01.sgf PRESENT
+games/arb/game02.sgf PRESENT
+games/arb/game02.sgf PRESENT
+games/arb/dumonteil-1.sgf PRESENT
+games/arb/dumonteil-2.sgf PRESENT
+games/arb/dumonteil-2.sgf PRESENT
+games/arb/dumonteil-3.sgf PRESENT
+games/arb/dumonteil-3.sgf PRESENT
+games/arb/dumonteil-4.sgf PRESENT
+games/arb/dumonteil-5.sgf PRESENT
+games/arb/dumonteil-5.sgf PRESENT
+games/arb/dumonteil-6.sgf PRESENT
+games/arb/game03.sgf PRESENT
+games/arb/game04.sgf PRESENT

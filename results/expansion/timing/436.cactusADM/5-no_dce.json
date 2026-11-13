@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../no_dce test_Bench.par",
+      "mean": 0.02883569566,
+      "stddev": null,
+      "median": 0.02883569566,
+      "user": 0.02606476,
+      "system": 0.00276264,
+      "min": 0.02883569566,
+      "max": 0.02883569566,
+      "times": [
+        0.02883569566
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_dce"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../full test_Bench.par",
+      "mean": 0.02859158766,
+      "stddev": null,
+      "median": 0.02859158766,
+      "user": 0.02681676,
+      "system": 0.00175164,
+      "min": 0.02859158766,
+      "max": 0.02859158766,
+      "times": [
+        0.02859158766
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+benchmark	implementation	input	compiler	status
+400.perlbench	Perl 5.8.7 miniperl	947 regex tests x20	LLVM14	measured_fresh_12
+401.bzip2	bzip2 1.0.3	32 repetitions of supplied samples, level3	LLVM14	measured_fresh_12
+403.gcc	modified CPU2006 gcc	train integrate.in	LLVM14	measured_fresh_12
+435.gromacs	Gromacs3.1 mdrun	216 waters,5000steps,seed1993	LLVM14	measured_fresh_12
+436.cactusADM	modified BenchADM	test_Bench.par 3x3x200,100steps	LLVM19	measured_fresh_12
+445.gobmk	modified CPU2006 gobmk	train arb.tst	LLVM14	measured_fresh_12
+454.calculix	SPOOLES2.2 supplied component	known 20x20x20 system,seed10101	LLVM14	measured_fresh_12
+456.hmmer	modified HMMER2.3 calibration	ig.hmm,num10000,fixed500,seed1	LLVM14	measured_fresh_12
+462.libquantum	modified CPU2006 libquantum	143 25	LLVM14	measured_fresh_12
+465.tonto	modified Tonto	H2O RHF DZP manual example	LLVM19	measured_fresh_12
+481.wrf	modified WRF plus original ideal generator	hill2d_x 202x3x41,60steps	LLVM19	measured_fresh_12
+482.sphinx3	Sphinx3 0.4.1 livepretend	Pittsburgh AN4 raw audio x20 utterances	LLVM14	measured_fresh_12
+483.xalanc	Xalan1.8 + Xerces2.5	5000 repetitions of birds.xml records	LLVM14	measured_fresh_12

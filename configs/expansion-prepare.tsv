@@ -1,0 +1,10 @@
+400.perlbench	true
+401.bzip2	true
+435.gromacs	rm -f timed.trj timed.ene timed.gro timed.log '#timed.trj#' '#timed.ene#' '#timed.gro#' '#timed.log#'
+436.cactusADM	find test_Bench -maxdepth 1 -type f -delete
+454.calculix	true
+456.hmmer	rm -f ig.hmm.new
+465.tonto	rm -f stdout 'h2o.density_matrix,restricted'
+481.wrf	rm -f wrfout_d01_0001-01-01_00:00:00
+482.sphinx3	true
+483.xalanc	true

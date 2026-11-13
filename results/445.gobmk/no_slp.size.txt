@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+2327305	2027012	2328992	6683309	 65faad	data/445.gobmk/no_slp

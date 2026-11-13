@@ -1,0 +1,8 @@
+no_inline InlinerPass
+no_unroll LoopUnrollPass
+no_loop_vectorize LoopVectorizePass
+no_slp SLPVectorizerPass
+no_mem2reg PromotePass
+no_licm LICMPass
+no_dce DCEPass
+no_simplifycfg SimplifyCFGPass

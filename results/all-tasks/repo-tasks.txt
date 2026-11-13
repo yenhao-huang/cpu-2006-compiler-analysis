@@ -1,0 +1,13 @@
+400.perlbench
+401.bzip2
+403.gcc
+435.gromacs
+436.cactusADM
+445.gobmk
+454.calculix
+456.hmmer
+462.libquantum
+465.tonto
+481.wrf
+482.sphinx3
+483.xalanc

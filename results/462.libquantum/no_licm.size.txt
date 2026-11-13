@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  49906	    804	     96	  50806	   c676	data/462.libquantum/no_licm

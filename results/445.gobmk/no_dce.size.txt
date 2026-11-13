@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+2327661	2027012	2328992	6683665	 65fc11	data/445.gobmk/no_dce

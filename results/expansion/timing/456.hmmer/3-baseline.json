@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../baseline --fixed 500 --num 10000 --seed 1 ig.hmm",
+      "mean": 4.8854177406,
+      "stddev": null,
+      "median": 4.8854177406,
+      "user": 4.88392754,
+      "system": 0.00078224,
+      "min": 4.8854177406,
+      "max": 4.8854177406,
+      "times": [
+        4.8854177406
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "baseline"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../full --fixed 500 --num 10000 --seed 1 ig.hmm",
+      "mean": 2.6934068476,
+      "stddev": null,
+      "median": 2.6934068476,
+      "user": 2.69250054,
+      "system": 0.00046024,
+      "min": 2.6934068476,
+      "max": 2.6934068476,
+      "times": [
+        2.6934068476
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

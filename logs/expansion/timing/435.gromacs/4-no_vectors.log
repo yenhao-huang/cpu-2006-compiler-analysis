@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full -s water.tpr -deffnm timed
+  Time (abs ≡):         1.539 s               [User: 1.538 s, System: 0.001 s]
+ 
+Benchmark 2: taskset -c 2 ../no_vectors -s water.tpr -deffnm timed
+  Time (abs ≡):         1.617 s               [User: 1.614 s, System: 0.000 s]
+ 
+Summary
+  'taskset -c 2 ../full -s water.tpr -deffnm timed' ran
+    1.05 times faster than 'taskset -c 2 ../no_vectors -s water.tpr -deffnm timed'

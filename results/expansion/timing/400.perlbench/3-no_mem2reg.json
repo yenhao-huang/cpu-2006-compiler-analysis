@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 ../no_mem2reg t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.46803539042000003,
+      "stddev": null,
+      "median": 0.46803539042000003,
+      "user": 0.43403512,
+      "system": 0.033463520000000004,
+      "min": 0.46803539042000003,
+      "max": 0.46803539042000003,
+      "times": [
+        0.46803539042000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_mem2reg"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 ../full t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.35871954642,
+      "stddev": null,
+      "median": 0.35871954642,
+      "user": 0.31774112,
+      "system": 0.03968552,
+      "min": 0.35871954642,
+      "max": 0.35871954642,
+      "times": [
+        0.35871954642
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

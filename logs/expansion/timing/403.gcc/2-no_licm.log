@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 data/403.gcc/no_licm spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null
+  Time (abs ≡):        321.2 ms               [User: 311.7 ms, System: 9.5 ms]
+ 
+Benchmark 2: taskset -c 2 data/403.gcc/full spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null
+  Time (abs ≡):        323.5 ms               [User: 306.8 ms, System: 16.6 ms]
+ 
+Summary
+  'taskset -c 2 data/403.gcc/no_licm spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null' ran
+    1.01 times faster than 'taskset -c 2 data/403.gcc/full spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null'

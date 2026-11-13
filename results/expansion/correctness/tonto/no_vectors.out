@@ -1,0 +1,248 @@
+
+---------------------------------------------------------------
+
+ T   O   N   T   O
+
+ A free object-based system for computational chemistry
+
+ Version 1.0
+ with minor modifications for SPEC
+
+ For conditions of use, on-line documentation, and contributor
+ and developer information see :-
+
+ www.theochem.uwa.edu.au/tonto/
+
+ Dylan Jayatilaka
+ Daniel Grimwood
+---------------------------------------------------------------
+
+Timer started at XX.
+
+keyword found --> name=
+
+keyword found --> charge=
+
+keyword found --> multiplicity=
+
+keyword found --> atoms=
+
+keyword found --> basis_set_directory=
+
+keyword found --> basis_set_kind=
+Added 2 bases from library: DZP
+Bases all resolved
+
+keyword found --> scfdata=
+
+keyword found --> put
+
+Molecule information:
+
+Name                   =             h2o
+Charge                 =        0
+Multiplicity           =        1
+Applied E Field        =        0.000000        0.000000        0.000000
+Applied B Field        =        0.000000        0.000000        0.000000
+B field Gauge origin   =        0.000000        0.000000        0.000000
+
+Molecule atom information:
+
+Chemical Formula       =             H2O
+No of atoms            =        3
+No of electrons        =       10
+No of alpha electrons  =        5
+No of beta  electrons  =        5
+
+Atom list information:
+-------------------------------------------------------------------------------------------
+        #       ID        Z               x               y               z           Basis
+-------------------------------------------------------------------------------------------
+        1        O        8        0.000000        0.000000        0.000000           O:DZP
+        2        H        1        1.107000        1.436000        0.000000           H:DZP
+        3        H        1        1.107000       -1.436000        0.000000           H:DZP
+-------------------------------------------------------------------------------------------
+
+Bond lengths:
+
+No. of independent bonds  =        2
+
+--------------------------------------------------
+   Atom_a   Atom_b         r_ab/au   r_ab/Angstrom
+--------------------------------------------------
+    O (1)    H (2)        1.813159        0.959482
+    O (1)    H (3)        1.813159        0.959482
+--------------------------------------------------
+
+Bond angles (b the central atom):
+
+No. of independent angles =        1
+
+-------------------------------------------
+   Atom_a   Atom_b   Atom_cAngle_abc/degrees
+-------------------------------------------
+    H (2)    O (1)    H (3)      104.743361
+    H (3)    O (1)    H (2)      104.743361
+-------------------------------------------
+
+Molecule atom basis set information:
+
+No. of basis sets      =        2
+No. of shells          =       13
+No. of shell pairs     =       91
+No. of basis functions =       26
+No. of primitives      =       44
+
+Basis set :            O:DZP
+
+No. of shells          =        7
+No. of basis functions =       16
+No. of primitives      =       30
+
+-----------------------------------------------------------
+     Type       Fn     Prim        Exponent     Contraction
+-----------------------------------------------------------
+        s        1        1     7816.540000        0.000038
+                          2     1175.820000        0.000288
+                          3      273.188000        0.001376
+                          4       81.169600        0.004620
+                          5       27.183600        0.011415
+                          6        3.413600        0.004500
+        s        2        7        9.532200        0.065172
+        s        3        8        0.939800        0.370406
+        s        4        9        0.284600        0.907358
+        p        5       10       35.183200        0.000931
+                         13        7.904000        0.005907
+                         16        2.305100        0.018776
+                         19        0.717100        0.029842
+        p        8       22        0.213700        1.216660
+        d       11       25        0.850000        0.203457
+-----------------------------------------------------------
+
+
+Basis set :            H:DZP
+
+No. of shells          =        3
+No. of basis functions =        5
+No. of primitives      =        7
+
+-----------------------------------------------------------
+     Type       Fn     Prim        Exponent     Contraction
+-----------------------------------------------------------
+        s        1        1       19.240600        0.009910
+                          2        2.899200        0.069795
+                          3        0.653400        0.246699
+        s        2        4        0.177600        1.292328
+        p        3        5        1.000000        0.176777
+-----------------------------------------------------------
+
+
+keyword found --> scf
+
+***************
+SCF calculation
+***************
+
+SCF kind                    =              rhf
+Direct                      =                T
+Integral cutoff             =     0.100000E-11
+ZORA (1 electron) terms     =                F
+
+Initial guess options:
+
+Initial density             =             atom
+Initial MO's                =
+
+Initial guess energies:
+
+Nuclear Energy              =         9.172568
+SCF Energy                  =       -76.014102
+Kinetic Energy              =        76.771588
+
+SCF termination criteria:
+
+Convergence                 =         0.000100
+Gradient/DIIS convergence   =         0.000100
+Minimum iterations          =                1
+Maximum iterations          =              100
+
+Convergence acceleration options:
+
+Using Rough Convergence     =                T
+Rough Convergence           =         0.010000
+Rough DIIS Convergence      =         0.010000
+Using level shift           =                T
+Level shift                 =         0.300000
+Level shift  quits at       =                3
+Using density damping       =                T
+Damping factor              =         0.500000
+Damping quits at            =                3
+Using MO gradient update    =                F
+Using DIIS                  =                T
+Using Fock DIIS?            =                T
+Using MO DIIS?              =                F
+DIIS archive root name      =              h2o
+DIIS no. to keep            =                8
+DIIS automatic start?       =                F
+DIIS start iteration        =                0
+
+---------------------------------------------------------
+     Iter          Energy
+---------------------------------------------------------
+        0      -76.014102 *Damping on
+                          *Levelshift on
+                          *DIIS on
+        1      -76.018977 *Increasing integral accuracy
+        2      -76.013461
+        3      -76.011754 *Damping off
+                          *Levelshift off
+        4      -76.046059
+        5      -76.046380 *Gradient has converged
+        6      -76.046397
+---------------------------------------------------------
+* * * SCF has converged * * *
+---------------------------------------------------------
+SCF Energy                  =       -76.046397
+Kinetic Energy              =        75.989293
+---------------------------------------------------------
+
+keyword found --> put_scf_energy_in_mo_pairs
+
+SCF MO pair energy decomposition:
+SCF energy =      -76.046397
+Core energies:
+
+-------------------------
+     MO_i     Core energy
+-------------------------
+        1      -66.050285
+        2      -15.698598
+        3      -13.408011
+        4      -13.791283
+        5      -14.110434
+-------------------------
+
+Orbital pair energies:
+----------------------------------
+     MO_i     MO_j     Pair energy
+----------------------------------
+        1        1        4.740320
+        2        1        4.048196
+        2        2        0.754328
+        3        1        3.481307
+        3        2        2.415494
+        3        3        0.666294
+        4        1        3.860342
+        4        2        2.456615
+        4        3        2.339103
+        4        4        0.721444
+        5        1        4.064531
+        5        2        2.580187
+        5        3        2.419223
+        5        4        2.542604
+        5        5        0.749658
+----------------------------------
+
+
+Wall-clock time taken for job "h2o" is XX.
+CPU time taken for job "h2o" is XX CPU seconds.

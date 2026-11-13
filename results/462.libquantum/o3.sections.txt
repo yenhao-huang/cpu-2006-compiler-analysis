@@ -1,0 +1,33 @@
+data/462.libquantum/o3  :
+section               size    addr
+.interp                 28     792
+.note.gnu.property      32     824
+.note.gnu.build-id      36     856
+.note.ABI-tag           32     892
+.hash                  196     928
+.gnu.hash               36    1128
+.dynsym                720    1168
+.dynstr                300    1888
+.gnu.version            60    2188
+.gnu.version_r          96    2248
+.rela.dyn              216    2344
+.rela.plt              552    2560
+.init                   23    4096
+.plt                   384    4128
+.plt.got                 8    4512
+.text                48622    4528
+.fini                    9   53152
+.rodata               3024   53248
+.eh_frame_hdr          820   56272
+.eh_frame             5528   57096
+.init_array              8   69032
+.fini_array              8   69040
+.dynamic               512   69048
+.got                    48   69560
+.got.plt               208   69608
+.data                   20   69816
+.bss                    96   69840
+.comment                67       0
+Total                61689
+
+

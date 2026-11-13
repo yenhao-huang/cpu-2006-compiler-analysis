@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+2091081	2026996	2328976	6447053	 625fcd	data/445.gobmk/baseline

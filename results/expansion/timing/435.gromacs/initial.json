@@ -1,0 +1,232 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../no_mem2reg -s water.tpr -deffnm timed",
+      "mean": 2.19513445226,
+      "stddev": null,
+      "median": 2.19513445226,
+      "user": 2.18936632,
+      "system": 0.00538502,
+      "min": 2.19513445226,
+      "max": 2.19513445226,
+      "times": [
+        2.19513445226
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_mem2reg"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_inline -s water.tpr -deffnm timed",
+      "mean": 1.6307077222600002,
+      "stddev": null,
+      "median": 1.6307077222600002,
+      "user": 1.62971832,
+      "system": 0.00077902,
+      "min": 1.6307077222600002,
+      "max": 1.6307077222600002,
+      "times": [
+        1.6307077222600002
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_inline"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../full -s water.tpr -deffnm timed",
+      "mean": 1.5345071032600002,
+      "stddev": null,
+      "median": 1.5345071032600002,
+      "user": 1.53026732,
+      "system": 0.00277702,
+      "min": 1.5345071032600002,
+      "max": 1.5345071032600002,
+      "times": [
+        1.5345071032600002
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_slp -s water.tpr -deffnm timed",
+      "mean": 1.58108429726,
+      "stddev": null,
+      "median": 1.58108429726,
+      "user": 1.58109532,
+      "system": 0.0,
+      "min": 1.58108429726,
+      "max": 1.58108429726,
+      "times": [
+        1.58108429726
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_slp"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_licm -s water.tpr -deffnm timed",
+      "mean": 1.51914141226,
+      "stddev": null,
+      "median": 1.51914141226,
+      "user": 1.5175003200000001,
+      "system": 0.0007800200000000001,
+      "min": 1.51914141226,
+      "max": 1.51914141226,
+      "times": [
+        1.51914141226
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_licm"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_unroll -s water.tpr -deffnm timed",
+      "mean": 1.5188301852600001,
+      "stddev": null,
+      "median": 1.5188301852600001,
+      "user": 1.51349932,
+      "system": 0.00251302,
+      "min": 1.5188301852600001,
+      "max": 1.5188301852600001,
+      "times": [
+        1.5188301852600001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_unroll"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_simplifycfg -s water.tpr -deffnm timed",
+      "mean": 1.56677435526,
+      "stddev": null,
+      "median": 1.56677435526,
+      "user": 1.56507432,
+      "system": 0.0014570199999999998,
+      "min": 1.56677435526,
+      "max": 1.56677435526,
+      "times": [
+        1.56677435526
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_simplifycfg"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_dce -s water.tpr -deffnm timed",
+      "mean": 1.55941008226,
+      "stddev": null,
+      "median": 1.55941008226,
+      "user": 1.55742432,
+      "system": 0.00178002,
+      "min": 1.55941008226,
+      "max": 1.55941008226,
+      "times": [
+        1.55941008226
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_dce"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_vectors -s water.tpr -deffnm timed",
+      "mean": 1.67039889426,
+      "stddev": null,
+      "median": 1.67039889426,
+      "user": 1.66942232,
+      "system": 0.0007800200000000001,
+      "min": 1.67039889426,
+      "max": 1.67039889426,
+      "times": [
+        1.67039889426
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_vectors"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../o3 -s water.tpr -deffnm timed",
+      "mean": 1.4506399762600002,
+      "stddev": null,
+      "median": 1.4506399762600002,
+      "user": 1.44836532,
+      "system": 0.0007800200000000001,
+      "min": 1.4506399762600002,
+      "max": 1.4506399762600002,
+      "times": [
+        1.4506399762600002
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../baseline -s water.tpr -deffnm timed",
+      "mean": 2.8580593202599998,
+      "stddev": null,
+      "median": 2.8580593202599998,
+      "user": 2.8552343199999997,
+      "system": 0.00245102,
+      "min": 2.8580593202599998,
+      "max": 2.8580593202599998,
+      "times": [
+        2.8580593202599998
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "baseline"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_loop_vectorize -s water.tpr -deffnm timed",
+      "mean": 1.5667846382600001,
+      "stddev": null,
+      "median": 1.5667846382600001,
+      "user": 1.56379332,
+      "system": 0.00277902,
+      "min": 1.5667846382600001,
+      "max": 1.5667846382600001,
+      "times": [
+        1.5667846382600001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_loop_vectorize"
+      }
+    }
+  ]
+}

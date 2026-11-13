@@ -1,0 +1,1 @@
+12 variants match upstream transcript and scores for all 20 repeated utterances

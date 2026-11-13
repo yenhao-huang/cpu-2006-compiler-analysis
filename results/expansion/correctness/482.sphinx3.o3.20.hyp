@@ -1,0 +1,560 @@
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5614147 A -3828641 L -1785506 0 -453372 -74100 <sil> 69 -400575 -148846 P 94 -174826 -148846 I 107 -332272 -148846 T 130 -261887 -148846 T 151 -340494 -148846 S 178 -500366 -148846 B 212 -235677 -148846 U 232 -271583 -148846 R 245 -310947 -148846 G 272 -384903 -148846 H 303 -161739 -74100 <sil> 328
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5705812 A -3920306 L -1785506 0 -791369 -74100 <sil> 72 -217987 -148846 K 87 -532302 -148846 YES 114 -186739 -148846 T 132 -332712 -148846 G 154 -258665 -148846 S 181 -380196 -148846 B 211 -188392 -148846 U 233 -218964 -148846 R 248 -202949 -148846 G 272 -366088 -148846 H 308 -243943 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5615665 A -3830159 L -1785506 0 -721371 -74100 <sil> 72 -217985 -148846 K 87 -532302 -148846 YES 114 -186739 -148846 T 132 -331830 -148846 G 154 -256066 -148846 S 181 -347762 -148846 B 211 -220276 -148846 U 235 -210907 -148846 R 248 -203339 -148846 G 272 -364463 -148846 H 308 -237119 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P X
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5642566 A -3857060 L -1785506 0 -720875 -74100 <sil> 72 -215534 -148846 K 87 -563818 -148846 YES 114 -187281 -148846 T 132 -330390 -148846 G 154 -255984 -148846 S 181 -387568 -148846 B 215 -184948 -148846 U 235 -210202 -148846 R 248 -202303 -148846 G 272 -360404 -148846 H 308 -237753 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P X
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5600499 A -3814993 L -1785506 0 -715397 -74100 <sil> 72 -213267 -148846 K 87 -520147 -148846 YES 114 -184809 -148846 T 132 -335314 -148846 G 154 -257274 -148846 S 181 -407888 -148846 B 215 -157288 -148846 U 233 -218362 -148846 R 248 -202223 -148846 G 272 -359684 -148846 H 308 -243340 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5608456 A -3822950 L -1785506 0 -704995 -74100 <sil> 72 -217219 -148846 K 87 -528071 -148846 YES 114 -185200 -148846 T 132 -340357 -148846 G 154 -257066 -148846 S 181 -410452 -148846 B 215 -157924 -148846 U 233 -218221 -148846 R 248 -201787 -148846 G 272 -354246 -148846 H 308 -247412 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5598941 A -3813435 L -1785506 0 -695604 -74100 <sil> 72 -218090 -148846 K 87 -531600 -148846 YES 114 -187367 -148846 T 132 -332990 -148846 G 154 -259121 -148846 S 181 -368068 -148846 B 211 -187392 -148846 U 233 -218748 -148846 R 248 -203157 -148846 G 272 -366303 -148846 H 308 -244995 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P X
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5632942 A -3847436 L -1785506 0 -715240 -74100 <sil> 72 -213720 -148846 K 87 -563614 -148846 YES 114 -186835 -148846 T 132 -330297 -148846 G 154 -260477 -148846 S 181 -367973 -148846 B 211 -185961 -148846 U 233 -206131 -148846 R 248 -203391 -148846 G 272 -366540 -148846 H 308 -247257 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P X
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5672439 A -3886933 L -1785506 0 -706100 -74100 <sil> 72 -211932 -148846 K 87 -582236 -148846 YES 114 -188181 -148846 T 132 -327650 -148846 G 154 -261819 -148846 S 181 -362341 -148846 B 211 -182830 -148846 U 233 -218737 -148846 R 248 -217653 -148846 G 272 -379868 -148846 H 308 -247586 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P X
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5677456 A -3891950 L -1785506 0 -725875 -74100 <sil> 72 -216157 -148846 K 87 -563385 -148846 YES 114 -186947 -148846 T 132 -331303 -148846 G 154 -259619 -148846 S 181 -367277 -148846 B 211 -186924 -148846 U 233 -218392 -148846 R 248 -203081 -148846 G 272 -371783 -148846 H 308 -261207 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5635170 A -3849664 L -1785506 0 -728532 -74100 <sil> 72 -221779 -148846 K 87 -530212 -148846 YES 114 -186245 -148846 T 132 -335845 -148846 G 154 -256775 -148846 S 181 -370503 -148846 B 211 -189708 -148846 U 233 -219030 -148846 R 248 -203909 -148846 G 272 -365843 -148846 H 308 -241283 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5629346 A -3843840 L -1785506 0 -729467 -74100 <sil> 72 -222931 -148846 K 87 -528933 -148846 YES 114 -185954 -148846 T 132 -335840 -148846 G 154 -256949 -148846 S 181 -371162 -148846 B 211 -189669 -148846 U 233 -208003 -148846 R 248 -204057 -148846 G 272 -367478 -148846 H 308 -243397 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5644754 A -3859248 L -1785506 0 -730586 -74100 <sil> 72 -222609 -148846 K 87 -529113 -148846 YES 114 -185452 -148846 T 132 -329323 -148846 G 154 -256304 -148846 S 181 -370818 -148846 B 211 -216177 -148846 U 235 -211188 -148846 R 248 -202337 -148846 G 272 -365323 -148846 H 308 -240018 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P X
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5672928 A -3887422 L -1785506 0 -731117 -74100 <sil> 72 -219440 -148846 K 87 -561397 -148846 YES 114 -185192 -148846 T 132 -331980 -148846 G 154 -257295 -148846 S 181 -368553 -148846 B 211 -218842 -148846 U 235 -211159 -148846 R 248 -201807 -148846 G 272 -363453 -148846 H 308 -237187 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P X
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5656377 A -3870871 L -1785506 0 -730063 -74100 <sil> 72 -216189 -148846 K 87 -560342 -148846 YES 114 -185380 -148846 T 132 -330873 -148846 G 154 -259431 -148846 S 181 -368017 -148846 B 211 -189821 -148846 U 233 -220227 -148846 R 248 -202551 -148846 G 272 -367234 -148846 H 308 -240743 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P X
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5650044 A -3864538 L -1785506 0 -727945 -74100 <sil> 72 -215268 -148846 K 87 -560580 -148846 YES 114 -185883 -148846 T 132 -330732 -148846 G 154 -255651 -148846 S 181 -373553 -148846 B 211 -192300 -148846 U 233 -218797 -148846 R 248 -201945 -148846 G 272 -359934 -148846 H 308 -241950 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P X
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5621059 A -3835553 L -1785506 0 -720755 -74100 <sil> 72 -213080 -148846 K 87 -560224 -148846 YES 114 -184092 -148846 T 132 -327489 -148846 G 154 -257146 -148846 S 181 -373829 -148846 B 211 -190815 -148846 U 233 -207073 -148846 R 248 -202005 -148846 G 272 -355714 -148846 H 308 -243331 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5597745 A -3812239 L -1785506 0 -715117 -74100 <sil> 72 -213065 -148846 K 87 -519679 -148846 YES 114 -184958 -148846 T 132 -340528 -148846 G 154 -256810 -148846 S 181 -410992 -148846 B 215 -157937 -148846 U 233 -206953 -148846 R 248 -201825 -148846 G 272 -355412 -148846 H 308 -248963 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5617309 A -3831803 L -1785506 0 -709558 -74100 <sil> 72 -222203 -148846 K 87 -529569 -148846 YES 114 -186022 -148846 T 132 -335493 -148846 G 154 -258299 -148846 S 181 -373789 -148846 B 211 -190505 -148846 U 233 -218119 -148846 R 248 -202295 -148846 G 272 -359629 -148846 H 308 -246322 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P X
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S
+INFO: main_live_pretend.c(93): PARTIAL HYP:
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U MARCH
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G A(2)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil>
+FWDXCT: pittsburgh.littleendian S 0 T -5639477 A -3853971 L -1785506 0 -708269 -74100 <sil> 72 -215905 -148846 K 87 -562932 -148846 YES 114 -187214 -148846 T 132 -332144 -148846 G 154 -259507 -148846 S 181 -368154 -148846 B 211 -186621 -148846 U 233 -217967 -148846 R 248 -203305 -148846 G 272 -365603 -148846 H 308 -246350 -74100 <sil> 331
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K YES T G S B U R G H <sil> </s>

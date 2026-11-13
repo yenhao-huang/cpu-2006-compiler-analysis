@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+4178371	 161216	 749640	5089227	 4da7cb	data/403.gcc/no_slp

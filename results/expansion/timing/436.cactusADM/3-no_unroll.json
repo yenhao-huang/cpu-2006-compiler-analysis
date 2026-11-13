@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../no_unroll test_Bench.par",
+      "mean": 0.03050277858,
+      "stddev": null,
+      "median": 0.03050277858,
+      "user": 0.026730059999999996,
+      "system": 0.0037593399999999995,
+      "min": 0.03050277858,
+      "max": 0.03050277858,
+      "times": [
+        0.03050277858
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_unroll"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../full test_Bench.par",
+      "mean": 0.03097686558,
+      "stddev": null,
+      "median": 0.03097686558,
+      "user": 0.027438059999999997,
+      "system": 0.00350434,
+      "min": 0.03097686558,
+      "max": 0.03097686558,
+      "times": [
+        0.03097686558
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

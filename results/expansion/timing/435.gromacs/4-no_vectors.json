@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../full -s water.tpr -deffnm timed",
+      "mean": 1.53908340758,
+      "stddev": null,
+      "median": 1.53908340758,
+      "user": 1.5381091599999999,
+      "system": 0.0007823600000000001,
+      "min": 1.53908340758,
+      "max": 1.53908340758,
+      "times": [
+        1.53908340758
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_vectors -s water.tpr -deffnm timed",
+      "mean": 1.61733321958,
+      "stddev": null,
+      "median": 1.61733321958,
+      "user": 1.6141341599999999,
+      "system": 0.0,
+      "min": 1.61733321958,
+      "max": 1.61733321958,
+      "times": [
+        1.61733321958
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_vectors"
+      }
+    }
+  ]
+}

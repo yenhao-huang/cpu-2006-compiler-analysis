@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 data/462.libquantum/baseline 143 25
+  Time (abs ≡):         1.177 s               [User: 1.175 s, System: 0.002 s]
+ 
+Benchmark 2: taskset -c 2 data/462.libquantum/full 143 25
+  Time (abs ≡):        489.1 ms               [User: 488.2 ms, System: 0.8 ms]
+ 
+Summary
+  'taskset -c 2 data/462.libquantum/full 143 25' ran
+    2.41 times faster than 'taskset -c 2 data/462.libquantum/baseline 143 25'

@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full < stdin
+  Time (abs ≡):        480.8 ms               [User: 480.3 ms, System: 0.4 ms]
+ 
+Benchmark 2: taskset -c 2 ../no_loop_vectorize < stdin
+  Time (abs ≡):        492.6 ms               [User: 489.0 ms, System: 3.6 ms]
+ 
+Summary
+  'taskset -c 2 ../full < stdin' ran
+    1.02 times faster than 'taskset -c 2 ../no_loop_vectorize < stdin'

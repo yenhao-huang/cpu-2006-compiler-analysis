@@ -1,0 +1,9 @@
+Benchmark 1: ulimit -s unlimited; taskset -c 2 ../full
+  Time (abs ≡):        751.5 ms               [User: 739.0 ms, System: 12.3 ms]
+ 
+Benchmark 2: ulimit -s unlimited; taskset -c 2 ../o3
+  Time (abs ≡):        767.9 ms               [User: 754.1 ms, System: 13.5 ms]
+ 
+Summary
+  'ulimit -s unlimited; taskset -c 2 ../full' ran
+    1.02 times faster than 'ulimit -s unlimited; taskset -c 2 ../o3'

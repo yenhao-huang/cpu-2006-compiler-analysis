@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):         1.033 s               [User: 0.985 s, System: 0.043 s]
+ 
+Benchmark 2: taskset -c 2 ../no_loop_vectorize -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):         1.015 s               [User: 0.972 s, System: 0.044 s]
+ 
+Summary
+  'taskset -c 2 ../no_loop_vectorize -o /dev/null birds5000.xml birds.xsl' ran
+    1.02 times faster than 'taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl'

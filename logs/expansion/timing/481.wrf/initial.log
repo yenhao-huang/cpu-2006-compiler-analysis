@@ -1,0 +1,49 @@
+Benchmark 1: ulimit -s unlimited; taskset -c 2 ../o3
+  Time (abs ≡):        765.5 ms               [User: 747.6 ms, System: 17.8 ms]
+ 
+Benchmark 2: ulimit -s unlimited; taskset -c 2 ../no_loop_vectorize
+  Time (abs ≡):         1.261 s               [User: 1.246 s, System: 0.015 s]
+ 
+Benchmark 3: ulimit -s unlimited; taskset -c 2 ../no_inline
+  Time (abs ≡):        718.7 ms               [User: 709.0 ms, System: 9.6 ms]
+ 
+Benchmark 4: ulimit -s unlimited; taskset -c 2 ../no_vectors
+  Time (abs ≡):         1.258 s               [User: 1.242 s, System: 0.015 s]
+ 
+Benchmark 5: ulimit -s unlimited; taskset -c 2 ../no_mem2reg
+  Time (abs ≡):        807.8 ms               [User: 790.8 ms, System: 16.8 ms]
+ 
+Benchmark 6: ulimit -s unlimited; taskset -c 2 ../no_licm
+  Time (abs ≡):        988.3 ms               [User: 971.7 ms, System: 16.5 ms]
+ 
+Benchmark 7: ulimit -s unlimited; taskset -c 2 ../baseline
+  Time (abs ≡):         2.339 s               [User: 2.326 s, System: 0.013 s]
+ 
+Benchmark 8: ulimit -s unlimited; taskset -c 2 ../no_slp
+  Time (abs ≡):        773.4 ms               [User: 755.6 ms, System: 17.5 ms]
+ 
+Benchmark 9: ulimit -s unlimited; taskset -c 2 ../full
+  Time (abs ≡):        762.5 ms               [User: 743.2 ms, System: 17.8 ms]
+ 
+Benchmark 10: ulimit -s unlimited; taskset -c 2 ../no_dce
+  Time (abs ≡):        743.6 ms               [User: 732.9 ms, System: 10.5 ms]
+ 
+Benchmark 11: ulimit -s unlimited; taskset -c 2 ../no_unroll
+  Time (abs ≡):        768.5 ms               [User: 751.5 ms, System: 16.8 ms]
+ 
+Benchmark 12: ulimit -s unlimited; taskset -c 2 ../no_simplifycfg
+  Time (abs ≡):        730.9 ms               [User: 715.5 ms, System: 15.3 ms]
+ 
+Summary
+  'ulimit -s unlimited; taskset -c 2 ../no_inline' ran
+    1.02 times faster than 'ulimit -s unlimited; taskset -c 2 ../no_simplifycfg'
+    1.03 times faster than 'ulimit -s unlimited; taskset -c 2 ../no_dce'
+    1.06 times faster than 'ulimit -s unlimited; taskset -c 2 ../full'
+    1.07 times faster than 'ulimit -s unlimited; taskset -c 2 ../o3'
+    1.07 times faster than 'ulimit -s unlimited; taskset -c 2 ../no_unroll'
+    1.08 times faster than 'ulimit -s unlimited; taskset -c 2 ../no_slp'
+    1.12 times faster than 'ulimit -s unlimited; taskset -c 2 ../no_mem2reg'
+    1.38 times faster than 'ulimit -s unlimited; taskset -c 2 ../no_licm'
+    1.75 times faster than 'ulimit -s unlimited; taskset -c 2 ../no_vectors'
+    1.75 times faster than 'ulimit -s unlimited; taskset -c 2 ../no_loop_vectorize'
+    3.25 times faster than 'ulimit -s unlimited; taskset -c 2 ../baseline'

@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         2.701 s               [User: 2.698 s, System: 0.000 s]
+ 
+Benchmark 2: taskset -c 2 ../no_inline --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         2.573 s               [User: 2.572 s, System: 0.000 s]
+ 
+Summary
+  'taskset -c 2 ../no_inline --fixed 500 --num 10000 --seed 1 ig.hmm' ran
+    1.05 times faster than 'taskset -c 2 ../full --fixed 500 --num 10000 --seed 1 ig.hmm'

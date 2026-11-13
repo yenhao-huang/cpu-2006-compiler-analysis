@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full < stdin
+  Time (abs ≡):        476.7 ms               [User: 474.3 ms, System: 2.4 ms]
+ 
+Benchmark 2: taskset -c 2 ../no_slp < stdin
+  Time (abs ≡):        462.1 ms               [User: 458.4 ms, System: 3.5 ms]
+ 
+Summary
+  'taskset -c 2 ../no_slp < stdin' ran
+    1.03 times faster than 'taskset -c 2 ../full < stdin'

@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/data/445.gobmk/full --quiet --mode gtp < /workspace/compiler_optimization/transform_pass_research/spec-cpu2006-redist/modified/445.gobmk/data/train/input/arb.tst",
+      "mean": 2.84697920378,
+      "stddev": null,
+      "median": 2.84697920378,
+      "user": 2.83545812,
+      "system": 0.00839494,
+      "min": 2.84697920378,
+      "max": 2.84697920378,
+      "times": [
+        2.84697920378
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/data/445.gobmk/no_simplifycfg --quiet --mode gtp < /workspace/compiler_optimization/transform_pass_research/spec-cpu2006-redist/modified/445.gobmk/data/train/input/arb.tst",
+      "mean": 2.83958183378,
+      "stddev": null,
+      "median": 2.83958183378,
+      "user": 2.83065412,
+      "system": 0.00852994,
+      "min": 2.83958183378,
+      "max": 2.83958183378,
+      "times": [
+        2.83958183378
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_simplifycfg"
+      }
+    }
+  ]
+}

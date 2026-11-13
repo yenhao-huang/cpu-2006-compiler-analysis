@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 data/462.libquantum/no_loop_vectorize 143 25
+  Time (abs ≡):        477.4 ms               [User: 475.5 ms, System: 1.8 ms]
+ 
+Benchmark 2: taskset -c 2 data/462.libquantum/full 143 25
+  Time (abs ≡):        488.1 ms               [User: 486.2 ms, System: 1.8 ms]
+ 
+Summary
+  'taskset -c 2 data/462.libquantum/no_loop_vectorize 143 25' ran
+    1.02 times faster than 'taskset -c 2 data/462.libquantum/full 143 25'

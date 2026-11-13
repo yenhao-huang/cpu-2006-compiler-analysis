@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_dce test_Bench.par
+  Time (abs ≡):         29.2 ms               [User: 26.4 ms, System: 2.8 ms]
+ 
+Benchmark 2: taskset -c 2 ../full test_Bench.par
+  Time (abs ≡):         29.0 ms               [User: 26.6 ms, System: 2.4 ms]
+ 
+Summary
+  'taskset -c 2 ../full test_Bench.par' ran
+    1.01 times faster than 'taskset -c 2 ../no_dce test_Bench.par'

@@ -1,0 +1,6 @@
+variant	alloca	load	store
+baseline	585	2863	1130
+full	203	1313	762
+no_mem2reg	679	2556	1365
+no_licm	203	1356	742
+no_inline	131	960	462

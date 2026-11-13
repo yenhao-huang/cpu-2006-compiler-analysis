@@ -1,0 +1,12 @@
+no_slp
+no_inline
+o3
+no_dce
+no_loop_vectorize
+no_licm
+no_simplifycfg
+no_mem2reg
+no_vectors
+baseline
+no_unroll
+full_control

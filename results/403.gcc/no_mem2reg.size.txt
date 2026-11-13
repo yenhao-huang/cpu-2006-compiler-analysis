@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+4543013	 161216	 749656	5453885	 53383d	data/403.gcc/no_mem2reg

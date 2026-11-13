@@ -1,0 +1,49 @@
+Benchmark 1: taskset -c 2 data/462.libquantum/full 143 25
+  Time (abs ≡):        507.3 ms               [User: 504.5 ms, System: 2.8 ms]
+ 
+Benchmark 2: taskset -c 2 data/462.libquantum/baseline 143 25
+  Time (abs ≡):         1.205 s               [User: 1.201 s, System: 0.004 s]
+ 
+Benchmark 3: taskset -c 2 data/462.libquantum/no_licm 143 25
+  Time (abs ≡):        544.9 ms               [User: 541.4 ms, System: 3.5 ms]
+ 
+Benchmark 4: taskset -c 2 data/462.libquantum/no_loop_vectorize 143 25
+  Time (abs ≡):        507.8 ms               [User: 506.2 ms, System: 1.5 ms]
+ 
+Benchmark 5: taskset -c 2 data/462.libquantum/no_simplifycfg 143 25
+  Time (abs ≡):        568.3 ms               [User: 564.4 ms, System: 3.8 ms]
+ 
+Benchmark 6: taskset -c 2 data/462.libquantum/no_unroll 143 25
+  Time (abs ≡):        559.5 ms               [User: 557.8 ms, System: 1.5 ms]
+ 
+Benchmark 7: taskset -c 2 data/462.libquantum/o3 143 25
+  Time (abs ≡):        514.1 ms               [User: 512.1 ms, System: 1.5 ms]
+ 
+Benchmark 8: taskset -c 2 data/462.libquantum/no_mem2reg 143 25
+  Time (abs ≡):        507.0 ms               [User: 503.3 ms, System: 3.5 ms]
+ 
+Benchmark 9: taskset -c 2 data/462.libquantum/no_slp 143 25
+  Time (abs ≡):        508.9 ms               [User: 507.2 ms, System: 1.6 ms]
+ 
+Benchmark 10: taskset -c 2 data/462.libquantum/no_dce 143 25
+  Time (abs ≡):        512.0 ms               [User: 510.4 ms, System: 1.5 ms]
+ 
+Benchmark 11: taskset -c 2 data/462.libquantum/no_vectors 143 25
+  Time (abs ≡):        535.2 ms               [User: 533.6 ms, System: 1.5 ms]
+ 
+Benchmark 12: taskset -c 2 data/462.libquantum/no_inline 143 25
+  Time (abs ≡):        488.2 ms               [User: 485.5 ms, System: 2.5 ms]
+ 
+Summary
+  'taskset -c 2 data/462.libquantum/no_inline 143 25' ran
+    1.04 times faster than 'taskset -c 2 data/462.libquantum/no_mem2reg 143 25'
+    1.04 times faster than 'taskset -c 2 data/462.libquantum/full 143 25'
+    1.04 times faster than 'taskset -c 2 data/462.libquantum/no_loop_vectorize 143 25'
+    1.04 times faster than 'taskset -c 2 data/462.libquantum/no_slp 143 25'
+    1.05 times faster than 'taskset -c 2 data/462.libquantum/no_dce 143 25'
+    1.05 times faster than 'taskset -c 2 data/462.libquantum/o3 143 25'
+    1.10 times faster than 'taskset -c 2 data/462.libquantum/no_vectors 143 25'
+    1.12 times faster than 'taskset -c 2 data/462.libquantum/no_licm 143 25'
+    1.15 times faster than 'taskset -c 2 data/462.libquantum/no_unroll 143 25'
+    1.16 times faster than 'taskset -c 2 data/462.libquantum/no_simplifycfg 143 25'
+    2.47 times faster than 'taskset -c 2 data/462.libquantum/baseline 143 25'

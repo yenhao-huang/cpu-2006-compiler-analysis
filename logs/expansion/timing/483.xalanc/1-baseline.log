@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):        968.8 ms               [User: 917.9 ms, System: 50.5 ms]
+ 
+Benchmark 2: taskset -c 2 ../baseline -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):         3.159 s               [User: 3.120 s, System: 0.037 s]
+ 
+Summary
+  'taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl' ran
+    3.26 times faster than 'taskset -c 2 ../baseline -o /dev/null birds5000.xml birds.xsl'

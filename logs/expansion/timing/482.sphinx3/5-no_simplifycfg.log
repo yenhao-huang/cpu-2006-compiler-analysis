@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_simplifycfg ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+  Time (abs ≡):         1.111 s               [User: 0.948 s, System: 0.159 s]
+ 
+Benchmark 2: taskset -c 2 ../full ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+  Time (abs ≡):         1.094 s               [User: 0.936 s, System: 0.154 s]
+ 
+Summary
+  'taskset -c 2 ../full ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test' ran
+    1.02 times faster than 'taskset -c 2 ../no_simplifycfg ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test'

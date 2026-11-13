@@ -1,0 +1,9 @@
+Benchmark 1: ulimit -s unlimited; taskset -c 2 ../no_slp
+  Time (abs ≡):        724.2 ms               [User: 710.0 ms, System: 12.8 ms]
+ 
+Benchmark 2: ulimit -s unlimited; taskset -c 2 ../full
+  Time (abs ≡):        730.9 ms               [User: 714.8 ms, System: 15.8 ms]
+ 
+Summary
+  'ulimit -s unlimited; taskset -c 2 ../no_slp' ran
+    1.01 times faster than 'ulimit -s unlimited; taskset -c 2 ../full'

@@ -1,0 +1,1 @@
+All 12 WRF variants: 60-step diagnostics and complete NetCDF fields byte-identical

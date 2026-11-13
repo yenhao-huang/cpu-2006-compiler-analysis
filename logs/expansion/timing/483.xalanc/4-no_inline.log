@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_inline -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):         2.796 s               [User: 2.734 s, System: 0.052 s]
+ 
+Benchmark 2: taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):         1.007 s               [User: 0.969 s, System: 0.038 s]
+ 
+Summary
+  'taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl' ran
+    2.78 times faster than 'taskset -c 2 ../no_inline -o /dev/null birds5000.xml birds.xsl'

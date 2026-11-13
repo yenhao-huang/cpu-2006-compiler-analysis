@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full test_Bench.par
+  Time (abs ≡):         28.5 ms               [User: 26.8 ms, System: 1.8 ms]
+ 
+Benchmark 2: taskset -c 2 ../no_unroll test_Bench.par
+  Time (abs ≡):         28.2 ms               [User: 24.8 ms, System: 3.4 ms]
+ 
+Summary
+  'taskset -c 2 ../no_unroll test_Bench.par' ran
+    1.01 times faster than 'taskset -c 2 ../full test_Bench.par'

@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../no_mem2reg --fixed 500 --num 10000 --seed 1 ig.hmm",
+      "mean": 3.96217583748,
+      "stddev": null,
+      "median": 3.96217583748,
+      "user": 3.9573569399999995,
+      "system": 0.0014156199999999998,
+      "min": 3.96217583748,
+      "max": 3.96217583748,
+      "times": [
+        3.96217583748
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_mem2reg"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../full --fixed 500 --num 10000 --seed 1 ig.hmm",
+      "mean": 2.68102925148,
+      "stddev": null,
+      "median": 2.68102925148,
+      "user": 2.67806094,
+      "system": 0.0025316199999999996,
+      "min": 2.68102925148,
+      "max": 2.68102925148,
+      "times": [
+        2.68102925148
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

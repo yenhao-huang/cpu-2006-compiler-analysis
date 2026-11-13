@@ -1,0 +1,9 @@
+Benchmark 1: ulimit -s unlimited; taskset -c 2 ../no_dce
+  Time (abs ≡):        762.4 ms               [User: 748.5 ms, System: 13.7 ms]
+ 
+Benchmark 2: ulimit -s unlimited; taskset -c 2 ../full
+  Time (abs ≡):        758.5 ms               [User: 740.6 ms, System: 17.7 ms]
+ 
+Summary
+  'ulimit -s unlimited; taskset -c 2 ../full' ran
+    1.01 times faster than 'ulimit -s unlimited; taskset -c 2 ../no_dce'

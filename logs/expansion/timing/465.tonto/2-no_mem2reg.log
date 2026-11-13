@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_mem2reg < stdin
+  Time (abs ≡):        507.0 ms               [User: 505.1 ms, System: 1.8 ms]
+ 
+Benchmark 2: taskset -c 2 ../full < stdin
+  Time (abs ≡):        471.1 ms               [User: 466.3 ms, System: 4.6 ms]
+ 
+Summary
+  'taskset -c 2 ../full < stdin' ran
+    1.08 times faster than 'taskset -c 2 ../no_mem2reg < stdin'

@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl",
+      "mean": 1.04646310606,
+      "stddev": null,
+      "median": 1.04646310606,
+      "user": 1.0055533799999998,
+      "system": 0.040764579999999995,
+      "min": 1.04646310606,
+      "max": 1.04646310606,
+      "times": [
+        1.04646310606
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_licm -o /dev/null birds5000.xml birds.xsl",
+      "mean": 1.04900444906,
+      "stddev": null,
+      "median": 1.04900444906,
+      "user": 0.99631138,
+      "system": 0.05251557999999999,
+      "min": 1.04900444906,
+      "max": 1.04900444906,
+      "times": [
+        1.04900444906
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_licm"
+      }
+    }
+  ]
+}

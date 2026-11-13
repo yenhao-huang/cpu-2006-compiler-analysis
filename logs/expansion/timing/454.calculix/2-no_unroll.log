@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ./no_unroll 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test "$status" -eq 1
+  Time (abs ≡):         86.4 ms               [User: 79.5 ms, System: 6.9 ms]
+ 
+Benchmark 2: taskset -c 2 ./full 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test "$status" -eq 1
+  Time (abs ≡):         86.3 ms               [User: 79.7 ms, System: 6.6 ms]
+ 
+Summary
+  'taskset -c 2 ./full 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test "$status" -eq 1' ran
+    1.00 times faster than 'taskset -c 2 ./no_unroll 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test "$status" -eq 1'

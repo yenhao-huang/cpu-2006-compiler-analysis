@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full < stdin
+  Time (abs ≡):        646.9 ms               [User: 644.4 ms, System: 2.4 ms]
+ 
+Benchmark 2: taskset -c 2 ../no_unroll < stdin
+  Time (abs ≡):        469.0 ms               [User: 462.3 ms, System: 6.5 ms]
+ 
+Summary
+  'taskset -c 2 ../no_unroll < stdin' ran
+    1.38 times faster than 'taskset -c 2 ../full < stdin'

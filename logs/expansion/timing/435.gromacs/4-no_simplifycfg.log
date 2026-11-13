@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_simplifycfg -s water.tpr -deffnm timed
+  Time (abs ≡):         1.636 s               [User: 1.632 s, System: 0.004 s]
+ 
+Benchmark 2: taskset -c 2 ../full -s water.tpr -deffnm timed
+  Time (abs ≡):         1.588 s               [User: 1.585 s, System: 0.003 s]
+ 
+Summary
+  'taskset -c 2 ../full -s water.tpr -deffnm timed' ran
+    1.03 times faster than 'taskset -c 2 ../no_simplifycfg -s water.tpr -deffnm timed'

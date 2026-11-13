@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../no_unroll --fixed 500 --num 10000 --seed 1 ig.hmm",
+      "mean": 2.6070061260200004,
+      "stddev": null,
+      "median": 2.6070061260200004,
+      "user": 2.6058196199999997,
+      "system": 0.00083022,
+      "min": 2.6070061260200004,
+      "max": 2.6070061260200004,
+      "times": [
+        2.6070061260200004
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_unroll"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../full --fixed 500 --num 10000 --seed 1 ig.hmm",
+      "mean": 2.79869399802,
+      "stddev": null,
+      "median": 2.79869399802,
+      "user": 2.79378862,
+      "system": 0.0015872199999999999,
+      "min": 2.79869399802,
+      "max": 2.79869399802,
+      "times": [
+        2.79869399802
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

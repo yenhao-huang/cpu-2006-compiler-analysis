@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 ../baseline t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.5056406955,
+      "stddev": null,
+      "median": 0.5056406955,
+      "user": 0.46913077999999997,
+      "system": 0.034529439999999995,
+      "min": 0.5056406955,
+      "max": 0.5056406955,
+      "times": [
+        0.5056406955
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "baseline"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 ../full t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.3478916145,
+      "stddev": null,
+      "median": 0.3478916145,
+      "user": 0.31226778,
+      "system": 0.034244439999999994,
+      "min": 0.3478916145,
+      "max": 0.3478916145,
+      "times": [
+        0.3478916145
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

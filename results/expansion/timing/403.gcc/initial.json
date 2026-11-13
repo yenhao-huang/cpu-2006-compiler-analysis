@@ -1,0 +1,232 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 data/403.gcc/no_loop_vectorize spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.31911255146,
+      "stddev": null,
+      "median": 0.31911255146,
+      "user": 0.30247921999999994,
+      "system": 0.01659092,
+      "min": 0.31911255146,
+      "max": 0.31911255146,
+      "times": [
+        0.31911255146
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_loop_vectorize"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/403.gcc/no_inline spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.37533386846,
+      "stddev": null,
+      "median": 0.37533386846,
+      "user": 0.36161022,
+      "system": 0.01361292,
+      "min": 0.37533386846,
+      "max": 0.37533386846,
+      "times": [
+        0.37533386846
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_inline"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/403.gcc/no_mem2reg spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.39000687046,
+      "stddev": null,
+      "median": 0.39000687046,
+      "user": 0.37204521999999995,
+      "system": 0.01780692,
+      "min": 0.39000687046,
+      "max": 0.39000687046,
+      "times": [
+        0.39000687046
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_mem2reg"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/403.gcc/baseline spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.45775361846,
+      "stddev": null,
+      "median": 0.45775361846,
+      "user": 0.44301821999999996,
+      "system": 0.01464992,
+      "min": 0.45775361846,
+      "max": 0.45775361846,
+      "times": [
+        0.45775361846
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "baseline"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/403.gcc/o3 spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.30292031246,
+      "stddev": null,
+      "median": 0.30292031246,
+      "user": 0.29507521999999997,
+      "system": 0.00782192,
+      "min": 0.30292031246,
+      "max": 0.30292031246,
+      "times": [
+        0.30292031246
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/403.gcc/no_licm spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.33117384246,
+      "stddev": null,
+      "median": 0.33117384246,
+      "user": 0.32163221999999997,
+      "system": 0.00948092,
+      "min": 0.33117384246,
+      "max": 0.33117384246,
+      "times": [
+        0.33117384246
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_licm"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/403.gcc/no_unroll spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.34514417146,
+      "stddev": null,
+      "median": 0.34514417146,
+      "user": 0.33658821999999994,
+      "system": 0.00745292,
+      "min": 0.34514417146,
+      "max": 0.34514417146,
+      "times": [
+        0.34514417146
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_unroll"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/403.gcc/no_vectors spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.36062143646,
+      "stddev": null,
+      "median": 0.36062143646,
+      "user": 0.34773121999999995,
+      "system": 0.00870292,
+      "min": 0.36062143646,
+      "max": 0.36062143646,
+      "times": [
+        0.36062143646
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_vectors"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/403.gcc/no_simplifycfg spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.32723449746,
+      "stddev": null,
+      "median": 0.32723449746,
+      "user": 0.31864521999999995,
+      "system": 0.00846792,
+      "min": 0.32723449746,
+      "max": 0.32723449746,
+      "times": [
+        0.32723449746
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_simplifycfg"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/403.gcc/no_slp spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.30825601846,
+      "stddev": null,
+      "median": 0.30825601846,
+      "user": 0.29659122,
+      "system": 0.011562919999999999,
+      "min": 0.30825601846,
+      "max": 0.30825601846,
+      "times": [
+        0.30825601846
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_slp"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/403.gcc/no_dce spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.31196301046,
+      "stddev": null,
+      "median": 0.31196301046,
+      "user": 0.30032721999999995,
+      "system": 0.01155592,
+      "min": 0.31196301046,
+      "max": 0.31196301046,
+      "times": [
+        0.31196301046
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_dce"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/403.gcc/full spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.31460911046,
+      "stddev": null,
+      "median": 0.31460911046,
+      "user": 0.30088921999999996,
+      "system": 0.01364292,
+      "min": 0.31460911046,
+      "max": 0.31460911046,
+      "times": [
+        0.31460911046
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

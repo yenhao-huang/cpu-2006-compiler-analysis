@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl",
+      "mean": 1.00203822232,
+      "stddev": null,
+      "median": 1.00203822232,
+      "user": 0.9547001799999999,
+      "system": 0.04717096,
+      "min": 1.00203822232,
+      "max": 1.00203822232,
+      "times": [
+        1.00203822232
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_loop_vectorize -o /dev/null birds5000.xml birds.xsl",
+      "mean": 1.0428690033199999,
+      "stddev": null,
+      "median": 1.0428690033199999,
+      "user": 1.00099118,
+      "system": 0.041686959999999995,
+      "min": 1.0428690033199999,
+      "max": 1.0428690033199999,
+      "times": [
+        1.0428690033199999
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_loop_vectorize"
+      }
+    }
+  ]
+}

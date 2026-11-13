@@ -1,0 +1,49 @@
+Benchmark 1: taskset -c 2 ../no_loop_vectorize --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         3.090 s               [User: 3.087 s, System: 0.002 s]
+ 
+Benchmark 2: taskset -c 2 ../no_inline --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         2.601 s               [User: 2.598 s, System: 0.002 s]
+ 
+Benchmark 3: taskset -c 2 ../no_vectors --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         3.002 s               [User: 3.001 s, System: 0.001 s]
+ 
+Benchmark 4: taskset -c 2 ../o3 --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):        852.4 ms               [User: 849.3 ms, System: 0.6 ms]
+ 
+Benchmark 5: taskset -c 2 ../no_dce --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         2.649 s               [User: 2.648 s, System: 0.001 s]
+ 
+Benchmark 6: taskset -c 2 ../no_licm --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         2.676 s               [User: 2.675 s, System: 0.000 s]
+ 
+Benchmark 7: taskset -c 2 ../full --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         2.689 s               [User: 2.686 s, System: 0.002 s]
+ 
+Benchmark 8: taskset -c 2 ../baseline --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         4.798 s               [User: 4.793 s, System: 0.002 s]
+ 
+Benchmark 9: taskset -c 2 ../no_slp --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         2.647 s               [User: 2.646 s, System: 0.002 s]
+ 
+Benchmark 10: taskset -c 2 ../no_mem2reg --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         3.942 s               [User: 3.938 s, System: 0.001 s]
+ 
+Benchmark 11: taskset -c 2 ../no_simplifycfg --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         3.092 s               [User: 3.089 s, System: 0.003 s]
+ 
+Benchmark 12: taskset -c 2 ../no_unroll --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         2.579 s               [User: 2.578 s, System: 0.001 s]
+ 
+Summary
+  'taskset -c 2 ../o3 --fixed 500 --num 10000 --seed 1 ig.hmm' ran
+    3.03 times faster than 'taskset -c 2 ../no_unroll --fixed 500 --num 10000 --seed 1 ig.hmm'
+    3.05 times faster than 'taskset -c 2 ../no_inline --fixed 500 --num 10000 --seed 1 ig.hmm'
+    3.11 times faster than 'taskset -c 2 ../no_slp --fixed 500 --num 10000 --seed 1 ig.hmm'
+    3.11 times faster than 'taskset -c 2 ../no_dce --fixed 500 --num 10000 --seed 1 ig.hmm'
+    3.14 times faster than 'taskset -c 2 ../no_licm --fixed 500 --num 10000 --seed 1 ig.hmm'
+    3.16 times faster than 'taskset -c 2 ../full --fixed 500 --num 10000 --seed 1 ig.hmm'
+    3.52 times faster than 'taskset -c 2 ../no_vectors --fixed 500 --num 10000 --seed 1 ig.hmm'
+    3.62 times faster than 'taskset -c 2 ../no_loop_vectorize --fixed 500 --num 10000 --seed 1 ig.hmm'
+    3.63 times faster than 'taskset -c 2 ../no_simplifycfg --fixed 500 --num 10000 --seed 1 ig.hmm'
+    4.62 times faster than 'taskset -c 2 ../no_mem2reg --fixed 500 --num 10000 --seed 1 ig.hmm'
+    5.63 times faster than 'taskset -c 2 ../baseline --fixed 500 --num 10000 --seed 1 ig.hmm'

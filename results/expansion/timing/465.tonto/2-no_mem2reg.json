@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../no_mem2reg < stdin",
+      "mean": 0.50704788854,
+      "stddev": null,
+      "median": 0.50704788854,
+      "user": 0.50508932,
+      "system": 0.0018470399999999999,
+      "min": 0.50704788854,
+      "max": 0.50704788854,
+      "times": [
+        0.50704788854
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_mem2reg"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../full < stdin",
+      "mean": 0.47107852954,
+      "stddev": null,
+      "median": 0.47107852954,
+      "user": 0.46630131999999996,
+      "system": 0.00456204,
+      "min": 0.47107852954,
+      "max": 0.47107852954,
+      "times": [
+        0.47107852954
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

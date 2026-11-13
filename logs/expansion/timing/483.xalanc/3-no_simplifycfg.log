@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_simplifycfg -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):         1.074 s               [User: 1.030 s, System: 0.044 s]
+ 
+Benchmark 2: taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):         1.099 s               [User: 1.039 s, System: 0.055 s]
+ 
+Summary
+  'taskset -c 2 ../no_simplifycfg -o /dev/null birds5000.xml birds.xsl' ran
+    1.02 times faster than 'taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl'

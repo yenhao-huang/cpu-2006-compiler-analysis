@@ -1,0 +1,257 @@
+INFO: cmd_ln.c(276): Parsing command line:
+ \
+	-mdef ./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/hub4opensrc.6000.mdef \
+	-fdict ./model/lm/an4/filler.dict \
+	-dict ./model/lm/an4/an4.dict \
+	-mean ./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/means \
+	-var ./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/variances \
+	-mixw ./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/mixture_weights \
+	-tmat ./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/transition_matrices \
+	-upperf 6855.49756 \
+	-lowerf 133.33334 \
+	-nfilt 40 \
+	-feat 1s_c_d_dd \
+	-nfft 512 \
+	-wlen 0.025625 \
+	-samprate 16000 \
+	-agc none \
+	-varnorm no \
+	-cmn current \
+	-subvqbeam 1e-02 \
+	-epl 4 \
+	-fillprob 0.02 \
+	-lw 9.5 \
+	-maxwpf 1 \
+	-beam 1e-40 \
+	-pbeam 1e-30 \
+	-wbeam 1e-20 \
+	-maxhmmpf 1500 \
+	-wend_beam 1e-1 \
+	-ci_pbeam 1e-3 \
+	-ds 2 \
+	-lm ./model/lm/an4/an4.ug.lm.DMP 
+
+Configuration in effect:
+[NAME]		[DEFLT]		[VALUE]
+-agc		max		none
+-alpha		0.97		9.700000e-01
+-beam		1.0e-55		1.000000e-40
+-bghist		0		0
+-bptbldir			
+-cepdir				
+-ci_pbeam	1e-80		1.000000e-03
+-cmn		current		current
+-cond_ds	0		0
+-ctl				
+-ctlcount	1000000000	1000000000
+-ctloffset	0		0
+-ctl_lm				
+-dict				./model/lm/an4/an4.dict
+-ds		1		2
+-epl		3		4
+-fdict				./model/lm/an4/filler.dict
+-feat		1s_c_d_dd	1s_c_d_dd
+-fillpen			
+-fillprob	0.1		2.000000e-02
+-frate		100		100
+-gs				
+-gs4gs		1		1
+-hmmdump	0		0
+-hmmhistbinsize	5000		5000
+-hyp				
+-hypseg				
+-latext		lat.gz		lat.gz
+-lextreedump	0		0
+-lm				./model/lm/an4/an4.ug.lm.DMP
+-lmctlfn			
+-lmdumpdir			
+-lminmemory	0		0
+-log3table	1		1
+-logbase	1.0003		1.000300e+00
+-lowerf		200		1.333333e+02
+-lw		8.5		9.500000e+00
+-maxcepvecs	256		256
+-maxhistpf	100		100
+-maxhmmpf	20000		1500
+-maxhyplen	1000		1000
+-maxwpf		20		1
+-mdef				./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/hub4opensrc.6000.mdef
+-mean				./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/means
+-mixw				./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/mixture_weights
+-mixwfloor	0.0000001	1.000000e-07
+-nfft		256		512
+-nfilt		31		40
+-Nlextree	3		3
+-outlatdir			
+-outlatoldfmt	1		1
+-pbeam		1.0e-50		1.000000e-30
+-pheurtype	0		0
+-pl_beam	1.0e-80		0.000000e+00
+-pl_window	1		1
+-ptranskip	0		0
+-samprate	8000		16000
+-senmgau	.cont.		.cont.
+-silprob	0.1		1.000000e-01
+-subvq				
+-subvqbeam	3.0e-3		1.000000e-02
+-svq4svq	0		0
+-tmat				./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/transition_matrices
+-tmatfloor	0.0001		1.000000e-04
+-treeugprob	1		1
+-upperf		3500		6.855498e+03
+-utt				
+-uw		0.7		7.000000e-01
+-var				./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/variances
+-varfloor	0.0001		1.000000e-04
+-varnorm	no		no
+-vqeval		3		3
+-wbeam		1.0e-35		1.000000e-20
+-wend_beam	1.0e-80		1.000000e-01
+-wip		0.7		7.000000e-01
+-wlen		0.0256		2.562500e-02
+
+INFO: kbcore.c(95): Initializing core models:
+INFO: logs3.c(99): Initializing logbase: 1.000300e+00 (add table: 1)
+INFO: logs3.c(161): Log-Add table size = 29350
+INFO: feat.c(642): Initializing feature stream to type: '1s_c_d_dd', CMN='current', VARNORM='no', AGC='none'
+INFO: mdef.c(594): Reading model definition: ./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/hub4opensrc.6000.mdef
+INFO: mdef.c(771): 48 CI-phone, 133500 CD-phone, 3 emitstate/phone, 144 CI-sen, 6144 Sen, 32639 Sen-Seq
+INFO: dict.c(358): Reading main dictionary: ./model/lm/an4/an4.dict
+INFO: dict.c(361): 130 words read
+INFO: dict.c(366): Reading filler dictionary: ./model/lm/an4/filler.dict
+INFO: dict.c(369): 3 words read
+INFO: lm.c(739): LM read('./model/lm/an4/an4.ug.lm.DMP', lw= 9.50, wip= -1188, uw= 0.70)
+INFO: lm.c(553):      107 ug
+INFO: lm.c(583):        1 bigrams [on disk]
+INFO: lm.c(613):        2 bigram prob entries
+INFO: lm.c(696):      107 word strings
+ERROR: "wid.c", line 171: <UNK> is not a word in dictionary and it is not a class tag. 
+ERROR: "wid.c", line 171: HALL is not a word in dictionary and it is not a class tag. 
+ERROR: "wid.c", line 171: LANE is not a word in dictionary and it is not a class tag. 
+ERROR: "wid.c", line 171: MEMORY is not a word in dictionary and it is not a class tag. 
+ERROR: "wid.c", line 171: TWELVTH is not a word in dictionary and it is not a class tag. 
+ERROR: "wid.c", line 171: WEAN is not a word in dictionary and it is not a class tag. 
+INFO: wid.c(178): 6 LM words not in dictionary; ignored
+INFO: cont_mgau.c(92): Reading mixture gaussian file './model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/means'
+INFO: cont_mgau.c(244): 6144 mixture Gaussians, 8 components, veclen 868652528
+INFO: cont_mgau.c(92): Reading mixture gaussian file './model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/variances'
+INFO: cont_mgau.c(244): 6144 mixture Gaussians, 8 components, veclen 868648928
+INFO: cont_mgau.c(265): Reading mixture weights file './model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/mixture_weights'
+ERROR: "cont_mgau.c", line 346: Weight normalization failed for 3 senones
+INFO: cont_mgau.c(358): Read 6144 x 8 mixture weights
+INFO: cont_mgau.c(374): Removing uninitialized Gaussian densities
+ 6 7 8
+INFO: cont_mgau.c(404): 24 densities removed (3 mixtures removed entirely)
+INFO: cont_mgau.c(412): Applying variance floor
+INFO: cont_mgau.c(424): 0 variance values floored
+INFO: cont_mgau.c(470): Precomputing Mahalanobis distance invariants
+INFO: tmat.c(135): Reading HMM transition probability matrices: ./model/hmm/hub4_cd_continuous_8gau_1s_c_d_dd/transition_matrices
+ERROR: "tmat.c", line 197: Normalization failed for tmat 2 from state 0
+ERROR: "tmat.c", line 197: Normalization failed for tmat 2 from state 1
+ERROR: "tmat.c", line 197: Normalization failed for tmat 2 from state 2
+INFO: tmat.c(217): Read 48 transition matrices of size 3x4
+INFO: dict2pid.c(254): Building PID tables for dictionary
+INFO: dict2pid.c(422): 873 composite states; 324 composite sseq
+INFO: kbcore.c(225): Verifying models consistency:
+INFO: kb.c(197): Building lextrees
+INFO: kb.c(243): Creating Unigram Table
+INFO: kb.c(246): Size of word table after unigram + words in class: 99
+INFO: kb.c(263): Lextrees(3), 1428 nodes(ug)
+INFO: kb.c(291): Lextrees(3), 1 nodes(filler)
+INFO: kb.c(317): Beam= -307006, PBeam= -230254, WBeam= -153503, SVQBeam= -15350
+INFO: kb.c(322): Down Sampling Ratio = 2
+INFO: kb.c(328): Conditional Down Sampling Parameter = 0
+INFO: kb.c(333): GS map would be used for Gaussian Selection? = 1
+INFO: kb.c(336): SVQ would be used as Gaussian Score ?= 0
+INFO: kb.c(339): CI phone beam to prune the number of parent CI phones in CI-base GMM Selection = 23025
+INFO: kb.c(345): Word-end pruning beam: 7675
+INFO: kb.c(348): Phoneme look-ahead window size = 1
+WARNING: "logs3.c", line 203: logs3 argument: 0.000000e+00; using S3_LOGPROB_ZERO
+INFO: kb.c(353): Phoneme look-ahead beam = -939524096
+INFO: vithist.c(77): Initializing Viterbi-history module
+INFO: feat.c(971): Feature buffers initialized to 256 vectors
+INFO: cmn_prior.c(72): mean[0]= 12.00, mean[1..12]= 0.0
+INFO: live.c(268): live_nfeatvec: 7
+INFO: approx_cont_mgau.c(328): Re-normalizing the previous score
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: live.c(268): live_nfeatvec: 13
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: live.c(268): live_nfeatvec: 12
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: live.c(268): live_nfeatvec: 13
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: live.c(268): live_nfeatvec: 12
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: live.c(268): live_nfeatvec: 13
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil>
+INFO: live.c(268): live_nfeatvec: 12
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> K
+INFO: live.c(268): live_nfeatvec: 13
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P
+INFO: live.c(268): live_nfeatvec: 12
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I
+INFO: live.c(268): live_nfeatvec: 13
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I <sil>
+INFO: live.c(268): live_nfeatvec: 12
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T
+INFO: live.c(268): live_nfeatvec: 13
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T
+INFO: live.c(268): live_nfeatvec: 12
+INFO: approx_cont_mgau.c(328): Re-normalizing the previous score
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T
+INFO: live.c(268): live_nfeatvec: 13
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S
+INFO: live.c(268): live_nfeatvec: 12
+INFO: approx_cont_mgau.c(328): Re-normalizing the previous score
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S <sil>
+INFO: live.c(268): live_nfeatvec: 13
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S <sil>
+INFO: live.c(268): live_nfeatvec: 12
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B
+INFO: live.c(268): live_nfeatvec: 13
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B
+INFO: live.c(268): live_nfeatvec: 12
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B U
+INFO: live.c(268): live_nfeatvec: 13
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B U R
+INFO: live.c(268): live_nfeatvec: 12
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B U MARCH
+INFO: live.c(268): live_nfeatvec: 13
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B U R G
+INFO: live.c(268): live_nfeatvec: 12
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B U R G A(2)
+INFO: live.c(268): live_nfeatvec: 13
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B U R G H
+INFO: live.c(268): live_nfeatvec: 12
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B U R G H
+INFO: live.c(268): live_nfeatvec: 13
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B U R G H <sil>
+INFO: live.c(268): live_nfeatvec: 8
+
+Backtrace(pittsburgh.littleendian)
+ LatID  SFrm  EFrm        AScr     LScr Type
+    67     0    68     -453372   -74100   -1 <sil>
+    92    69    93     -400575  -148846    0 P
+   105    94   106     -174826  -148846    0 I
+   127   107   129     -332272  -148846    0 T
+   148   130   150     -261887  -148846    0 T
+   175   151   177     -340494  -148846    0 S
+   209   178   211     -500366  -148846    0 B
+   229   212   231     -235677  -148846    0 U
+   242   232   244     -271583  -148846    0 R
+   278   245   271     -310947  -148846    0 G
+   315   272   302     -384903  -148846    0 H
+   340   303   327     -161739   -74100   -1 <sil>
+   342   328   328           0  -148846    0 </s>
+           0   328    -3828641 -1785506 (Total)
+
+FWDVIT: P I T T S B U R G H (pittsburgh.littleendian)
+
+FWDXCT: pittsburgh.littleendian S 0 T -5614147 A -3828641 L -1785506 0 -453372 -74100 <sil> 69 -400575 -148846 P 94 -174826 -148846 I 107 -332272 -148846 T 130 -261887 -148846 T 151 -340494 -148846 S 178 -500366 -148846 B 212 -235677 -148846 U 232 -271583 -148846 R 245 -310947 -148846 G 272 -384903 -148846 H 303 -161739 -74100 <sil> 328
+
+INFO: utt.c(305):  328 frm;   163 sen,  1290 gau/fr, Sen 0.01 CPU 0.01 Clk [Ovrhd 0.00 CPU 0.00 Clk];    208 hmm,   1 wd/fr, 0.00 CPU 0.00 Clk (pittsburgh.littleendian)
+INFO: utt.c(319): HMMHist[0..0](pittsburgh.littleendian): 8(2)
+INFO: lm.c(823):         0 tg(),         0 tgcache,        0 bo;     0 fills,        0 in mem (0.0%)
+INFO: lm.c(826):     1303 bg(),     1297 bo;     1 fills,        1 in mem (50.0%)
+INFO: main_live_pretend.c(93): PARTIAL HYP: <sil> P I T T S B U R G H <sil> </s>
+INFO: live.c(336): SUMMARY:  328 fr;  162 sen, 1289 gau/fr, 0.01 xCPU [0.00 xOvrhd];  208 hmm/fr, 1 wd/fr, 0.00 xCPU;  

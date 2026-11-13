@@ -1,0 +1,49 @@
+Benchmark 1: taskset -c 2 ../no_licm ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+  Time (abs ≡):         1.076 s               [User: 0.919 s, System: 0.155 s]
+ 
+Benchmark 2: taskset -c 2 ../o3 ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+  Time (abs ≡):        993.4 ms               [User: 835.9 ms, System: 154.8 ms]
+ 
+Benchmark 3: taskset -c 2 ../no_loop_vectorize ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+  Time (abs ≡):         1.107 s               [User: 0.940 s, System: 0.164 s]
+ 
+Benchmark 4: taskset -c 2 ../no_vectors ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+  Time (abs ≡):         1.185 s               [User: 1.022 s, System: 0.160 s]
+ 
+Benchmark 5: taskset -c 2 ../no_mem2reg ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+  Time (abs ≡):         1.182 s               [User: 1.015 s, System: 0.163 s]
+ 
+Benchmark 6: taskset -c 2 ../baseline ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+  Time (abs ≡):         1.738 s               [User: 1.565 s, System: 0.170 s]
+ 
+Benchmark 7: taskset -c 2 ../no_unroll ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+  Time (abs ≡):         1.089 s               [User: 0.945 s, System: 0.142 s]
+ 
+Benchmark 8: taskset -c 2 ../no_slp ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+  Time (abs ≡):         1.152 s               [User: 0.986 s, System: 0.164 s]
+ 
+Benchmark 9: taskset -c 2 ../no_simplifycfg ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+  Time (abs ≡):         1.110 s               [User: 0.944 s, System: 0.163 s]
+ 
+Benchmark 10: taskset -c 2 ../no_dce ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+  Time (abs ≡):         1.117 s               [User: 0.942 s, System: 0.172 s]
+ 
+Benchmark 11: taskset -c 2 ../full ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+  Time (abs ≡):         1.098 s               [User: 0.935 s, System: 0.160 s]
+ 
+Benchmark 12: taskset -c 2 ../no_inline ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+  Time (abs ≡):         1.171 s               [User: 0.989 s, System: 0.173 s]
+ 
+Summary
+  'taskset -c 2 ../o3 ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test' ran
+    1.08 times faster than 'taskset -c 2 ../no_licm ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test'
+    1.10 times faster than 'taskset -c 2 ../no_unroll ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test'
+    1.11 times faster than 'taskset -c 2 ../full ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test'
+    1.11 times faster than 'taskset -c 2 ../no_loop_vectorize ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test'
+    1.12 times faster than 'taskset -c 2 ../no_simplifycfg ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test'
+    1.12 times faster than 'taskset -c 2 ../no_dce ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test'
+    1.16 times faster than 'taskset -c 2 ../no_slp ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test'
+    1.18 times faster than 'taskset -c 2 ../no_inline ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test'
+    1.19 times faster than 'taskset -c 2 ../no_mem2reg ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test'
+    1.19 times faster than 'taskset -c 2 ../no_vectors ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test'
+    1.75 times faster than 'taskset -c 2 ../baseline ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test'

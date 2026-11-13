@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full < stdin
+  Time (abs ≡):        474.8 ms               [User: 474.4 ms, System: 0.4 ms]
+ 
+Benchmark 2: taskset -c 2 ../o3 < stdin
+  Time (abs ≡):        388.3 ms               [User: 385.4 ms, System: 2.8 ms]
+ 
+Summary
+  'taskset -c 2 ../o3 < stdin' ran
+    1.22 times faster than 'taskset -c 2 ../full < stdin'

@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full test_Bench.par
+  Time (abs ≡):         28.9 ms               [User: 27.1 ms, System: 1.8 ms]
+ 
+Benchmark 2: taskset -c 2 ../no_mem2reg test_Bench.par
+  Time (abs ≡):         27.4 ms               [User: 25.5 ms, System: 1.8 ms]
+ 
+Summary
+  'taskset -c 2 ../no_mem2reg test_Bench.par' ran
+    1.06 times faster than 'taskset -c 2 ../full test_Bench.par'

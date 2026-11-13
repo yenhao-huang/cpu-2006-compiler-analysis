@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  51962	    804	     96	  52862	   ce7e	data/462.libquantum/no_slp

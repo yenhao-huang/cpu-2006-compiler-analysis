@@ -1,0 +1,94 @@
+                         :-)  G  R  O  M  A  C  S  (-:
+
+                   Groningen Machine for Chemical Simulation
+
+                             :-)  VERSION 3.1  (-:
+
+
+       Copyright (c) 1991-2002, University of Groningen, The Netherlands
+         This program is free software; you can redistribute it and/or
+          modify it under the terms of the GNU General Public License
+         as published by the Free Software Foundation; either version 2
+             of the License, or (at your option) any later version.
+
+                               :-)  ../full  (-:
+
+Option     Filename  Type          Description
+------------------------------------------------------------
+  -s  water.tpr.tpb  Input         Generic run input: tpr tpb tpa
+  -o       full.trj  Output        Full precision trajectory: trr trj
+  -x       full.xtc  Output, Opt.  Compressed trajectory (portable xdr format)
+  -c       full.gro  Output        Generic structure: gro g96 pdb
+  -e       full.ene  Output        Generic energy: edr ene
+  -g       full.log  Output        Log file
+-dgdl      full.xvg  Output, Opt.  xvgr/xmgr file
+-table     full.xvg  Input, Opt.   xvgr/xmgr file
+-rerun     full.trj  Input, Opt.   Generic trajectory: xtc trr trj gro g96 pdb
+ -ei       full.edi  Input, Opt.   ED sampling input
+ -eo       full.edo  Output, Opt.  ED sampling output
+  -j       full.gct  Input, Opt.   General coupling stuff
+ -jo       full.gct  Input, Opt.   General coupling stuff
+-ffout     full.xvg  Output, Opt.  xvgr/xmgr file
+-devout    full.xvg  Output, Opt.  xvgr/xmgr file
+-runav     full.xvg  Output, Opt.  xvgr/xmgr file
+ -pi       full.ppa  Input, Opt.   Pull parameters
+ -po       full.ppa  Output, Opt.  Pull parameters
+ -pd       full.pdo  Output, Opt.  Pull data output
+ -pn       full.ndx  Input, Opt.   Index file
+-mtx       full.mtx  Output, Opt.  Hessian matrix
+
+      Option   Type  Value  Description
+------------------------------------------------------
+      -[no]h   bool     no  Print help info and quit
+      -[no]X   bool     no  Use dialog box GUI to edit command line options
+       -nice    int     19  Set the nicelevel
+     -deffnm string   full  Set the default filename for all file options
+         -np    int      1  Number of nodes, must be the same as used for
+                            grompp
+      -[no]v   bool     no  Be loud and noisy
+-[no]compact   bool    yes  Write a compact log file
+  -[no]multi   bool     no  Do multiple simulations in parallel (only with -np
+                            > 1)
+   -[no]glas   bool     no  Do glass simulation with special long range
+                            corrections
+ -[no]ionize   bool     no  Do a simulation including the effect of an X-Ray
+                            bombardment on your system
+
+Reading file water.tpr.tpb, VERSION 3.1 (single precision)
+Reading file water.tpr.tpb, VERSION 3.1 (single precision)
+starting mdrun 'Pure Water'
+5000 steps,     10.0 ps.
+
+Writing final coordinates.
+
+
+
+	M E G A - F L O P S   A C C O U N T I N G
+
+   RF=Reaction-field  Free=Free Energy  SC=Softcore
+   T=Tabulated        S=Solvent         W=Water     WW=Water-Water
+
+           Computing:      M-Number      M-Flop's  % Flop's
+        LJ + Coul(WW)     45.023472  11030.750640    88.2
+      Innerloop-Iatom     42.318801    423.188010     3.4
+             NS-Pairs     11.741436    246.570156     2.0
+         Reset In Box      0.324648      2.921832     0.0
+              Shift-X      6.481296     38.887776     0.3
+               CG-CoM      0.108216      3.138264     0.0
+               Virial      3.375675     60.762150     0.5
+               Update      3.240648    100.460088     0.8
+              Stop-CM      3.240000     32.400000     0.3
+           P-Coupling      3.240000     19.440000     0.2
+            Calc-Ekin      3.241296     87.514992     0.7
+              Shake-V      3.240648     48.609720     0.4
+            Shake-Vir      3.240648     58.331664     0.5
+               Settle      1.080648    349.049304     2.8
+          Total                 12502.02460   100.0
+
+               NODE (s)   Real (s)      (%)
+       Time:      1.722      1.000    172.2
+               (Mnbf/s)   (GFlops) (ps/NODE hour) (NODE hour/ns)
+Performance:    235.294      7.260  20904.102      0.048
+
+gcq#0: Thanx for Using GROMACS - Have a Nice Day
+

@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ./full 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.08493865424000001,
+      "stddev": null,
+      "median": 0.08493865424000001,
+      "user": 0.0801447,
+      "system": 0.00473418,
+      "min": 0.08493865424000001,
+      "max": 0.08493865424000001,
+      "times": [
+        0.08493865424000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 ./no_mem2reg 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.08286393024000001,
+      "stddev": null,
+      "median": 0.08286393024000001,
+      "user": 0.08101169999999999,
+      "system": 0.0017661799999999998,
+      "min": 0.08286393024000001,
+      "max": 0.08286393024000001,
+      "times": [
+        0.08286393024000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_mem2reg"
+      }
+    }
+  ]
+}

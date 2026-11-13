@@ -1,0 +1,11 @@
+baseline PASS
+full PASS
+no_inline PASS
+no_unroll PASS
+no_loop_vectorize PASS
+no_slp PASS
+no_mem2reg PASS
+no_licm PASS
+no_dce PASS
+no_simplifycfg PASS
+no_vectors PASS

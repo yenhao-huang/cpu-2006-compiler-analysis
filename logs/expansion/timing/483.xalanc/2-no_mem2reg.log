@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_mem2reg -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):         1.359 s               [User: 1.318 s, System: 0.040 s]
+ 
+Benchmark 2: taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):         1.019 s               [User: 0.971 s, System: 0.048 s]
+ 
+Summary
+  'taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl' ran
+    1.33 times faster than 'taskset -c 2 ../no_mem2reg -o /dev/null birds5000.xml birds.xsl'

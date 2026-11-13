@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 ../full",
+      "mean": 0.73955007476,
+      "stddev": null,
+      "median": 0.73955007476,
+      "user": 0.7239701799999999,
+      "system": 0.0154302,
+      "min": 0.73955007476,
+      "max": 0.73955007476,
+      "times": [
+        0.73955007476
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 ../no_licm",
+      "mean": 1.02495753876,
+      "stddev": null,
+      "median": 1.02495753876,
+      "user": 1.01323218,
+      "system": 0.0115062,
+      "min": 1.02495753876,
+      "max": 1.02495753876,
+      "times": [
+        1.02495753876
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_licm"
+      }
+    }
+  ]
+}

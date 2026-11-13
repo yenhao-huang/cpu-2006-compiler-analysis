@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_unroll --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         2.666 s               [User: 2.664 s, System: 0.001 s]
+ 
+Benchmark 2: taskset -c 2 ../full --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         2.727 s               [User: 2.725 s, System: 0.001 s]
+ 
+Summary
+  'taskset -c 2 ../no_unroll --fixed 500 --num 10000 --seed 1 ig.hmm' ran
+    1.02 times faster than 'taskset -c 2 ../full --fixed 500 --num 10000 --seed 1 ig.hmm'

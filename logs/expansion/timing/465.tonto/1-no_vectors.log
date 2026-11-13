@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full < stdin
+  Time (abs ≡):        486.0 ms               [User: 481.1 ms, System: 4.8 ms]
+ 
+Benchmark 2: taskset -c 2 ../no_vectors < stdin
+  Time (abs ≡):        486.1 ms               [User: 482.5 ms, System: 3.5 ms]
+ 
+Summary
+  'taskset -c 2 ../full < stdin' ran
+    1.00 times faster than 'taskset -c 2 ../no_vectors < stdin'

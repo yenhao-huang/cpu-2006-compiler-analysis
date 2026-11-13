@@ -1,0 +1,12 @@
+baseline	verify
+full	function(mem2reg),cgscc(inline),function(mem2reg,instcombine<max-iterations=100>,simplifycfg,loop-simplify,lcssa,loop(loop-rotate),loop-mssa(licm),loop(indvars),loop-vectorize,slp-vectorizer,loop-unroll<O3>,instcombine<max-iterations=100>,dce,simplifycfg,dce)
+no_inline	function(mem2reg),function(mem2reg,instcombine<max-iterations=100>,simplifycfg,loop-simplify,lcssa,loop(loop-rotate),loop-mssa(licm),loop(indvars),loop-vectorize,slp-vectorizer,loop-unroll<O3>,instcombine<max-iterations=100>,dce,simplifycfg,dce)
+no_unroll	function(mem2reg),cgscc(inline),function(mem2reg,instcombine<max-iterations=100>,simplifycfg,loop-simplify,lcssa,loop(loop-rotate),loop-mssa(licm),loop(indvars),loop-vectorize,slp-vectorizer,instcombine<max-iterations=100>,dce,simplifycfg,dce)
+no_loop_vectorize	function(mem2reg),cgscc(inline),function(mem2reg,instcombine<max-iterations=100>,simplifycfg,loop-simplify,lcssa,loop(loop-rotate),loop-mssa(licm),loop(indvars),slp-vectorizer,loop-unroll<O3>,instcombine<max-iterations=100>,dce,simplifycfg,dce)
+no_slp	function(mem2reg),cgscc(inline),function(mem2reg,instcombine<max-iterations=100>,simplifycfg,loop-simplify,lcssa,loop(loop-rotate),loop-mssa(licm),loop(indvars),loop-vectorize,loop-unroll<O3>,instcombine<max-iterations=100>,dce,simplifycfg,dce)
+no_mem2reg	cgscc(inline),function(instcombine<max-iterations=100>,simplifycfg,loop-simplify,lcssa,loop(loop-rotate),loop-mssa(licm),loop(indvars),loop-vectorize,slp-vectorizer,loop-unroll<O3>,instcombine<max-iterations=100>,dce,simplifycfg,dce)
+no_licm	function(mem2reg),cgscc(inline),function(mem2reg,instcombine<max-iterations=100>,simplifycfg,loop-simplify,lcssa,loop(loop-rotate),loop(indvars),loop-vectorize,slp-vectorizer,loop-unroll<O3>,instcombine<max-iterations=100>,dce,simplifycfg,dce)
+no_dce	function(mem2reg),cgscc(inline),function(mem2reg,instcombine<max-iterations=100>,simplifycfg,loop-simplify,lcssa,loop(loop-rotate),loop-mssa(licm),loop(indvars),loop-vectorize,slp-vectorizer,loop-unroll<O3>,instcombine<max-iterations=100>,simplifycfg)
+no_simplifycfg	function(mem2reg),cgscc(inline),function(mem2reg,instcombine<max-iterations=100>,loop-simplify,lcssa,loop(loop-rotate),loop-mssa(licm),loop(indvars),loop-vectorize,slp-vectorizer,loop-unroll<O3>,instcombine<max-iterations=100>,dce,dce)
+no_vectors	function(mem2reg),cgscc(inline),function(mem2reg,instcombine<max-iterations=100>,simplifycfg,loop-simplify,lcssa,loop(loop-rotate),loop-mssa(licm),loop(indvars),loop-unroll<O3>,instcombine<max-iterations=100>,dce,simplifycfg,dce)
+o3	default<O3>

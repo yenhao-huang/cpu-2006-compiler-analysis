@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+2308142	2027012	2328976	6664130	 65afc2	data/445.gobmk/no_loop_vectorize

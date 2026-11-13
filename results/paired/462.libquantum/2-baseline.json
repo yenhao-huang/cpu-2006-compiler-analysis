@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 data/462.libquantum/baseline 143 25",
+      "mean": 1.8496376397,
+      "stddev": null,
+      "median": 1.8496376397,
+      "user": 1.84389752,
+      "system": 0.0027831,
+      "min": 1.8496376397,
+      "max": 1.8496376397,
+      "times": [
+        1.8496376397
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "baseline"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/462.libquantum/full 143 25",
+      "mean": 0.7340956427,
+      "stddev": null,
+      "median": 0.7340956427,
+      "user": 0.7282175200000001,
+      "system": 0.0057331,
+      "min": 0.7340956427,
+      "max": 0.7340956427,
+      "times": [
+        0.7340956427
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

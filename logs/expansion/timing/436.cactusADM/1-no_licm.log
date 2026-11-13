@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_licm test_Bench.par
+  Time (abs ≡):         38.9 ms               [User: 28.1 ms, System: 1.8 ms]
+ 
+Benchmark 2: taskset -c 2 ../full test_Bench.par
+  Time (abs ≡):         28.5 ms               [User: 25.0 ms, System: 3.5 ms]
+ 
+Summary
+  'taskset -c 2 ../full test_Bench.par' ran
+    1.37 times faster than 'taskset -c 2 ../no_licm test_Bench.par'

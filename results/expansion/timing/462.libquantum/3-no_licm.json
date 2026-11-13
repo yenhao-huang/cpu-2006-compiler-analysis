@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 data/462.libquantum/full 143 25",
+      "mean": 0.50826263456,
+      "stddev": null,
+      "median": 0.50826263456,
+      "user": 0.50442906,
+      "system": 0.00378882,
+      "min": 0.50826263456,
+      "max": 0.50826263456,
+      "times": [
+        0.50826263456
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/462.libquantum/no_licm 143 25",
+      "mean": 0.50768754756,
+      "stddev": null,
+      "median": 0.50768754756,
+      "user": 0.5057290600000001,
+      "system": 0.00179282,
+      "min": 0.50768754756,
+      "max": 0.50768754756,
+      "times": [
+        0.50768754756
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_licm"
+      }
+    }
+  ]
+}

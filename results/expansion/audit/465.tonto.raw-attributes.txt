@@ -1,0 +1,5 @@
+attributes #0 = { "frame-pointer"="all" "target-cpu"="x86-64" }
+attributes #1 = { nocallback nofree nounwind willreturn memory(argmem: readwrite) }
+attributes #2 = { nocallback nofree nosync nounwind speculatable willreturn memory(none) }
+attributes #3 = { nocallback nofree nosync nounwind willreturn }
+attributes #4 = { memory(none) }

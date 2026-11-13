@@ -1,0 +1,29 @@
+--- spec-cpu2006-redist/original/435.gromacs/gromacs-3.1/src/kernel/xutils.c	2026-10-24 15:42:17.865283381 +0000
++++ data/expansion/435.gromacs/source/src/kernel/xutils.c	2026-10-25 01:59:27.461579691 +0000
+@@ -94,7 +94,7 @@
+ /* Lots of global variables! Yummy... */
+ static real tol     = 0.1;
+ static real epot    = 0.0;
+-static real fmax    = 100;
++static real gmx_local_fmax    = 100;
+ static real npow    = 12.0;
+ static bool bComb   = TRUE;
+ static bool bLogEps = FALSE;
+@@ -107,7 +107,7 @@
+   epot    = ff_epot;
+   npow    = ff_npow;
+   bComb   = ff_bComb;
+-  fmax    = ff_fmax;
++  gmx_local_fmax    = ff_fmax;
+   ratio   = ff_ratio;
+   bLogEps = ff_bLogEps;
+ }
+@@ -401,7 +401,7 @@
+     for(i=0; (i<natoms); i++)
+       msf += iprod(f[i],f[i]);
+     rmsf = sqrt(msf/natoms);
+-    if ((fmax == 0) || (rmsf < fmax)) 
++    if ((gmx_local_fmax == 0) || (rmsf < gmx_local_fmax)) 
+       print_range(fp,rmsf,energy);
+   }
+ }

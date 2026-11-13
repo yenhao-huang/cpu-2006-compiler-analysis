@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_simplifycfg < stdin
+  Time (abs ≡):        466.8 ms               [User: 460.9 ms, System: 5.8 ms]
+ 
+Benchmark 2: taskset -c 2 ../full < stdin
+  Time (abs ≡):        469.9 ms               [User: 467.1 ms, System: 2.8 ms]
+ 
+Summary
+  'taskset -c 2 ../no_simplifycfg < stdin' ran
+    1.01 times faster than 'taskset -c 2 ../full < stdin'

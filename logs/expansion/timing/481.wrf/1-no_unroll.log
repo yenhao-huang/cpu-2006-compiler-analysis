@@ -1,0 +1,9 @@
+Benchmark 1: ulimit -s unlimited; taskset -c 2 ../no_unroll
+  Time (abs ≡):        783.0 ms               [User: 765.9 ms, System: 12.0 ms]
+ 
+Benchmark 2: ulimit -s unlimited; taskset -c 2 ../full
+  Time (abs ≡):        748.8 ms               [User: 732.9 ms, System: 15.8 ms]
+ 
+Summary
+  'ulimit -s unlimited; taskset -c 2 ../full' ran
+    1.05 times faster than 'ulimit -s unlimited; taskset -c 2 ../no_unroll'

@@ -1,0 +1,49 @@
+Benchmark 1: taskset -c 2 ../no_licm -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):         1.038 s               [User: 0.987 s, System: 0.051 s]
+ 
+Benchmark 2: taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):        994.7 ms               [User: 954.2 ms, System: 40.4 ms]
+ 
+Benchmark 3: taskset -c 2 ../no_simplifycfg -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):         1.055 s               [User: 1.009 s, System: 0.047 s]
+ 
+Benchmark 4: taskset -c 2 ../no_vectors -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):         1.003 s               [User: 0.974 s, System: 0.029 s]
+ 
+Benchmark 5: taskset -c 2 ../no_mem2reg -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):         1.340 s               [User: 1.307 s, System: 0.033 s]
+ 
+Benchmark 6: taskset -c 2 ../baseline -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):         3.367 s               [User: 3.323 s, System: 0.042 s]
+ 
+Benchmark 7: taskset -c 2 ../no_inline -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):         2.772 s               [User: 2.726 s, System: 0.042 s]
+ 
+Benchmark 8: taskset -c 2 ../no_loop_vectorize -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):        994.7 ms               [User: 949.7 ms, System: 44.8 ms]
+ 
+Benchmark 9: taskset -c 2 ../no_slp -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):        981.1 ms               [User: 936.1 ms, System: 44.8 ms]
+ 
+Benchmark 10: taskset -c 2 ../no_unroll -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):        982.5 ms               [User: 940.5 ms, System: 41.8 ms]
+ 
+Benchmark 11: taskset -c 2 ../o3 -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):        817.3 ms               [User: 774.4 ms, System: 42.8 ms]
+ 
+Benchmark 12: taskset -c 2 ../no_dce -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):        987.8 ms               [User: 941.5 ms, System: 46.1 ms]
+ 
+Summary
+  'taskset -c 2 ../o3 -o /dev/null birds5000.xml birds.xsl' ran
+    1.20 times faster than 'taskset -c 2 ../no_slp -o /dev/null birds5000.xml birds.xsl'
+    1.20 times faster than 'taskset -c 2 ../no_unroll -o /dev/null birds5000.xml birds.xsl'
+    1.21 times faster than 'taskset -c 2 ../no_dce -o /dev/null birds5000.xml birds.xsl'
+    1.22 times faster than 'taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl'
+    1.22 times faster than 'taskset -c 2 ../no_loop_vectorize -o /dev/null birds5000.xml birds.xsl'
+    1.23 times faster than 'taskset -c 2 ../no_vectors -o /dev/null birds5000.xml birds.xsl'
+    1.27 times faster than 'taskset -c 2 ../no_licm -o /dev/null birds5000.xml birds.xsl'
+    1.29 times faster than 'taskset -c 2 ../no_simplifycfg -o /dev/null birds5000.xml birds.xsl'
+    1.64 times faster than 'taskset -c 2 ../no_mem2reg -o /dev/null birds5000.xml birds.xsl'
+    3.39 times faster than 'taskset -c 2 ../no_inline -o /dev/null birds5000.xml birds.xsl'
+    4.12 times faster than 'taskset -c 2 ../baseline -o /dev/null birds5000.xml birds.xsl'

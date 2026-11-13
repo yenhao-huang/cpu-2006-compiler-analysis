@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  60722	    804	     96	  61622	   f0b6	data/462.libquantum/o3

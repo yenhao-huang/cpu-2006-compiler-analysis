@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_simplifycfg test_Bench.par
+  Time (abs ≡):         29.8 ms               [User: 28.9 ms, System: 0.9 ms]
+ 
+Benchmark 2: taskset -c 2 ../full test_Bench.par
+  Time (abs ≡):         29.6 ms               [User: 26.1 ms, System: 3.5 ms]
+ 
+Summary
+  'taskset -c 2 ../full test_Bench.par' ran
+    1.01 times faster than 'taskset -c 2 ../no_simplifycfg test_Bench.par'

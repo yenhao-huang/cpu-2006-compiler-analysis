@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../no_simplifycfg test_Bench.par",
+      "mean": 0.029776484580000002,
+      "stddev": null,
+      "median": 0.029776484580000002,
+      "user": 0.02888632,
+      "system": 0.00089626,
+      "min": 0.029776484580000002,
+      "max": 0.029776484580000002,
+      "times": [
+        0.029776484580000002
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_simplifycfg"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../full test_Bench.par",
+      "mean": 0.02958596358,
+      "stddev": null,
+      "median": 0.02958596358,
+      "user": 0.026074319999999998,
+      "system": 0.00349526,
+      "min": 0.02958596358,
+      "max": 0.02958596358,
+      "times": [
+        0.02958596358
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

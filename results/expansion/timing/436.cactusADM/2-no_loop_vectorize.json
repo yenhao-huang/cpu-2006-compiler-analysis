@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../full test_Bench.par",
+      "mean": 0.029345607380000003,
+      "stddev": null,
+      "median": 0.029345607380000003,
+      "user": 0.0246571,
+      "system": 0.00468688,
+      "min": 0.029345607380000003,
+      "max": 0.029345607380000003,
+      "times": [
+        0.029345607380000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_loop_vectorize test_Bench.par",
+      "mean": 0.02820311038,
+      "stddev": null,
+      "median": 0.02820311038,
+      "user": 0.0253321,
+      "system": 0.0028148799999999996,
+      "min": 0.02820311038,
+      "max": 0.02820311038,
+      "times": [
+        0.02820311038
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_loop_vectorize"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_loop_vectorize test_Bench.par
+  Time (abs ≡):         28.0 ms               [User: 24.7 ms, System: 3.3 ms]
+ 
+Benchmark 2: taskset -c 2 ../full test_Bench.par
+  Time (abs ≡):         29.0 ms               [User: 26.2 ms, System: 2.8 ms]
+ 
+Summary
+  'taskset -c 2 ../no_loop_vectorize test_Bench.par' ran
+    1.04 times faster than 'taskset -c 2 ../full test_Bench.par'

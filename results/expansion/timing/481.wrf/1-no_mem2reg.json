@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 ../full",
+      "mean": 0.7389691916200001,
+      "stddev": null,
+      "median": 0.7389691916200001,
+      "user": 0.72138992,
+      "system": 0.01737236,
+      "min": 0.7389691916200001,
+      "max": 0.7389691916200001,
+      "times": [
+        0.7389691916200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 ../no_mem2reg",
+      "mean": 0.8146533206200001,
+      "stddev": null,
+      "median": 0.8146533206200001,
+      "user": 0.7949679199999999,
+      "system": 0.019548359999999997,
+      "min": 0.8146533206200001,
+      "max": 0.8146533206200001,
+      "times": [
+        0.8146533206200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_mem2reg"
+      }
+    }
+  ]
+}

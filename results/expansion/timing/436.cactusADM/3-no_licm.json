@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../no_licm test_Bench.par",
+      "mean": 0.03232683984,
+      "stddev": null,
+      "median": 0.03232683984,
+      "user": 0.03083772,
+      "system": 0.00147306,
+      "min": 0.03232683984,
+      "max": 0.03232683984,
+      "times": [
+        0.03232683984
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_licm"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../full test_Bench.par",
+      "mean": 0.03145828184,
+      "stddev": null,
+      "median": 0.03145828184,
+      "user": 0.02594172,
+      "system": 0.00547706,
+      "min": 0.03145828184,
+      "max": 0.03145828184,
+      "times": [
+        0.03145828184
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

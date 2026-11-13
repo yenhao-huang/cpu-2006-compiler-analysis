@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full test_Bench.par
+  Time (abs ≡):         31.6 ms               [User: 27.9 ms, System: 3.7 ms]
+ 
+Benchmark 2: taskset -c 2 ../o3 test_Bench.par
+  Time (abs ≡):         21.4 ms               [User: 20.0 ms, System: 1.4 ms]
+ 
+Summary
+  'taskset -c 2 ../o3 test_Bench.par' ran
+    1.48 times faster than 'taskset -c 2 ../full test_Bench.par'

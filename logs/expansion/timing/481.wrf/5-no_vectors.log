@@ -1,0 +1,9 @@
+Benchmark 1: ulimit -s unlimited; taskset -c 2 ../no_vectors
+  Time (abs ≡):         1.310 s               [User: 1.301 s, System: 0.009 s]
+ 
+Benchmark 2: ulimit -s unlimited; taskset -c 2 ../full
+  Time (abs ≡):        756.3 ms               [User: 736.3 ms, System: 19.8 ms]
+ 
+Summary
+  'ulimit -s unlimited; taskset -c 2 ../full' ran
+    1.73 times faster than 'ulimit -s unlimited; taskset -c 2 ../no_vectors'

@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_loop_vectorize -s water.tpr -deffnm timed
+  Time (abs ≡):         1.611 s               [User: 1.608 s, System: 0.002 s]
+ 
+Benchmark 2: taskset -c 2 ../full -s water.tpr -deffnm timed
+  Time (abs ≡):         1.614 s               [User: 1.601 s, System: 0.004 s]
+ 
+Summary
+  'taskset -c 2 ../no_loop_vectorize -s water.tpr -deffnm timed' ran
+    1.00 times faster than 'taskset -c 2 ../full -s water.tpr -deffnm timed'

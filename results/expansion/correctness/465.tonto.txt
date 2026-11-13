@@ -1,0 +1,1 @@
+All 12 Tonto variants match complete SCF output; energy -76.046397

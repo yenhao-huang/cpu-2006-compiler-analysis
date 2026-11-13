@@ -1,0 +1,49 @@
+Benchmark 1: taskset -c 2 ../o3 test_Bench.par
+  Time (abs ≡):         20.2 ms               [User: 18.4 ms, System: 1.8 ms]
+ 
+Benchmark 2: taskset -c 2 ../no_licm test_Bench.par
+  Time (abs ≡):         30.4 ms               [User: 30.6 ms, System: 0.0 ms]
+ 
+Benchmark 3: taskset -c 2 ../no_simplifycfg test_Bench.par
+  Time (abs ≡):         30.1 ms               [User: 26.5 ms, System: 3.5 ms]
+ 
+Benchmark 4: taskset -c 2 ../baseline test_Bench.par
+  Time (abs ≡):         33.6 ms               [User: 31.0 ms, System: 2.5 ms]
+ 
+Benchmark 5: taskset -c 2 ../no_slp test_Bench.par
+  Time (abs ≡):         28.9 ms               [User: 26.4 ms, System: 2.5 ms]
+ 
+Benchmark 6: taskset -c 2 ../no_mem2reg test_Bench.par
+  Time (abs ≡):         28.8 ms               [User: 25.2 ms, System: 3.5 ms]
+ 
+Benchmark 7: taskset -c 2 ../full test_Bench.par
+  Time (abs ≡):         30.5 ms               [User: 28.0 ms, System: 2.5 ms]
+ 
+Benchmark 8: taskset -c 2 ../no_vectors test_Bench.par
+  Time (abs ≡):         28.0 ms               [User: 22.6 ms, System: 5.5 ms]
+ 
+Benchmark 9: taskset -c 2 ../no_unroll test_Bench.par
+  Time (abs ≡):         34.8 ms               [User: 26.4 ms, System: 4.6 ms]
+ 
+Benchmark 10: taskset -c 2 ../no_dce test_Bench.par
+  Time (abs ≡):         29.8 ms               [User: 25.2 ms, System: 4.5 ms]
+ 
+Benchmark 11: taskset -c 2 ../no_loop_vectorize test_Bench.par
+  Time (abs ≡):         28.4 ms               [User: 26.5 ms, System: 1.8 ms]
+ 
+Benchmark 12: taskset -c 2 ../no_inline test_Bench.par
+  Time (abs ≡):         31.7 ms               [User: 28.3 ms, System: 3.4 ms]
+ 
+Summary
+  'taskset -c 2 ../o3 test_Bench.par' ran
+    1.39 times faster than 'taskset -c 2 ../no_vectors test_Bench.par'
+    1.40 times faster than 'taskset -c 2 ../no_loop_vectorize test_Bench.par'
+    1.42 times faster than 'taskset -c 2 ../no_mem2reg test_Bench.par'
+    1.43 times faster than 'taskset -c 2 ../no_slp test_Bench.par'
+    1.47 times faster than 'taskset -c 2 ../no_dce test_Bench.par'
+    1.49 times faster than 'taskset -c 2 ../no_simplifycfg test_Bench.par'
+    1.50 times faster than 'taskset -c 2 ../no_licm test_Bench.par'
+    1.51 times faster than 'taskset -c 2 ../full test_Bench.par'
+    1.57 times faster than 'taskset -c 2 ../no_inline test_Bench.par'
+    1.66 times faster than 'taskset -c 2 ../baseline test_Bench.par'
+    1.72 times faster than 'taskset -c 2 ../no_unroll test_Bench.par'

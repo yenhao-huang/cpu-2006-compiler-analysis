@@ -1,0 +1,12 @@
+baseline supplied compression/decompression checks PASS
+full supplied compression/decompression checks PASS
+no_inline supplied compression/decompression checks PASS
+no_unroll supplied compression/decompression checks PASS
+no_loop_vectorize supplied compression/decompression checks PASS
+no_slp supplied compression/decompression checks PASS
+no_mem2reg supplied compression/decompression checks PASS
+no_licm supplied compression/decompression checks PASS
+no_dce supplied compression/decompression checks PASS
+no_simplifycfg supplied compression/decompression checks PASS
+no_vectors supplied compression/decompression checks PASS
+o3 supplied compression/decompression checks PASS

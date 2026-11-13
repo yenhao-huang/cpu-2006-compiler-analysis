@@ -1,0 +1,10 @@
+400.perlbench	data/expansion/400.perlbench/source	for n in $(seq 1 20); do taskset -c 2 ../{variant} t/op/regexp.t > /dev/null || exit; done
+401.bzip2	data/expansion/401.bzip2/work	taskset -c 2 ../{variant} -3 < input.ref > /dev/null
+435.gromacs	data/expansion/435.gromacs/work	taskset -c 2 ../{variant} -s water.tpr -deffnm timed
+436.cactusADM	data/expansion/436.cactusADM/work	taskset -c 2 ../{variant} test_Bench.par
+454.calculix	data/expansion/454.calculix	taskset -c 2 ./{variant} 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test "$status" -eq 1
+456.hmmer	data/expansion/456.hmmer/work	taskset -c 2 ../{variant} --fixed 500 --num 10000 --seed 1 ig.hmm
+465.tonto	data/expansion/465.tonto/work	taskset -c 2 ../{variant} < stdin
+481.wrf	data/expansion/481.wrf/work	ulimit -s unlimited; taskset -c 2 ../{variant}
+482.sphinx3	data/expansion/482.sphinx3/source	taskset -c 2 ../{variant} ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+483.xalanc	data/expansion/483.xalanc/work	taskset -c 2 ../{variant} -o /dev/null birds5000.xml birds.xsl

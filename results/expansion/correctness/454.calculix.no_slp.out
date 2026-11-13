@@ -1,0 +1,87 @@
+
+ data/expansion/454.calculix/no_slp 
+ msglvl        -- 0
+ msgFile       -- stdout
+ n1            -- 20
+ n2            -- 20
+ n3            -- 20
+ maxzeros      -- 0
+ maxsize       -- 64
+ seed          -- 10101
+ type          -- 1
+ symmetryflag  -- 0
+ sparsityflag  -- 0
+ pivotingflag  -- 0
+ tau           -- 1.000000e+02
+ droptol       -- 0.000000e+00
+ lockflag      -- 0
+ nrhs          -- 1
+
+ CPU    0.001 : create the grid graph
+ CPU    0.000 : make the nested dissection ordering
+ CPU    0.004 : create the front tree
+ CPU    0.000 : permute the front tree
+ CPU    0.014 : set up the InpMtxA object
+ CPU    0.001 : set up the solution and rhs 
+ CPU    0.006 : permute the matrix
+ CPU    0.001 : permute the solution and rhs
+ CPU    0.002 : compute the symbolic factorization
+ CPU    0.000 : convert to chevron vectors 
+
+ CPU    0.003 : initialize the front matrix
+
+ SubMtxManager object at address 0x5caaac05fab0
+     5773 active objects, 10967320 bytes active
+     10967320 total bytes requested, 10967320 total bytes allocated 
+     5773 requests, 0 releases, 0 locks, 0 unlocks
+ 1267677 factor entries, 367586723 factor ops,  289.969 ratio
+
+ CPU    0.042 : factor matrix, 8699.853 mflops
+     8000 pivots,        0 pivot tests,        0 delayed rows and columns
+ 16000 entries in D, 0 entries in L, 1259677 entries in U
+ 0 locks
+    initialize fronts          0.001   1.93
+    load original entries      0.001   2.54
+    update fronts              0.035  82.84
+    assemble postponed data    0.000   0.00
+    factor fronts              0.004   8.56
+    extract postponed data     0.000   0.00
+    store factor entries       0.001   2.30
+    miscellaneous              0.001   1.84
+    total time                 0.042
+
+ SubMtxManager object at address 0x5caaac05fab0
+     5773 active objects, 10967320 bytes active
+     10967320 total bytes requested, 10967320 total bytes allocated 
+     5773 requests, 0 releases, 0 locks, 0 unlocks
+
+ ChvManager object at address 0x5caaacc342c0
+     0 active objects, 0 bytes active
+     10694832 total bytes requested, 1185592 total bytes allocated 
+     2566 requests, 2566 releases, 0 locks, 0 unlocks
+
+ CPU    0.004 : post-process the matrix
+
+ after post-processing
+
+ SubMtxManager object at address 0x5caaac05fab0
+     20400 active objects, 11602360 bytes active
+     21614592 total bytes requested, 21614592 total bytes allocated 
+     22964 requests, 2564 releases, 0 locks, 0 unlocks
+
+ CPU    0.005 : solve the system, 949.610 mflops
+    set up solves                  0.000   3.61
+    load rhs and store solution    0.000   4.70
+    forward solve                  0.002  46.70
+    diagonal solve                 0.000   2.11
+    backward solve                 0.002  42.32
+    total time                     0.005
+
+ maxabs error =   1.3857e-10
+
+ after solve
+
+ SubMtxManager object at address 0x5caaac05fab0
+     20400 active objects, 11602360 bytes active
+     21800584 total bytes requested, 21800584 total bytes allocated 
+     25530 requests, 5130 releases, 0 locks, 0 unlocks

@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+  Time (abs ≡):         1.141 s               [User: 0.955 s, System: 0.180 s]
+ 
+Benchmark 2: taskset -c 2 ../no_loop_vectorize ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+  Time (abs ≡):         1.091 s               [User: 0.938 s, System: 0.150 s]
+ 
+Summary
+  'taskset -c 2 ../no_loop_vectorize ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test' ran
+    1.05 times faster than 'taskset -c 2 ../full ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test'

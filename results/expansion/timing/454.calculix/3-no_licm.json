@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ./full 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.08833764836,
+      "stddev": null,
+      "median": 0.08833764836,
+      "user": 0.08207724,
+      "system": 0.00378214,
+      "min": 0.08833764836,
+      "max": 0.08833764836,
+      "times": [
+        0.08833764836
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 ./no_licm 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.08632853236000002,
+      "stddev": null,
+      "median": 0.08632853236000002,
+      "user": 0.07956524,
+      "system": 0.00673114,
+      "min": 0.08632853236000002,
+      "max": 0.08632853236000002,
+      "times": [
+        0.08632853236000002
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_licm"
+      }
+    }
+  ]
+}

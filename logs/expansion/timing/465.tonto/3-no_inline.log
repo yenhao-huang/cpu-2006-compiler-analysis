@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_inline < stdin
+  Time (abs ≡):        481.9 ms               [User: 479.5 ms, System: 1.8 ms]
+ 
+Benchmark 2: taskset -c 2 ../full < stdin
+  Time (abs ≡):        475.4 ms               [User: 473.9 ms, System: 1.5 ms]
+ 
+Summary
+  'taskset -c 2 ../full < stdin' ran
+    1.01 times faster than 'taskset -c 2 ../no_inline < stdin'

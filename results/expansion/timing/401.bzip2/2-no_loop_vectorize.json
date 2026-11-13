@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../no_loop_vectorize -3 < input.ref > /dev/null",
+      "mean": 1.7909231103,
+      "stddev": null,
+      "median": 1.7909231103,
+      "user": 1.7858557,
+      "system": 0.0048088,
+      "min": 1.7909231103,
+      "max": 1.7909231103,
+      "times": [
+        1.7909231103
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_loop_vectorize"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../full -3 < input.ref > /dev/null",
+      "mean": 1.7981557303,
+      "stddev": null,
+      "median": 1.7981557303,
+      "user": 1.7946107,
+      "system": 0.0028098000000000003,
+      "min": 1.7981557303,
+      "max": 1.7981557303,
+      "times": [
+        1.7981557303
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

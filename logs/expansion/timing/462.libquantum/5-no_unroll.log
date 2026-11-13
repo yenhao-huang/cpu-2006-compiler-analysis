@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 data/462.libquantum/no_unroll 143 25
+  Time (abs ≡):        504.5 ms               [User: 503.0 ms, System: 1.4 ms]
+ 
+Benchmark 2: taskset -c 2 data/462.libquantum/full 143 25
+  Time (abs ≡):        521.1 ms               [User: 517.4 ms, System: 3.6 ms]
+ 
+Summary
+  'taskset -c 2 data/462.libquantum/no_unroll 143 25' ran
+    1.03 times faster than 'taskset -c 2 data/462.libquantum/full 143 25'

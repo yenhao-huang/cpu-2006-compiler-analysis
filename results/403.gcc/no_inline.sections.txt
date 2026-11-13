@@ -1,0 +1,34 @@
+data/403.gcc/no_inline  :
+section                 size      addr
+.interp                   28       792
+.note.gnu.property        32       824
+.note.gnu.build-id        36       856
+.note.ABI-tag             32       892
+.hash                    588       928
+.gnu.hash                 60      1520
+.dynsym                 1872      1584
+.dynstr                  636      3456
+.gnu.version             156      4092
+.gnu.version_r            80      4248
+.rela.dyn             283680      4328
+.rela.plt               1560    288008
+.init                     23    290816
+.plt                    1056    290848
+.plt.got                  24    291904
+.text                2333526    291936
+.fini                      9   2625464
+.rodata               477274   2625536
+.eh_frame_hdr          44652   3102812
+.eh_frame             252096   3147464
+.init_array                8   3401216
+.fini_array                8   3401224
+.data.rel.ro          153488   3401232
+.dynamic                 512   3554720
+.got                      72   3555232
+.got.plt                 544   3555304
+.data                   6600   3555856
+.bss                  749640   3562464
+.comment                  67         0
+Total                4308359
+
+

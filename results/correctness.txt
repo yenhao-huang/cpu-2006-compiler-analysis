@@ -1,0 +1,12 @@
+baseline: 403.gcc,445.gobmk,462.libquantum PASS
+full: 403.gcc,445.gobmk,462.libquantum PASS
+no_inline: 403.gcc,445.gobmk,462.libquantum PASS
+no_unroll: 403.gcc,445.gobmk,462.libquantum PASS
+no_loop_vectorize: 403.gcc,445.gobmk,462.libquantum PASS
+no_slp: 403.gcc,445.gobmk,462.libquantum PASS
+no_mem2reg: 403.gcc,445.gobmk,462.libquantum PASS
+no_licm: 403.gcc,445.gobmk,462.libquantum PASS
+no_dce: 403.gcc,445.gobmk,462.libquantum PASS
+no_simplifycfg: 403.gcc,445.gobmk,462.libquantum PASS
+no_vectors: 403.gcc,445.gobmk,462.libquantum PASS
+o3: 403.gcc,445.gobmk,462.libquantum PASS

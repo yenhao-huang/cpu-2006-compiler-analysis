@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../no_slp --fixed 500 --num 10000 --seed 1 ig.hmm",
+      "mean": 2.5756001717,
+      "stddev": null,
+      "median": 2.5756001717,
+      "user": 2.5740885000000002,
+      "system": 0.0008234800000000001,
+      "min": 2.5756001717,
+      "max": 2.5756001717,
+      "times": [
+        2.5756001717
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_slp"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../full --fixed 500 --num 10000 --seed 1 ig.hmm",
+      "mean": 2.5975328007000003,
+      "stddev": null,
+      "median": 2.5975328007000003,
+      "user": 2.5922705,
+      "system": 0.0018234800000000002,
+      "min": 2.5975328007000003,
+      "max": 2.5975328007000003,
+      "times": [
+        2.5975328007000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

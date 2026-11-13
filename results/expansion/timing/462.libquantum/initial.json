@@ -1,0 +1,232 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 data/462.libquantum/full 143 25",
+      "mean": 0.5073177293000001,
+      "stddev": null,
+      "median": 0.5073177293000001,
+      "user": 0.504482,
+      "system": 0.0027684199999999997,
+      "min": 0.5073177293000001,
+      "max": 0.5073177293000001,
+      "times": [
+        0.5073177293000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/462.libquantum/baseline 143 25",
+      "mean": 1.2048641743,
+      "stddev": null,
+      "median": 1.2048641743,
+      "user": 1.201203,
+      "system": 0.00350242,
+      "min": 1.2048641743,
+      "max": 1.2048641743,
+      "times": [
+        1.2048641743
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "baseline"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/462.libquantum/no_licm 143 25",
+      "mean": 0.5449191273,
+      "stddev": null,
+      "median": 0.5449191273,
+      "user": 0.5413539999999999,
+      "system": 0.00348142,
+      "min": 0.5449191273,
+      "max": 0.5449191273,
+      "times": [
+        0.5449191273
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_licm"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/462.libquantum/no_loop_vectorize 143 25",
+      "mean": 0.5077932583000001,
+      "stddev": null,
+      "median": 0.5077932583000001,
+      "user": 0.506173,
+      "system": 0.00146942,
+      "min": 0.5077932583000001,
+      "max": 0.5077932583000001,
+      "times": [
+        0.5077932583000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_loop_vectorize"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/462.libquantum/no_simplifycfg 143 25",
+      "mean": 0.5683116803000001,
+      "stddev": null,
+      "median": 0.5683116803000001,
+      "user": 0.5644119999999999,
+      "system": 0.0037754200000000003,
+      "min": 0.5683116803000001,
+      "max": 0.5683116803000001,
+      "times": [
+        0.5683116803000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_simplifycfg"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/462.libquantum/no_unroll 143 25",
+      "mean": 0.5594836013000001,
+      "stddev": null,
+      "median": 0.5594836013000001,
+      "user": 0.5578299999999999,
+      "system": 0.00152042,
+      "min": 0.5594836013000001,
+      "max": 0.5594836013000001,
+      "times": [
+        0.5594836013000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_unroll"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/462.libquantum/o3 143 25",
+      "mean": 0.5141169903,
+      "stddev": null,
+      "median": 0.5141169903,
+      "user": 0.512134,
+      "system": 0.00153242,
+      "min": 0.5141169903,
+      "max": 0.5141169903,
+      "times": [
+        0.5141169903
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/462.libquantum/no_mem2reg 143 25",
+      "mean": 0.5069940373,
+      "stddev": null,
+      "median": 0.5069940373,
+      "user": 0.503343,
+      "system": 0.00350742,
+      "min": 0.5069940373,
+      "max": 0.5069940373,
+      "times": [
+        0.5069940373
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_mem2reg"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/462.libquantum/no_slp 143 25",
+      "mean": 0.5088554063,
+      "stddev": null,
+      "median": 0.5088554063,
+      "user": 0.507242,
+      "system": 0.00155142,
+      "min": 0.5088554063,
+      "max": 0.5088554063,
+      "times": [
+        0.5088554063
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_slp"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/462.libquantum/no_dce 143 25",
+      "mean": 0.5119869683000001,
+      "stddev": null,
+      "median": 0.5119869683000001,
+      "user": 0.510427,
+      "system": 0.00147642,
+      "min": 0.5119869683000001,
+      "max": 0.5119869683000001,
+      "times": [
+        0.5119869683000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_dce"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/462.libquantum/no_vectors 143 25",
+      "mean": 0.5352070383,
+      "stddev": null,
+      "median": 0.5352070383,
+      "user": 0.5336059999999999,
+      "system": 0.00151442,
+      "min": 0.5352070383,
+      "max": 0.5352070383,
+      "times": [
+        0.5352070383
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_vectors"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/462.libquantum/no_inline 143 25",
+      "mean": 0.4881795003,
+      "stddev": null,
+      "median": 0.4881795003,
+      "user": 0.485515,
+      "system": 0.00249342,
+      "min": 0.4881795003,
+      "max": 0.4881795003,
+      "times": [
+        0.4881795003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_inline"
+      }
+    }
+  ]
+}

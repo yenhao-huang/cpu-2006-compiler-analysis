@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_vectors -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):         1.027 s               [User: 0.979 s, System: 0.048 s]
+ 
+Benchmark 2: taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):         1.029 s               [User: 0.990 s, System: 0.039 s]
+ 
+Summary
+  'taskset -c 2 ../no_vectors -o /dev/null birds5000.xml birds.xsl' ran
+    1.00 times faster than 'taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl'

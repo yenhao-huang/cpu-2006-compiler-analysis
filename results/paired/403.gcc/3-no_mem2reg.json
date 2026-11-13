@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 data/403.gcc/no_mem2reg spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.39971445834,
+      "stddev": null,
+      "median": 0.39971445834,
+      "user": 0.38116320000000004,
+      "system": 0.016726079999999997,
+      "min": 0.39971445834,
+      "max": 0.39971445834,
+      "times": [
+        0.39971445834
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_mem2reg"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/403.gcc/full spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.32938371634,
+      "stddev": null,
+      "median": 0.32938371634,
+      "user": 0.3186102,
+      "system": 0.01072808,
+      "min": 0.32938371634,
+      "max": 0.32938371634,
+      "times": [
+        0.32938371634
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

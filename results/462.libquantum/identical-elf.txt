@@ -1,0 +1,3 @@
+cmp full no_dce: PASS; byte-identical complete ELF
+dbdc8cc5f6eb3f6be2027e1ba82b32a41343e2859e0878fe39db54bb2e1b7671  data/462.libquantum/full
+dbdc8cc5f6eb3f6be2027e1ba82b32a41343e2859e0878fe39db54bb2e1b7671  data/462.libquantum/no_dce

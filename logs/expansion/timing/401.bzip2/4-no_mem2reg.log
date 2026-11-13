@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full -3 < input.ref > /dev/null
+  Time (abs ≡):         1.870 s               [User: 1.867 s, System: 0.002 s]
+ 
+Benchmark 2: taskset -c 2 ../no_mem2reg -3 < input.ref > /dev/null
+  Time (abs ≡):         3.003 s               [User: 2.994 s, System: 0.006 s]
+ 
+Summary
+  'taskset -c 2 ../full -3 < input.ref > /dev/null' ran
+    1.61 times faster than 'taskset -c 2 ../no_mem2reg -3 < input.ref > /dev/null'

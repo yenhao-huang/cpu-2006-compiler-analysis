@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_unroll -s water.tpr -deffnm timed
+  Time (abs ≡):         1.687 s               [User: 1.557 s, System: 0.002 s]
+ 
+Benchmark 2: taskset -c 2 ../full -s water.tpr -deffnm timed
+  Time (abs ≡):         1.658 s               [User: 1.651 s, System: 0.003 s]
+ 
+Summary
+  'taskset -c 2 ../full -s water.tpr -deffnm timed' ran
+    1.02 times faster than 'taskset -c 2 ../no_unroll -s water.tpr -deffnm timed'

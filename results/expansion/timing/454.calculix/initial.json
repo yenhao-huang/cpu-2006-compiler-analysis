@@ -1,0 +1,232 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ./no_vectors 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.0850368069,
+      "stddev": null,
+      "median": 0.0850368069,
+      "user": 0.08021089999999999,
+      "system": 0.0047899399999999995,
+      "min": 0.0850368069,
+      "max": 0.0850368069,
+      "times": [
+        0.0850368069
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_vectors"
+      }
+    },
+    {
+      "command": "taskset -c 2 ./o3 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.0880317649,
+      "stddev": null,
+      "median": 0.0880317649,
+      "user": 0.08340189999999999,
+      "system": 0.004598939999999999,
+      "min": 0.0880317649,
+      "max": 0.0880317649,
+      "times": [
+        0.0880317649
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 ./no_inline 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.0895163089,
+      "stddev": null,
+      "median": 0.0895163089,
+      "user": 0.08376689999999999,
+      "system": 0.005747939999999999,
+      "min": 0.0895163089,
+      "max": 0.0895163089,
+      "times": [
+        0.0895163089
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_inline"
+      }
+    },
+    {
+      "command": "taskset -c 2 ./no_mem2reg 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.0931246269,
+      "stddev": null,
+      "median": 0.0931246269,
+      "user": 0.09029889999999999,
+      "system": 0.00279594,
+      "min": 0.0931246269,
+      "max": 0.0931246269,
+      "times": [
+        0.0931246269
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_mem2reg"
+      }
+    },
+    {
+      "command": "taskset -c 2 ./baseline 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.1911771839,
+      "stddev": null,
+      "median": 0.1911771839,
+      "user": 0.1835849,
+      "system": 0.0075609399999999995,
+      "min": 0.1911771839,
+      "max": 0.1911771839,
+      "times": [
+        0.1911771839
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "baseline"
+      }
+    },
+    {
+      "command": "taskset -c 2 ./no_slp 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.0779019109,
+      "stddev": null,
+      "median": 0.0779019109,
+      "user": 0.07424889999999999,
+      "system": 0.00364794,
+      "min": 0.0779019109,
+      "max": 0.0779019109,
+      "times": [
+        0.0779019109
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_slp"
+      }
+    },
+    {
+      "command": "taskset -c 2 ./no_loop_vectorize 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.0921923929,
+      "stddev": null,
+      "median": 0.0921923929,
+      "user": 0.0846169,
+      "system": 0.0075349399999999995,
+      "min": 0.0921923929,
+      "max": 0.0921923929,
+      "times": [
+        0.0921923929
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_loop_vectorize"
+      }
+    },
+    {
+      "command": "taskset -c 2 ./full 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.08595511189999999,
+      "stddev": null,
+      "median": 0.08595511189999999,
+      "user": 0.0791369,
+      "system": 0.006773939999999999,
+      "min": 0.08595511189999999,
+      "max": 0.08595511189999999,
+      "times": [
+        0.08595511189999999
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 ./no_unroll 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.0866391559,
+      "stddev": null,
+      "median": 0.0866391559,
+      "user": 0.07993789999999999,
+      "system": 0.006641939999999999,
+      "min": 0.0866391559,
+      "max": 0.0866391559,
+      "times": [
+        0.0866391559
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_unroll"
+      }
+    },
+    {
+      "command": "taskset -c 2 ./no_simplifycfg 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.0883961579,
+      "stddev": null,
+      "median": 0.0883961579,
+      "user": 0.0816499,
+      "system": 0.00672594,
+      "min": 0.0883961579,
+      "max": 0.0883961579,
+      "times": [
+        0.0883961579
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_simplifycfg"
+      }
+    },
+    {
+      "command": "taskset -c 2 ./no_licm 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.0914407519,
+      "stddev": null,
+      "median": 0.0914407519,
+      "user": 0.0848849,
+      "system": 0.0065089399999999995,
+      "min": 0.0914407519,
+      "max": 0.0914407519,
+      "times": [
+        0.0914407519
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_licm"
+      }
+    },
+    {
+      "command": "taskset -c 2 ./no_dce 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.0879563029,
+      "stddev": null,
+      "median": 0.0879563029,
+      "user": 0.0783769,
+      "system": 0.00951994,
+      "min": 0.0879563029,
+      "max": 0.0879563029,
+      "times": [
+        0.0879563029
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_dce"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../full < stdin",
+      "mean": 0.48598541324000005,
+      "stddev": null,
+      "median": 0.48598541324000005,
+      "user": 0.48107205999999997,
+      "system": 0.00483978,
+      "min": 0.48598541324000005,
+      "max": 0.48598541324000005,
+      "times": [
+        0.48598541324000005
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_vectors < stdin",
+      "mean": 0.48612805724,
+      "stddev": null,
+      "median": 0.48612805724,
+      "user": 0.48251805999999997,
+      "system": 0.0034737799999999997,
+      "min": 0.48612805724,
+      "max": 0.48612805724,
+      "times": [
+        0.48612805724
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_vectors"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../o3 < stdin",
+      "mean": 0.42009138320000006,
+      "stddev": null,
+      "median": 0.42009138320000006,
+      "user": 0.41622971999999997,
+      "system": 0.00382544,
+      "min": 0.42009138320000006,
+      "max": 0.42009138320000006,
+      "times": [
+        0.42009138320000006
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../full < stdin",
+      "mean": 0.5265861282,
+      "stddev": null,
+      "median": 0.5265861282,
+      "user": 0.51508172,
+      "system": 0.0034844399999999997,
+      "min": 0.5265861282,
+      "max": 0.5265861282,
+      "times": [
+        0.5265861282
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

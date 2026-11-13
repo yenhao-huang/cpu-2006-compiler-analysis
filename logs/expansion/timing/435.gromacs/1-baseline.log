@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../baseline -s water.tpr -deffnm timed
+  Time (abs ≡):         2.757 s               [User: 2.755 s, System: 0.002 s]
+ 
+Benchmark 2: taskset -c 2 ../full -s water.tpr -deffnm timed
+  Time (abs ≡):         1.499 s               [User: 1.496 s, System: 0.002 s]
+ 
+Summary
+  'taskset -c 2 ../full -s water.tpr -deffnm timed' ran
+    1.84 times faster than 'taskset -c 2 ../baseline -s water.tpr -deffnm timed'

@@ -1,0 +1,9 @@
+Benchmark 1: ulimit -s unlimited; taskset -c 2 ../no_licm
+  Time (abs ≡):         1.068 s               [User: 1.049 s, System: 0.019 s]
+ 
+Benchmark 2: ulimit -s unlimited; taskset -c 2 ../full
+  Time (abs ≡):        767.3 ms               [User: 750.7 ms, System: 16.5 ms]
+ 
+Summary
+  'ulimit -s unlimited; taskset -c 2 ../full' ran
+    1.39 times faster than 'ulimit -s unlimited; taskset -c 2 ../no_licm'

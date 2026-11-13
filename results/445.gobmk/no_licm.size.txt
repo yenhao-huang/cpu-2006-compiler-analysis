@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+2307777	2027012	2328992	6663781	 65ae65	data/445.gobmk/no_licm

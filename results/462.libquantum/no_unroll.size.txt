@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  51042	    804	     96	  51942	   cae6	data/462.libquantum/no_unroll

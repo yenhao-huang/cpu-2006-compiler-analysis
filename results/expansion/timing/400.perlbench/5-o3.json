@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 ../o3 t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.33935317570000006,
+      "stddev": null,
+      "median": 0.33935317570000006,
+      "user": 0.29848931999999995,
+      "system": 0.036954379999999995,
+      "min": 0.33935317570000006,
+      "max": 0.33935317570000006,
+      "times": [
+        0.33935317570000006
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 ../full t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.3583162207,
+      "stddev": null,
+      "median": 0.3583162207,
+      "user": 0.32416431999999995,
+      "system": 0.030823379999999997,
+      "min": 0.3583162207,
+      "max": 0.3583162207,
+      "times": [
+        0.3583162207
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+data/445.gobmk/full  :
+section                 size      addr
+.interp                   28       792
+.note.gnu.property        32       824
+.note.gnu.build-id        36       856
+.note.ABI-tag             32       892
+.hash                    364       928
+.gnu.hash                 40      1296
+.dynsym                 1248      1336
+.dynstr                  526      2584
+.gnu.version             104      3110
+.gnu.version_r           128      3216
+.rela.dyn             517008      3344
+.rela.plt               1008    520352
+.init                     23    524288
+.plt                     688    524320
+.plt.got                   8    525008
+.text                 933981    525024
+.fini                      9   1459008
+.rodata               731094   1462272
+.eh_frame_hdr          19940   2193368
+.eh_frame             121364   2213312
+.init_array                8   2335344
+.fini_array                8   2335352
+.data.rel.ro            2848   2335360
+.dynamic                 512   2338208
+.got                      64   2338720
+.got.plt                 360   2338792
+.data                2023212   2339152
+.bss                 2328992   4362368
+.comment                  67         0
+Total                6683732
+
+

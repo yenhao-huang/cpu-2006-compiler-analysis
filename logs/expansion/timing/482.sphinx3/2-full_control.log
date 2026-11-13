@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full_control ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+  Time (abs ≡):         1.125 s               [User: 0.946 s, System: 0.174 s]
+ 
+Benchmark 2: taskset -c 2 ../full ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test
+  Time (abs ≡):         1.121 s               [User: 0.953 s, System: 0.165 s]
+ 
+Summary
+  'taskset -c 2 ../full ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test' ran
+    1.00 times faster than 'taskset -c 2 ../full_control ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test'

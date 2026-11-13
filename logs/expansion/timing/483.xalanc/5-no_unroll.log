@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_unroll -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):        981.1 ms               [User: 934.6 ms, System: 46.4 ms]
+ 
+Benchmark 2: taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl
+  Time (abs ≡):        973.8 ms               [User: 919.0 ms, System: 54.6 ms]
+ 
+Summary
+  'taskset -c 2 ../full -o /dev/null birds5000.xml birds.xsl' ran
+    1.01 times faster than 'taskset -c 2 ../no_unroll -o /dev/null birds5000.xml birds.xsl'

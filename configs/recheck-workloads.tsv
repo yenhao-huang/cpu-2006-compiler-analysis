@@ -1,0 +1,3 @@
+403.gcc	.	taskset -c 2 data/403.gcc/{variant} spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null
+445.gobmk	spec-cpu2006-redist/modified/445.gobmk/data/all/input	taskset -c 2 /workspace/compiler_optimization/transform_pass_research/data/445.gobmk/{variant} --quiet --mode gtp < /workspace/compiler_optimization/transform_pass_research/spec-cpu2006-redist/modified/445.gobmk/data/train/input/arb.tst
+462.libquantum	.	taskset -c 2 data/462.libquantum/{variant} 143 25

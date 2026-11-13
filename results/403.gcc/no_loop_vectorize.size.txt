@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+4162027	 161216	 749656	5072899	 4d6803	data/403.gcc/no_loop_vectorize

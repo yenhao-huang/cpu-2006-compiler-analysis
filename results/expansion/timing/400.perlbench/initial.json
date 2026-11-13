@@ -1,0 +1,232 @@
+{
+  "results": [
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 ../no_loop_vectorize t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.32761172266,
+      "stddev": null,
+      "median": 0.32761172266,
+      "user": 0.29532265999999996,
+      "system": 0.03194392,
+      "min": 0.32761172266,
+      "max": 0.32761172266,
+      "times": [
+        0.32761172266
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_loop_vectorize"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 ../no_licm t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.33578967966,
+      "stddev": null,
+      "median": 0.33578967966,
+      "user": 0.30537465999999996,
+      "system": 0.02992392,
+      "min": 0.33578967966,
+      "max": 0.33578967966,
+      "times": [
+        0.33578967966
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_licm"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 ../o3 t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.31716648766,
+      "stddev": null,
+      "median": 0.31716648766,
+      "user": 0.28446066,
+      "system": 0.03205992,
+      "min": 0.31716648766,
+      "max": 0.31716648766,
+      "times": [
+        0.31716648766
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 ../baseline t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.49238500166000004,
+      "stddev": null,
+      "median": 0.49238500166000004,
+      "user": 0.46587865999999994,
+      "system": 0.02565692,
+      "min": 0.49238500166000004,
+      "max": 0.49238500166000004,
+      "times": [
+        0.49238500166000004
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "baseline"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 ../no_dce t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.35149319866,
+      "stddev": null,
+      "median": 0.35149319866,
+      "user": 0.31524366,
+      "system": 0.035631920000000004,
+      "min": 0.35149319866,
+      "max": 0.35149319866,
+      "times": [
+        0.35149319866
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_dce"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 ../no_mem2reg t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.43774082666,
+      "stddev": null,
+      "median": 0.43774082666,
+      "user": 0.40751965999999995,
+      "system": 0.029774919999999996,
+      "min": 0.43774082666,
+      "max": 0.43774082666,
+      "times": [
+        0.43774082666
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_mem2reg"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 ../no_slp t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.34739571066,
+      "stddev": null,
+      "median": 0.34739571066,
+      "user": 0.31663566,
+      "system": 0.03015192,
+      "min": 0.34739571066,
+      "max": 0.34739571066,
+      "times": [
+        0.34739571066
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_slp"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 ../no_inline t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.35925117066,
+      "stddev": null,
+      "median": 0.35925117066,
+      "user": 0.33018465999999996,
+      "system": 0.02848992,
+      "min": 0.35925117066,
+      "max": 0.35925117066,
+      "times": [
+        0.35925117066
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_inline"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 ../no_unroll t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.35194943366000003,
+      "stddev": null,
+      "median": 0.35194943366000003,
+      "user": 0.32086865999999997,
+      "system": 0.03045792,
+      "min": 0.35194943366000003,
+      "max": 0.35194943366000003,
+      "times": [
+        0.35194943366000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_unroll"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 ../no_vectors t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.34021560566000003,
+      "stddev": null,
+      "median": 0.34021560566000003,
+      "user": 0.30372965999999996,
+      "system": 0.03602092,
+      "min": 0.34021560566000003,
+      "max": 0.34021560566000003,
+      "times": [
+        0.34021560566000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_vectors"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 ../no_simplifycfg t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.32679415466,
+      "stddev": null,
+      "median": 0.32679415466,
+      "user": 0.29700266,
+      "system": 0.029317919999999997,
+      "min": 0.32679415466,
+      "max": 0.32679415466,
+      "times": [
+        0.32679415466
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_simplifycfg"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 ../full t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.34592474466,
+      "stddev": null,
+      "median": 0.34592474466,
+      "user": 0.31057865999999995,
+      "system": 0.03170592,
+      "min": 0.34592474466,
+      "max": 0.34592474466,
+      "times": [
+        0.34592474466
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

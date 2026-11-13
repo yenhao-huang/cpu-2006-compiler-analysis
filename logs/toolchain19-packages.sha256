@@ -1,0 +1,10 @@
+89ab931a9bbfd567a76df3141af5d5ec67b01d800150e614f2c9bf4671da9b08  external/debs19/clang-19_1%3a19.1.7-3~deb12u1_amd64.deb
+01e053b21c56a0482e54257f26c9ce198cd7a11b68226d26b9dcd33e64bcbc4f  external/debs19/flang-19_1%3a19.1.7-3~deb12u1_amd64.deb
+811c2d398ad772204ec05ffde485cbbc4c210abc5dcf0068ff9ca3e647591ce7  external/debs19/libclang-common-19-dev_1%3a19.1.7-3~deb12u1_amd64.deb
+5daa784e1d747db320c16604729ffa805e6bfd72d3ac0b7cb0ee5f1a7ebc8aae  external/debs19/libclang-cpp19_1%3a19.1.7-3~deb12u1_amd64.deb
+0e5cf7d98563ef2c74339d608b219a2b113e7c91c2834dabaeee423ce3bf2f96  external/debs19/libclang1-19_1%3a19.1.7-3~deb12u1_amd64.deb
+6aee1ed63f42e2a54b32e01327ef6deb7eb495e19ad23fcde585906f59340f6e  external/debs19/libflang-19-dev_1%3a19.1.7-3~deb12u1_amd64.deb
+6edf3a8b28495cdba883d9760e0dca1a81983fc497a5f989dc64d0d96d23b4aa  external/debs19/libllvm19_1%3a19.1.7-3~deb12u1_amd64.deb
+448ced8f4e6969a8adaee9a4822fced6f1604a8ee8fcd32aa70328c7d83a68d9  external/debs19/llvm-19-linker-tools_1%3a19.1.7-3~deb12u1_amd64.deb
+14438dffd5b6da5edd4e3ba3131663ed1d1db3d02933bcc6b7920f990f060090  external/debs19/llvm-19-runtime_1%3a19.1.7-3~deb12u1_amd64.deb
+f91492c5b361ff12f540b9f6145cf638b5e0fb3f145fceabd6c4b9540eab4bf9  external/debs19/llvm-19_1%3a19.1.7-3~deb12u1_amd64.deb

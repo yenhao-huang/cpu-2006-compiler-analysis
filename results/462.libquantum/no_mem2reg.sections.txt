@@ -1,0 +1,33 @@
+data/462.libquantum/no_mem2reg  :
+section               size    addr
+.interp                 28     792
+.note.gnu.property      32     824
+.note.gnu.build-id      36     856
+.note.ABI-tag           32     892
+.hash                  196     928
+.gnu.hash               36    1128
+.dynsym                720    1168
+.dynstr                300    1888
+.gnu.version            60    2188
+.gnu.version_r          96    2248
+.rela.dyn              216    2344
+.rela.plt              552    2560
+.init                   23    4096
+.plt                   384    4128
+.plt.got                 8    4512
+.text                43886    4528
+.fini                    9   48416
+.rodata               3120   49152
+.eh_frame_hdr          820   52272
+.eh_frame             4520   53096
+.init_array              8   64936
+.fini_array              8   64944
+.dynamic               512   64952
+.got                    48   65464
+.got.plt               208   65512
+.data                   20   65720
+.bss                    96   65744
+.comment                67       0
+Total                56041
+
+

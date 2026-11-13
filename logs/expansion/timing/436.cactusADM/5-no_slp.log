@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_slp test_Bench.par
+  Time (abs ≡):         28.3 ms               [User: 26.5 ms, System: 1.8 ms]
+ 
+Benchmark 2: taskset -c 2 ../full test_Bench.par
+  Time (abs ≡):         28.2 ms               [User: 25.7 ms, System: 2.4 ms]
+ 
+Summary
+  'taskset -c 2 ../full test_Bench.par' ran
+    1.00 times faster than 'taskset -c 2 ../no_slp test_Bench.par'

@@ -1,0 +1,49 @@
+Benchmark 1: taskset -c 2 ../no_mem2reg -s water.tpr -deffnm timed
+  Time (abs ≡):         2.195 s               [User: 2.189 s, System: 0.005 s]
+ 
+Benchmark 2: taskset -c 2 ../no_inline -s water.tpr -deffnm timed
+  Time (abs ≡):         1.631 s               [User: 1.630 s, System: 0.001 s]
+ 
+Benchmark 3: taskset -c 2 ../full -s water.tpr -deffnm timed
+  Time (abs ≡):         1.535 s               [User: 1.530 s, System: 0.003 s]
+ 
+Benchmark 4: taskset -c 2 ../no_slp -s water.tpr -deffnm timed
+  Time (abs ≡):         1.581 s               [User: 1.581 s, System: 0.000 s]
+ 
+Benchmark 5: taskset -c 2 ../no_licm -s water.tpr -deffnm timed
+  Time (abs ≡):         1.519 s               [User: 1.518 s, System: 0.001 s]
+ 
+Benchmark 6: taskset -c 2 ../no_unroll -s water.tpr -deffnm timed
+  Time (abs ≡):         1.519 s               [User: 1.513 s, System: 0.003 s]
+ 
+Benchmark 7: taskset -c 2 ../no_simplifycfg -s water.tpr -deffnm timed
+  Time (abs ≡):         1.567 s               [User: 1.565 s, System: 0.001 s]
+ 
+Benchmark 8: taskset -c 2 ../no_dce -s water.tpr -deffnm timed
+  Time (abs ≡):         1.559 s               [User: 1.557 s, System: 0.002 s]
+ 
+Benchmark 9: taskset -c 2 ../no_vectors -s water.tpr -deffnm timed
+  Time (abs ≡):         1.670 s               [User: 1.669 s, System: 0.001 s]
+ 
+Benchmark 10: taskset -c 2 ../o3 -s water.tpr -deffnm timed
+  Time (abs ≡):         1.451 s               [User: 1.448 s, System: 0.001 s]
+ 
+Benchmark 11: taskset -c 2 ../baseline -s water.tpr -deffnm timed
+  Time (abs ≡):         2.858 s               [User: 2.855 s, System: 0.002 s]
+ 
+Benchmark 12: taskset -c 2 ../no_loop_vectorize -s water.tpr -deffnm timed
+  Time (abs ≡):         1.567 s               [User: 1.564 s, System: 0.003 s]
+ 
+Summary
+  'taskset -c 2 ../o3 -s water.tpr -deffnm timed' ran
+    1.05 times faster than 'taskset -c 2 ../no_unroll -s water.tpr -deffnm timed'
+    1.05 times faster than 'taskset -c 2 ../no_licm -s water.tpr -deffnm timed'
+    1.06 times faster than 'taskset -c 2 ../full -s water.tpr -deffnm timed'
+    1.07 times faster than 'taskset -c 2 ../no_dce -s water.tpr -deffnm timed'
+    1.08 times faster than 'taskset -c 2 ../no_simplifycfg -s water.tpr -deffnm timed'
+    1.08 times faster than 'taskset -c 2 ../no_loop_vectorize -s water.tpr -deffnm timed'
+    1.09 times faster than 'taskset -c 2 ../no_slp -s water.tpr -deffnm timed'
+    1.12 times faster than 'taskset -c 2 ../no_inline -s water.tpr -deffnm timed'
+    1.15 times faster than 'taskset -c 2 ../no_vectors -s water.tpr -deffnm timed'
+    1.51 times faster than 'taskset -c 2 ../no_mem2reg -s water.tpr -deffnm timed'
+    1.97 times faster than 'taskset -c 2 ../baseline -s water.tpr -deffnm timed'

@@ -1,0 +1,304 @@
+ &TIME_CONTROL RUN_DAYS= 0,RUN_HOURS= 0,RUN_MINUTES= 20,RUN_SECONDS= 0,
+ START_YEAR= 1 1993 1993 1993 1993 1993 1993 1993 1993 1993 1993,START_MONTH= 1
+ 3 3 3 3 3 3 3 3 3 3,START_DAY= 1 13 13 13 13 13 13 13 13 13 13,START_HOUR= 0
+ 12 12 12 12 12 12 12 12 12 12,START_MINUTE= 0 0 0 0 0 0 0 0 0 0 0,
+ START_SECOND= 0 0 0 0 0 0 0 0 0 0 0,END_YEAR= 1 1993 1993 1993 1993 1993 1993
+ 1993 1993 1993 1993,END_MONTH= 1 3 3 3 3 3 3 3 3 3 3,END_DAY= 1 14 14 14 14 14
+ 14 14 14 14 14,END_HOUR= 0 12 12 12 12 12 12 12 12 12 12,END_MINUTE= 20 0 0 0
+ 0 0 0 0 0 0 0,END_SECOND= 0 0 0 0 0 0 0 0 0 0 0,INTERVAL_SECONDS= 43200,
+ INPUT_FROM_FILE= F F F F F F F F F F F,HISTORY_INTERVAL= 10 0 0 0 0 0 0 0 0 0
+ 0,FRAMES_PER_OUTFILE= 1000 10 10 10 10 10 10 10 10 10 10,RESTART= F,
+ RESTART_INTERVAL= 120,IO_FORM_INPUT= 2,IO_FORM_HISTORY= 2,IO_FORM_RESTART= 2,
+ IO_FORM_BOUNDARY= 2,DEBUG_LEVEL= 0,HISTORY_OUTNAME= wrfout_d<domain>_<date>   
+                                                                               
+                                                                               
+                                                                           ,
+ AUXHIST1_OUTNAME= auxhist1_d<domain>_<date>                                   
+                                                                               
+                                                                               
+                                         ,AUXHIST2_OUTNAME= auxhist2_d<domain>_
+ <date>                                                                        
+                                                                               
+                                                                               
+    ,AUXHIST3_OUTNAME= auxhist3_d<domain>_<date>                               
+                                                                               
+                                                                               
+                                             ,AUXHIST4_OUTNAME= auxhist4_d<doma
+ in>_<date>                                                                    
+                                                                               
+                                                                               
+        ,AUXHIST5_OUTNAME= auxhist5_d<domain>_<date>                           
+                                                                               
+                                                                               
+                                                 ,HISTORY_INNAME= wrfhist_d<dom
+ ain>_<date>                                                                   
+                                                                               
+                                                                               
+          ,AUXHIST1_INNAME= auxhist1_d<domain>_<date>                          
+                                                                               
+                                                                               
+                                                  ,AUXHIST2_INNAME= auxhist2_d<
+ domain>_<date>                                                                
+                                                                               
+                                                                               
+            ,AUXHIST3_INNAME= auxhist3_d<domain>_<date>                        
+                                                                               
+                                                                               
+                                                    ,AUXHIST4_INNAME= auxhist4_
+ d<domain>_<date>                                                              
+                                                                               
+                                                                               
+              ,AUXHIST5_INNAME= auxhist5_d<domain>_<date>                      
+                                                                               
+                                                                               
+                                                      ,HISTORY_INTERVAL_MO= 0 0
+ 0 0 0 0 0 0 0 0 0,HISTORY_INTERVAL_D= 0 0 0 0 0 0 0 0 0 0 0,
+ HISTORY_INTERVAL_H= 0 0 0 0 0 0 0 0 0 0 0,HISTORY_INTERVAL_M= 0 0 0 0 0 0 0 0
+ 0 0 0,HISTORY_INTERVAL_S= 0 0 0 0 0 0 0 0 0 0 0,INPUTOUT_INTERVAL_MO= 0 0 0 0
+ 0 0 0 0 0 0 0,INPUTOUT_INTERVAL_D= 0 0 0 0 0 0 0 0 0 0 0,INPUTOUT_INTERVAL_H=
+ 0 0 0 0 0 0 0 0 0 0 0,INPUTOUT_INTERVAL_M= 0 0 0 0 0 0 0 0 0 0 0,
+ INPUTOUT_INTERVAL_S= 0 0 0 0 0 0 0 0 0 0 0,INPUTOUT_INTERVAL= 0 0 0 0 0 0 0 0
+ 0 0 0,AUXHIST1_INTERVAL_MO= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST1_INTERVAL_D= 0 0 0 0
+ 0 0 0 0 0 0 0,AUXHIST1_INTERVAL_H= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST1_INTERVAL_M=
+ 0 0 0 0 0 0 0 0 0 0 0,AUXHIST1_INTERVAL_S= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST1_INTERVAL= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST2_INTERVAL_MO= 0 0 0 0 0 0 0 0
+ 0 0 0,AUXHIST2_INTERVAL_D= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST2_INTERVAL_H= 0 0 0 0
+ 0 0 0 0 0 0 0,AUXHIST2_INTERVAL_M= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST2_INTERVAL_S=
+ 0 0 0 0 0 0 0 0 0 0 0,AUXHIST2_INTERVAL= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST3_INTERVAL_MO= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST3_INTERVAL_D= 0 0 0 0 0 0 0
+ 0 0 0 0,AUXHIST3_INTERVAL_H= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST3_INTERVAL_M= 0 0 0
+ 0 0 0 0 0 0 0 0,AUXHIST3_INTERVAL_S= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST3_INTERVAL=
+ 0 0 0 0 0 0 0 0 0 0 0,AUXHIST4_INTERVAL_MO= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST4_INTERVAL_D= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST4_INTERVAL_H= 0 0 0 0 0 0 0
+ 0 0 0 0,AUXHIST4_INTERVAL_M= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST4_INTERVAL_S= 0 0 0
+ 0 0 0 0 0 0 0 0,AUXHIST4_INTERVAL= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST5_INTERVAL_MO=
+ 0 0 0 0 0 0 0 0 0 0 0,AUXHIST5_INTERVAL_D= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST5_INTERVAL_H= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST5_INTERVAL_M= 0 0 0 0 0 0 0
+ 0 0 0 0,AUXHIST5_INTERVAL_S= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST5_INTERVAL= 0 0 0 0
+ 0 0 0 0 0 0 0,AUXINPUT1_INTERVAL_MO= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXINPUT1_INTERVAL_D= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT1_INTERVAL_H= 0 0 0 0 0 0
+ 0 0 0 0 0,AUXINPUT1_INTERVAL_M= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT1_INTERVAL_S= 0
+ 0 0 0 0 0 0 0 0 0 0,AUXINPUT1_INTERVAL= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXINPUT2_INTERVAL_MO= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT2_INTERVAL_D= 0 0 0 0 0 0
+ 0 0 0 0 0,AUXINPUT2_INTERVAL_H= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT2_INTERVAL_M= 0
+ 0 0 0 0 0 0 0 0 0 0,AUXINPUT2_INTERVAL_S= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXINPUT2_INTERVAL= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT3_INTERVAL_MO= 0 0 0 0 0 0 0
+ 0 0 0 0,AUXINPUT3_INTERVAL_D= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT3_INTERVAL_H= 0 0
+ 0 0 0 0 0 0 0 0 0,AUXINPUT3_INTERVAL_M= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXINPUT3_INTERVAL_S= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT3_INTERVAL= 0 0 0 0 0 0 0
+ 0 0 0 0,AUXINPUT4_INTERVAL_MO= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT4_INTERVAL_D= 0 0
+ 0 0 0 0 0 0 0 0 0,AUXINPUT4_INTERVAL_H= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXINPUT4_INTERVAL_M= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT4_INTERVAL_S= 0 0 0 0 0 0
+ 0 0 0 0 0,AUXINPUT4_INTERVAL= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT5_INTERVAL_MO= 0 0
+ 0 0 0 0 0 0 0 0 0,AUXINPUT5_INTERVAL_D= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXINPUT5_INTERVAL_H= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT5_INTERVAL_M= 0 0 0 0 0 0
+ 0 0 0 0 0,AUXINPUT5_INTERVAL_S= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT5_INTERVAL= 0 0
+ 0 0 0 0 0 0 0 0 0,RESTART_INTERVAL_MO= 0,RESTART_INTERVAL_D= 0,
+ RESTART_INTERVAL_H= 0,RESTART_INTERVAL_M= 0,RESTART_INTERVAL_S= 0,
+ HISTORY_BEGIN_Y= 0 0 0 0 0 0 0 0 0 0 0,HISTORY_BEGIN_MO= 0 0 0 0 0 0 0 0 0 0 0
+ ,HISTORY_BEGIN_D= 0 0 0 0 0 0 0 0 0 0 0,HISTORY_BEGIN_H= 0 0 0 0 0 0 0 0 0 0 0
+ ,HISTORY_BEGIN_M= 0 0 0 0 0 0 0 0 0 0 0,HISTORY_BEGIN_S= 0 0 0 0 0 0 0 0 0 0 0
+ ,INPUTOUT_BEGIN_Y= 0 0 0 0 0 0 0 0 0 0 0,INPUTOUT_BEGIN_MO= 0 0 0 0 0 0 0 0 0
+ 0 0,INPUTOUT_BEGIN_D= 0 0 0 0 0 0 0 0 0 0 0,INPUTOUT_BEGIN_H= 0 0 0 0 0 0 0 0
+ 0 0 0,INPUTOUT_BEGIN_M= 0 0 0 0 0 0 0 0 0 0 0,INPUTOUT_BEGIN_S= 0 0 0 0 0 0 0
+ 0 0 0 0,AUXHIST1_BEGIN_Y= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST1_BEGIN_MO= 0 0 0 0 0 0
+ 0 0 0 0 0,AUXHIST1_BEGIN_D= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST1_BEGIN_H= 0 0 0 0 0
+ 0 0 0 0 0 0,AUXHIST1_BEGIN_M= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST1_BEGIN_S= 0 0 0 0
+ 0 0 0 0 0 0 0,AUXHIST2_BEGIN_Y= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST2_BEGIN_MO= 0 0 0
+ 0 0 0 0 0 0 0 0,AUXHIST2_BEGIN_D= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST2_BEGIN_H= 0 0
+ 0 0 0 0 0 0 0 0 0,AUXHIST2_BEGIN_M= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST2_BEGIN_S= 0
+ 0 0 0 0 0 0 0 0 0 0,AUXHIST3_BEGIN_Y= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST3_BEGIN_MO=
+ 0 0 0 0 0 0 0 0 0 0 0,AUXHIST3_BEGIN_D= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST3_BEGIN_H= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST3_BEGIN_M= 0 0 0 0 0 0 0 0 0 0
+ 0,AUXHIST3_BEGIN_S= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST4_BEGIN_Y= 0 0 0 0 0 0 0 0 0
+ 0 0,AUXHIST4_BEGIN_MO= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST4_BEGIN_D= 0 0 0 0 0 0 0 0
+ 0 0 0,AUXHIST4_BEGIN_H= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST4_BEGIN_M= 0 0 0 0 0 0 0
+ 0 0 0 0,AUXHIST4_BEGIN_S= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST5_BEGIN_Y= 0 0 0 0 0 0
+ 0 0 0 0 0,AUXHIST5_BEGIN_MO= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST5_BEGIN_D= 0 0 0 0 0
+ 0 0 0 0 0 0,AUXHIST5_BEGIN_H= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST5_BEGIN_M= 0 0 0 0
+ 0 0 0 0 0 0 0,AUXHIST5_BEGIN_S= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT1_BEGIN_Y= 0 0 0
+ 0 0 0 0 0 0 0 0,AUXINPUT1_BEGIN_MO= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT1_BEGIN_D= 0
+ 0 0 0 0 0 0 0 0 0 0,AUXINPUT1_BEGIN_H= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXINPUT1_BEGIN_M= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT1_BEGIN_S= 0 0 0 0 0 0 0 0 0
+ 0 0,AUXINPUT2_BEGIN_Y= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT2_BEGIN_MO= 0 0 0 0 0 0 0
+ 0 0 0 0,AUXINPUT2_BEGIN_D= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT2_BEGIN_H= 0 0 0 0 0
+ 0 0 0 0 0 0,AUXINPUT2_BEGIN_M= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT2_BEGIN_S= 0 0 0
+ 0 0 0 0 0 0 0 0,AUXINPUT3_BEGIN_Y= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT3_BEGIN_MO= 0
+ 0 0 0 0 0 0 0 0 0 0,AUXINPUT3_BEGIN_D= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXINPUT3_BEGIN_H= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT3_BEGIN_M= 0 0 0 0 0 0 0 0 0
+ 0 0,AUXINPUT3_BEGIN_S= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT4_BEGIN_Y= 0 0 0 0 0 0 0
+ 0 0 0 0,AUXINPUT4_BEGIN_MO= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT4_BEGIN_D= 0 0 0 0 0
+ 0 0 0 0 0 0,AUXINPUT4_BEGIN_H= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT4_BEGIN_M= 0 0 0
+ 0 0 0 0 0 0 0 0,AUXINPUT4_BEGIN_S= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT5_BEGIN_Y= 0
+ 0 0 0 0 0 0 0 0 0 0,AUXINPUT5_BEGIN_MO= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXINPUT5_BEGIN_D= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT5_BEGIN_H= 0 0 0 0 0 0 0 0 0
+ 0 0,AUXINPUT5_BEGIN_M= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT5_BEGIN_S= 0 0 0 0 0 0 0
+ 0 0 0 0,RESTART_BEGIN_Y= 0,RESTART_BEGIN_MO= 0,RESTART_BEGIN_D= 0,
+ RESTART_BEGIN_H= 0,RESTART_BEGIN_M= 0,RESTART_BEGIN_S= 0,HISTORY_END_Y= 0 0 0
+ 0 0 0 0 0 0 0 0,HISTORY_END_MO= 0 0 0 0 0 0 0 0 0 0 0,HISTORY_END_D= 0 0 0 0 0
+ 0 0 0 0 0 0,HISTORY_END_H= 0 0 0 0 0 0 0 0 0 0 0,HISTORY_END_M= 0 0 0 0 0 0 0
+ 0 0 0 0,HISTORY_END_S= 0 0 0 0 0 0 0 0 0 0 0,INPUTOUT_END_Y= 0 0 0 0 0 0 0 0 0
+ 0 0,INPUTOUT_END_MO= 0 0 0 0 0 0 0 0 0 0 0,INPUTOUT_END_D= 0 0 0 0 0 0 0 0 0 0
+ 0,INPUTOUT_END_H= 0 0 0 0 0 0 0 0 0 0 0,INPUTOUT_END_M= 0 0 0 0 0 0 0 0 0 0 0,
+ INPUTOUT_END_S= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST1_END_Y= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST1_END_MO= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST1_END_D= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST1_END_H= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST1_END_M= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST1_END_S= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST2_END_Y= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST2_END_MO= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST2_END_D= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST2_END_H= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST2_END_M= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST2_END_S= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST3_END_Y= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST3_END_MO= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST3_END_D= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST3_END_H= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST3_END_M= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST3_END_S= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST4_END_Y= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST4_END_MO= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST4_END_D= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST4_END_H= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST4_END_M= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST4_END_S= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST5_END_Y= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST5_END_MO= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST5_END_D= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST5_END_H= 0 0 0 0 0 0 0 0 0 0 0,AUXHIST5_END_M= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXHIST5_END_S= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT1_END_Y= 0 0 0 0 0 0 0 0 0 0 0,
+ AUXINPUT1_END_MO= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT1_END_D= 0 0 0 0 0 0 0 0 0 0 0
+ ,AUXINPUT1_END_H= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT1_END_M= 0 0 0 0 0 0 0 0 0 0 0
+ ,AUXINPUT1_END_S= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT2_END_Y= 0 0 0 0 0 0 0 0 0 0 0
+ ,AUXINPUT2_END_MO= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT2_END_D= 0 0 0 0 0 0 0 0 0 0
+ 0,AUXINPUT2_END_H= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT2_END_M= 0 0 0 0 0 0 0 0 0 0
+ 0,AUXINPUT2_END_S= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT3_END_Y= 0 0 0 0 0 0 0 0 0 0
+ 0,AUXINPUT3_END_MO= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT3_END_D= 0 0 0 0 0 0 0 0 0 0
+ 0,AUXINPUT3_END_H= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT3_END_M= 0 0 0 0 0 0 0 0 0 0
+ 0,AUXINPUT3_END_S= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT4_END_Y= 0 0 0 0 0 0 0 0 0 0
+ 0,AUXINPUT4_END_MO= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT4_END_D= 0 0 0 0 0 0 0 0 0 0
+ 0,AUXINPUT4_END_H= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT4_END_M= 0 0 0 0 0 0 0 0 0 0
+ 0,AUXINPUT4_END_S= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT5_END_Y= 0 0 0 0 0 0 0 0 0 0
+ 0,AUXINPUT5_END_MO= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT5_END_D= 0 0 0 0 0 0 0 0 0 0
+ 0,AUXINPUT5_END_H= 0 0 0 0 0 0 0 0 0 0 0,AUXINPUT5_END_M= 0 0 0 0 0 0 0 0 0 0
+ 0,AUXINPUT5_END_S= 0 0 0 0 0 0 0 0 0 0 0,IO_FORM_AUXINPUT1= 0,
+ IO_FORM_AUXINPUT2= 0,IO_FORM_AUXINPUT3= 0,IO_FORM_AUXINPUT4= 0,
+ IO_FORM_AUXINPUT5= 0,IO_FORM_AUXHIST1= 0,IO_FORM_AUXHIST2= 0,IO_FORM_AUXHIST3=
+ 0,IO_FORM_AUXHIST4= 0,IO_FORM_AUXHIST5= 0,JULYR= 0 0 0 0 0 0 0 0 0 0 0,JULDAY=
+ 1 1 1 1 1 1 1 1 1 1 1,GMT= 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.,INPUT_INNAME= wrfi
+ nput_d<domain>                                                                
+                                                                               
+                                                                               
+                   ,INPUT_OUTNAME= wrfinput_d<domain>                          
+                                                                               
+                                                                               
+                                                         ,BDY_INNAME= wrfbdy_d<
+ domain>                                                                       
+                                                                               
+                                                                               
+              ,BDY_OUTNAME= wrfbdy_d<domain>                                   
+                                                                               
+                                                                               
+                                                  ,RST_INNAME= wrfrst_d<domain>
+ _<date>                                                                       
+                                                                               
+                                                                               
+       ,RST_OUTNAME= wrfrst_d<domain>_<date>                                   
+                                                                               
+                                                                               
+                                           ,WRITE_INPUT= F,WRITE_RESTART_AT_0H=
+F/
+ &DOMAINS TIME_STEP= 20,TIME_STEP_FRACT_NUM= 0,TIME_STEP_FRACT_DEN= 1,MAX_DOM=
+ 1,S_WE= 1 1 1 1 1 1 1 1 1 1 1,E_WE= 202 32 32 32 32 32 32 32 32 32 32,S_SN= 1
+ 1 1 1 1 1 1 1 1 1 1,E_SN= 3 32 32 32 32 32 32 32 32 32 32,S_VERT= 1 1 1 1 1 1
+ 1 1 1 1 1,E_VERT= 41 31 31 31 31 31 31 31 31 31 31,DX= 2000. 200. 200. 200.
+ 200. 200. 200. 200. 200. 200. 200.,DY= 2000. 200. 200. 200. 200. 200. 200.
+ 200. 200. 200. 200.,GRID_ID= 1 1 1 1 1 1 1 1 1 1 1,PARENT_ID= 0 0 0 0 0 0 0 0
+ 0 0 0,LEVEL= 1 1 1 1 1 1 1 1 1 1 1,I_PARENT_START= 1 1 1 1 1 1 1 1 1 1 1,
+ J_PARENT_START= 1 1 1 1 1 1 1 1 1 1 1,PARENT_GRID_RATIO= 1 1 1 1 1 1 1 1 1 1 1
+ ,PARENT_TIME_STEP_RATIO= 1 1 1 1 1 1 1 1 1 1 1,FEEDBACK= 1,SMOOTH_OPTION= 2,
+ ZTOP= 30000. 15000. 15000. 15000. 15000. 15000. 15000. 15000. 15000. 15000.
+ 15000.,MOAD_GRID_RATIO= 1 1 1 1 1 1 1 1 1 1 1,MOAD_TIME_STEP_RATIO= 1 1 1 1 1
+ 1 1 1 1 1 1,SHW= 2 2 2 2 2 2 2 2 2 2 2,TILE_SZ_X= 0,TILE_SZ_Y= 0,NUMTILES= 1,
+ NPROC_X= -1,NPROC_Y= -1,IRAND= 0/
+ &PHYSICS MP_PHYSICS= 0 0 0 0 0 0 0 0 0 0 0,RA_LW_PHYSICS= 0 0 0 0 0 0 0 0 0 0
+ 0,RA_SW_PHYSICS= 0 0 0 0 0 0 0 0 0 0 0,RADT= 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.,
+ SF_SFCLAY_PHYSICS= 0 0 0 0 0 0 0 0 0 0 0,SF_SURFACE_PHYSICS= 0 0 0 0 0 0 0 0 0
+ 0 0,BL_PBL_PHYSICS= 0 0 0 0 0 0 0 0 0 0 0,BLDT= 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0.,CU_PHYSICS= 0 0 0 0 0 0 0 0 0 0 0,CUDT= 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.,
+ GSMDT= 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.,ISFFLX= 1,IFSNOW= 0,ICLOUD= 1,
+ SURFACE_INPUT_SOURCE= 1,NUM_SOIL_LAYERS= 5,MAXIENS= 1,MAXENS= 3,MAXENS2= 3,
+ MAXENS3= 16,ENSDIM= 144,CHEM_OPT= 0 0 0 0 0 0 0 0 0 0 0,NUM_LAND_CAT= 24,
+ NUM_SOIL_CAT= 16/
+ &DYNAMICS DYN_OPT= 2,RK_ORD= 3,W_DAMPING= 0,DIFF_OPT= 2,KM_OPT= 1,DAMP_OPT= 1,
+ ZDAMP= 15000. 5000. 5000. 5000. 5000. 5000. 5000. 5000. 5000. 5000. 5000.,
+ DAMPCOEF= 1.E-02 .2 .2 .2 .2 .2 .2 .2 .2 .2 .2,KHDIF= 3000. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0.,KVDIF= 3. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.,SMDIV= .1 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0.,EMDIV= 1.E-02 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.,EPSSM= .1 .1 .1 .1
+ .1 .1 .1 .1 .1 .1 .1,NON_HYDROSTATIC= T T T T T T T T T T T,TIME_STEP_SOUND= 6
+ 10 10 10 10 10 10 10 10 10 10,H_MOM_ADV_ORDER= 5 3 3 3 3 3 3 3 3 3 3,
+ V_MOM_ADV_ORDER= 3 3 3 3 3 3 3 3 3 3 3,H_SCA_ADV_ORDER= 5 3 3 3 3 3 3 3 3 3 3,
+ V_SCA_ADV_ORDER= 3 3 3 3 3 3 3 3 3 3 3,TOP_RADIATION= F F F F F F F F F F F,
+ MIX_CR_LEN= 200. 200. 200. 200. 200. 200. 200. 200. 200. 200. 200.,
+ TKE_UPPER_BOUND= 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000.
+ 1000.,KH_TKE_UPPER_BOUND= 1000. 1000. 1000. 1000. 1000. 1000. 1000. 1000.
+ 1000. 1000. 1000.,KV_TKE_UPPER_BOUND= 100. 100. 100. 100. 100. 100. 100. 100.
+ 100. 100. 100.,TKE_DRAG_COEFFICIENT= 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.,
+ TKE_HEAT_FLUX= 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.,PERT_CORIOLIS= F F F F F F F F
+F F F/
+ &BDY_CONTROL SPEC_BDY_WIDTH= 5,SPEC_ZONE= 1,RELAX_ZONE= 4,SPECIFIED= F F F F F
+F F F F F F,PERIODIC_X= F F F F F F F F F F F,SYMMETRIC_XS= F F F F F F F F F F
+F,SYMMETRIC_XE= F F F F F F F F F F F,OPEN_XS= T F F F F F F F F F F,OPEN_XE= T
+F F F F F F F F F F,PERIODIC_Y= T F F F F F F F F F F,SYMMETRIC_YS= F F F F F F
+F F F F F,SYMMETRIC_YE= F F F F F F F F F F F,OPEN_YS= F F F F F F F F F F F,
+ OPEN_YE= F F F F F F F F F F F,NESTED= F F F F F F F F F F F,
+ REAL_DATA_INIT_TYPE= 1/
+main: time 0001-01-01_00:00:20 em_t_2  46359.53906250
+main: time 0001-01-01_00:00:40 em_t_2  46359.57031250
+main: time 0001-01-01_00:01:00 em_t_2  46359.55468750
+main: time 0001-01-01_00:01:20 em_t_2  46359.51953125
+main: time 0001-01-01_00:01:40 em_t_2  46359.48437500
+main: time 0001-01-01_00:02:00 em_t_2  46359.43359375
+main: time 0001-01-01_00:02:20 em_t_2  46359.37109375
+main: time 0001-01-01_00:02:40 em_t_2  46359.27734375
+main: time 0001-01-01_00:03:00 em_t_2  46359.11328125
+main: time 0001-01-01_00:03:20 em_t_2  46358.67578125
+main: time 0001-01-01_00:03:40 em_t_2  46357.76953125
+main: time 0001-01-01_00:04:00 em_t_2  46357.25390625
+main: time 0001-01-01_00:04:20 em_t_2  46357.58203125
+main: time 0001-01-01_00:04:40 em_t_2  46358.19531250
+main: time 0001-01-01_00:05:00 em_t_2  46358.82421875
+main: time 0001-01-01_00:05:20 em_t_2  46359.25781250
+main: time 0001-01-01_00:05:40 em_t_2  46359.52343750
+main: time 0001-01-01_00:06:00 em_t_2  46359.53125000
+main: time 0001-01-01_00:06:20 em_t_2  46360.15625000
+main: time 0001-01-01_00:06:40 em_t_2  46360.26171875
+main: time 0001-01-01_00:07:00 em_t_2  46358.83203125
+main: time 0001-01-01_00:07:20 em_t_2  46358.76171875
+main: time 0001-01-01_00:07:40 em_t_2  46359.66796875
+main: time 0001-01-01_00:08:00 em_t_2  46360.16406250
+main: time 0001-01-01_00:08:20 em_t_2  46360.06250000
+main: time 0001-01-01_00:08:40 em_t_2  46359.82031250
+main: time 0001-01-01_00:09:00 em_t_2  46359.52734375
+main: time 0001-01-01_00:09:20 em_t_2  46359.67187500
+main: time 0001-01-01_00:09:40 em_t_2  46359.41015625
+main: time 0001-01-01_00:10:00 em_t_2  46359.33984375
+main: time 0001-01-01_00:10:20 em_t_2  46359.83593750
+main: time 0001-01-01_00:10:40 em_t_2  46359.39453125
+main: time 0001-01-01_00:11:00 em_t_2  46359.45312500
+main: time 0001-01-01_00:11:20 em_t_2  46360.62890625
+main: time 0001-01-01_00:11:40 em_t_2  46361.04687500
+main: time 0001-01-01_00:12:00 em_t_2  46359.97656250
+main: time 0001-01-01_00:12:20 em_t_2  46358.75000000
+main: time 0001-01-01_00:12:40 em_t_2  46358.69531250
+main: time 0001-01-01_00:13:00 em_t_2  46359.35937500
+main: time 0001-01-01_00:13:20 em_t_2  46360.05078125
+main: time 0001-01-01_00:13:40 em_t_2  46360.53125000
+main: time 0001-01-01_00:14:00 em_t_2  46360.17968750
+main: time 0001-01-01_00:14:20 em_t_2  46360.04296875
+main: time 0001-01-01_00:14:40 em_t_2  46360.09375000
+main: time 0001-01-01_00:15:00 em_t_2  46359.67187500
+main: time 0001-01-01_00:15:20 em_t_2  46359.46875000
+main: time 0001-01-01_00:15:40 em_t_2  46359.76171875
+main: time 0001-01-01_00:16:00 em_t_2  46359.72656250
+main: time 0001-01-01_00:16:20 em_t_2  46359.32421875
+main: time 0001-01-01_00:16:40 em_t_2  46359.33593750
+main: time 0001-01-01_00:17:00 em_t_2  46360.13281250
+main: time 0001-01-01_00:17:20 em_t_2  46360.60937500
+main: time 0001-01-01_00:17:40 em_t_2  46360.09765625
+main: time 0001-01-01_00:18:00 em_t_2  46359.25781250
+main: time 0001-01-01_00:18:20 em_t_2  46358.47265625
+main: time 0001-01-01_00:18:40 em_t_2  46358.23437500
+main: time 0001-01-01_00:19:00 em_t_2  46358.64062500
+main: time 0001-01-01_00:19:20 em_t_2  46358.96875000
+main: time 0001-01-01_00:19:40 em_t_2  46359.05078125
+main: time 0001-01-01_00:20:00 em_t_2  46359.31640625

@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  51978	    804	     96	  52878	   ce8e	data/462.libquantum/full

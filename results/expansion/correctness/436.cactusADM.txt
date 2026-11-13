@@ -1,0 +1,1 @@
+12 variants match O3 wave/scalar outputs exactly

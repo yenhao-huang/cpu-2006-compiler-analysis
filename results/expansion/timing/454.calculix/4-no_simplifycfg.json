@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ./full 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.08694838964,
+      "stddev": null,
+      "median": 0.08694838964,
+      "user": 0.08114903999999999,
+      "system": 0.005782559999999999,
+      "min": 0.08694838964,
+      "max": 0.08694838964,
+      "times": [
+        0.08694838964
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 ./no_simplifycfg 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.08483621764,
+      "stddev": null,
+      "median": 0.08483621764,
+      "user": 0.08091504,
+      "system": 0.00382056,
+      "min": 0.08483621764,
+      "max": 0.08483621764,
+      "times": [
+        0.08483621764
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_simplifycfg"
+      }
+    }
+  ]
+}

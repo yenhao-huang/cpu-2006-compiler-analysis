@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+4181475	 161216	 749672	5092363	 4db40b	data/403.gcc/full

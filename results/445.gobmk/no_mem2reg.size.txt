@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+2265138	2027012	2328976	6621126	 6507c6	data/445.gobmk/no_mem2reg

@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         2.714 s               [User: 2.693 s, System: 0.000 s]
+ 
+Benchmark 2: taskset -c 2 ../no_simplifycfg --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         3.025 s               [User: 3.023 s, System: 0.002 s]
+ 
+Summary
+  'taskset -c 2 ../full --fixed 500 --num 10000 --seed 1 ig.hmm' ran
+    1.11 times faster than 'taskset -c 2 ../no_simplifycfg --fixed 500 --num 10000 --seed 1 ig.hmm'

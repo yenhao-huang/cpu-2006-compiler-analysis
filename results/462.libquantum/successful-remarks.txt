@@ -1,0 +1,8 @@
+TTI/DontUnroll 53
+inline/Inlined 167
+licm/Hoisted 1144
+licm/PromoteLoopAccessesToScalar 11
+loop-unroll/FullyUnrolled 41
+loop-unroll/PartialUnrolled 11
+loop-vectorize/Vectorized 22
+slp-vectorizer/VectorizedList 2

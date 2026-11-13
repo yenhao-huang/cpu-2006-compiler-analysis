@@ -1,0 +1,9 @@
+Benchmark 1: for n in $(seq 1 20); do taskset -c 2 ../full t/op/regexp.t > /dev/null || exit; done
+  Time (abs ≡):        338.8 ms               [User: 307.1 ms, System: 31.2 ms]
+ 
+Benchmark 2: for n in $(seq 1 20); do taskset -c 2 ../no_licm t/op/regexp.t > /dev/null || exit; done
+  Time (abs ≡):        326.5 ms               [User: 294.2 ms, System: 31.9 ms]
+ 
+Summary
+  'for n in $(seq 1 20); do taskset -c 2 ../no_licm t/op/regexp.t > /dev/null || exit; done' ran
+    1.04 times faster than 'for n in $(seq 1 20); do taskset -c 2 ../full t/op/regexp.t > /dev/null || exit; done'

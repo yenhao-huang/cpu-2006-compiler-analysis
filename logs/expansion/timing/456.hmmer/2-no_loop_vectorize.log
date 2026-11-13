@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../no_loop_vectorize --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         3.055 s               [User: 3.053 s, System: 0.001 s]
+ 
+Benchmark 2: taskset -c 2 ../full --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         2.722 s               [User: 2.719 s, System: 0.003 s]
+ 
+Summary
+  'taskset -c 2 ../full --fixed 500 --num 10000 --seed 1 ig.hmm' ran
+    1.12 times faster than 'taskset -c 2 ../no_loop_vectorize --fixed 500 --num 10000 --seed 1 ig.hmm'

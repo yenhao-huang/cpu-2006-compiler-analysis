@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ./baseline 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.18918361176000004,
+      "stddev": null,
+      "median": 0.18918361176000004,
+      "user": 0.18172164,
+      "system": 0.0074586999999999995,
+      "min": 0.18918361176000004,
+      "max": 0.18918361176000004,
+      "times": [
+        0.18918361176000004
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "baseline"
+      }
+    },
+    {
+      "command": "taskset -c 2 ./full 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.08537038976,
+      "stddev": null,
+      "median": 0.08537038976,
+      "user": 0.07766764,
+      "system": 0.0077017000000000006,
+      "min": 0.08537038976,
+      "max": 0.08537038976,
+      "times": [
+        0.08537038976
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

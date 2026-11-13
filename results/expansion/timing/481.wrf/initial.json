@@ -1,0 +1,232 @@
+{
+  "results": [
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 ../o3",
+      "mean": 0.76554644234,
+      "stddev": null,
+      "median": 0.76554644234,
+      "user": 0.7475987799999999,
+      "system": 0.01777504,
+      "min": 0.76554644234,
+      "max": 0.76554644234,
+      "times": [
+        0.76554644234
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 ../no_loop_vectorize",
+      "mean": 1.26077875734,
+      "stddev": null,
+      "median": 1.26077875734,
+      "user": 1.24582678,
+      "system": 0.014784039999999998,
+      "min": 1.26077875734,
+      "max": 1.26077875734,
+      "times": [
+        1.26077875734
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_loop_vectorize"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 ../no_inline",
+      "mean": 0.7187362593400001,
+      "stddev": null,
+      "median": 0.7187362593400001,
+      "user": 0.70897278,
+      "system": 0.009586039999999999,
+      "min": 0.7187362593400001,
+      "max": 0.7187362593400001,
+      "times": [
+        0.7187362593400001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_inline"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 ../no_vectors",
+      "mean": 1.25750148734,
+      "stddev": null,
+      "median": 1.25750148734,
+      "user": 1.2418497800000001,
+      "system": 0.015482039999999997,
+      "min": 1.25750148734,
+      "max": 1.25750148734,
+      "times": [
+        1.25750148734
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_vectors"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 ../no_mem2reg",
+      "mean": 0.80776974934,
+      "stddev": null,
+      "median": 0.80776974934,
+      "user": 0.79079578,
+      "system": 0.016779040000000002,
+      "min": 0.80776974934,
+      "max": 0.80776974934,
+      "times": [
+        0.80776974934
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_mem2reg"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 ../no_licm",
+      "mean": 0.9883466583400001,
+      "stddev": null,
+      "median": 0.9883466583400001,
+      "user": 0.97171678,
+      "system": 0.016453040000000002,
+      "min": 0.9883466583400001,
+      "max": 0.9883466583400001,
+      "times": [
+        0.9883466583400001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_licm"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 ../baseline",
+      "mean": 2.3390050953399997,
+      "stddev": null,
+      "median": 2.3390050953399997,
+      "user": 2.3258317799999997,
+      "system": 0.012788039999999999,
+      "min": 2.3390050953399997,
+      "max": 2.3390050953399997,
+      "times": [
+        2.3390050953399997
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "baseline"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 ../no_slp",
+      "mean": 0.77337267834,
+      "stddev": null,
+      "median": 0.77337267834,
+      "user": 0.75561378,
+      "system": 0.01753304,
+      "min": 0.77337267834,
+      "max": 0.77337267834,
+      "times": [
+        0.77337267834
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_slp"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 ../full",
+      "mean": 0.7624531253400001,
+      "stddev": null,
+      "median": 0.7624531253400001,
+      "user": 0.74320278,
+      "system": 0.01778604,
+      "min": 0.7624531253400001,
+      "max": 0.7624531253400001,
+      "times": [
+        0.7624531253400001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 ../no_dce",
+      "mean": 0.7435913353400001,
+      "stddev": null,
+      "median": 0.7435913353400001,
+      "user": 0.73288378,
+      "system": 0.010502039999999999,
+      "min": 0.7435913353400001,
+      "max": 0.7435913353400001,
+      "times": [
+        0.7435913353400001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_dce"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 ../no_unroll",
+      "mean": 0.7684726313400001,
+      "stddev": null,
+      "median": 0.7684726313400001,
+      "user": 0.75152778,
+      "system": 0.01677104,
+      "min": 0.7684726313400001,
+      "max": 0.7684726313400001,
+      "times": [
+        0.7684726313400001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_unroll"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 ../no_simplifycfg",
+      "mean": 0.7308785533400001,
+      "stddev": null,
+      "median": 0.7308785533400001,
+      "user": 0.71547778,
+      "system": 0.015282039999999998,
+      "min": 0.7308785533400001,
+      "max": 0.7308785533400001,
+      "times": [
+        0.7308785533400001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_simplifycfg"
+      }
+    }
+  ]
+}

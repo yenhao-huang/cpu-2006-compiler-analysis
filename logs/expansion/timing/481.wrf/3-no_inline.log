@@ -1,0 +1,9 @@
+Benchmark 1: ulimit -s unlimited; taskset -c 2 ../no_inline
+  Time (abs ≡):        750.9 ms               [User: 735.2 ms, System: 12.8 ms]
+ 
+Benchmark 2: ulimit -s unlimited; taskset -c 2 ../full
+  Time (abs ≡):        771.5 ms               [User: 757.6 ms, System: 13.7 ms]
+ 
+Summary
+  'ulimit -s unlimited; taskset -c 2 ../no_inline' ran
+    1.03 times faster than 'ulimit -s unlimited; taskset -c 2 ../full'

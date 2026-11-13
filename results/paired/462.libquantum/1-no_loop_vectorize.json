@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 data/462.libquantum/no_loop_vectorize 143 25",
+      "mean": 0.47966824490000004,
+      "stddev": null,
+      "median": 0.47966824490000004,
+      "user": 0.47781972,
+      "system": 0.00176448,
+      "min": 0.47966824490000004,
+      "max": 0.47966824490000004,
+      "times": [
+        0.47966824490000004
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_loop_vectorize"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/462.libquantum/full 143 25",
+      "mean": 0.47586701090000005,
+      "stddev": null,
+      "median": 0.47586701090000005,
+      "user": 0.47242372,
+      "system": 0.0007664800000000002,
+      "min": 0.47586701090000005,
+      "max": 0.47586701090000005,
+      "times": [
+        0.47586701090000005
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

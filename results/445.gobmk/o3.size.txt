@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+2309664	2026692	2314544	6650900	 657c14	data/445.gobmk/o3

@@ -1,0 +1,9 @@
+Benchmark 1: ulimit -s unlimited; taskset -c 2 ../full
+  Time (abs ≡):        754.9 ms               [User: 743.3 ms, System: 11.4 ms]
+ 
+Benchmark 2: ulimit -s unlimited; taskset -c 2 ../no_simplifycfg
+  Time (abs ≡):        770.9 ms               [User: 753.9 ms, System: 16.8 ms]
+ 
+Summary
+  'ulimit -s unlimited; taskset -c 2 ../full' ran
+    1.02 times faster than 'ulimit -s unlimited; taskset -c 2 ../no_simplifycfg'

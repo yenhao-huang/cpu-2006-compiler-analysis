@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 data/462.libquantum/o3 143 25",
+      "mean": 0.45499082588000006,
+      "stddev": null,
+      "median": 0.45499082588000006,
+      "user": 0.45503615999999997,
+      "system": 0.0,
+      "min": 0.45499082588000006,
+      "max": 0.45499082588000006,
+      "times": [
+        0.45499082588000006
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/462.libquantum/full 143 25",
+      "mean": 0.50505857388,
+      "stddev": null,
+      "median": 0.50505857388,
+      "user": 0.50346916,
+      "system": 0.0015552399999999998,
+      "min": 0.50505857388,
+      "max": 0.50505857388,
+      "times": [
+        0.50505857388
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

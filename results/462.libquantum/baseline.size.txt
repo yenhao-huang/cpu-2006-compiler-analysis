@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  42623	    788	     96	  43507	   a9f3	data/462.libquantum/baseline

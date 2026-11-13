@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 data/462.libquantum/full 143 25
+  Time (abs ≡):        496.1 ms               [User: 492.6 ms, System: 3.4 ms]
+ 
+Benchmark 2: taskset -c 2 data/462.libquantum/no_vectors 143 25
+  Time (abs ≡):        509.1 ms               [User: 507.1 ms, System: 1.8 ms]
+ 
+Summary
+  'taskset -c 2 data/462.libquantum/full 143 25' ran
+    1.03 times faster than 'taskset -c 2 data/462.libquantum/no_vectors 143 25'

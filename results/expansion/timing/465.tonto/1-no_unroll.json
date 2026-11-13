@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../full < stdin",
+      "mean": 0.4923254063,
+      "stddev": null,
+      "median": 0.4923254063,
+      "user": 0.48929762,
+      "system": 0.0029633,
+      "min": 0.4923254063,
+      "max": 0.4923254063,
+      "times": [
+        0.4923254063
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_unroll < stdin",
+      "mean": 0.4888685863,
+      "stddev": null,
+      "median": 0.4888685863,
+      "user": 0.48721762,
+      "system": 0.0015792999999999998,
+      "min": 0.4888685863,
+      "max": 0.4888685863,
+      "times": [
+        0.4888685863
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_unroll"
+      }
+    }
+  ]
+}

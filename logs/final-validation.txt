@@ -1,0 +1,104 @@
+README.md whitespace PASS
+docs/Result.md whitespace PASS
+docs/Reproduce.md whitespace PASS
+docs/STATE.md whitespace PASS
+configs/pipelines.tsv whitespace PASS
+configs/audit.txt whitespace PASS
+Reproduce Bash syntax PASS
+Document/config pipeline equality PASS
+data/403.gcc/baseline: OK
+data/403.gcc/baseline.text.bin: OK
+data/403.gcc/full: OK
+data/403.gcc/full.text.bin: OK
+data/403.gcc/no_inline: OK
+data/403.gcc/no_inline.text.bin: OK
+data/403.gcc/no_unroll: OK
+data/403.gcc/no_unroll.text.bin: OK
+data/403.gcc/no_loop_vectorize: OK
+data/403.gcc/no_loop_vectorize.text.bin: OK
+data/403.gcc/no_slp: OK
+data/403.gcc/no_slp.text.bin: OK
+data/403.gcc/no_mem2reg: OK
+data/403.gcc/no_mem2reg.text.bin: OK
+data/403.gcc/no_licm: OK
+data/403.gcc/no_licm.text.bin: OK
+data/403.gcc/no_dce: OK
+data/403.gcc/no_dce.text.bin: OK
+data/403.gcc/no_simplifycfg: OK
+data/403.gcc/no_simplifycfg.text.bin: OK
+data/403.gcc/no_vectors: OK
+data/403.gcc/no_vectors.text.bin: OK
+data/403.gcc/o3: OK
+data/403.gcc/o3.text.bin: OK
+403.gcc double-vectorizer audit PASS
+data/445.gobmk/baseline: OK
+data/445.gobmk/baseline.text.bin: OK
+data/445.gobmk/full: OK
+data/445.gobmk/full.text.bin: OK
+data/445.gobmk/no_inline: OK
+data/445.gobmk/no_inline.text.bin: OK
+data/445.gobmk/no_unroll: OK
+data/445.gobmk/no_unroll.text.bin: OK
+data/445.gobmk/no_loop_vectorize: OK
+data/445.gobmk/no_loop_vectorize.text.bin: OK
+data/445.gobmk/no_slp: OK
+data/445.gobmk/no_slp.text.bin: OK
+data/445.gobmk/no_mem2reg: OK
+data/445.gobmk/no_mem2reg.text.bin: OK
+data/445.gobmk/no_licm: OK
+data/445.gobmk/no_licm.text.bin: OK
+data/445.gobmk/no_dce: OK
+data/445.gobmk/no_dce.text.bin: OK
+data/445.gobmk/no_simplifycfg: OK
+data/445.gobmk/no_simplifycfg.text.bin: OK
+data/445.gobmk/no_vectors: OK
+data/445.gobmk/no_vectors.text.bin: OK
+data/445.gobmk/o3: OK
+data/445.gobmk/o3.text.bin: OK
+445.gobmk double-vectorizer audit PASS
+data/462.libquantum/baseline: OK
+data/462.libquantum/baseline.text.bin: OK
+data/462.libquantum/full: OK
+data/462.libquantum/full.text.bin: OK
+data/462.libquantum/no_inline: OK
+data/462.libquantum/no_inline.text.bin: OK
+data/462.libquantum/no_unroll: OK
+data/462.libquantum/no_unroll.text.bin: OK
+data/462.libquantum/no_loop_vectorize: OK
+data/462.libquantum/no_loop_vectorize.text.bin: OK
+data/462.libquantum/no_slp: OK
+data/462.libquantum/no_slp.text.bin: OK
+data/462.libquantum/no_mem2reg: OK
+data/462.libquantum/no_mem2reg.text.bin: OK
+data/462.libquantum/no_licm: OK
+data/462.libquantum/no_licm.text.bin: OK
+data/462.libquantum/no_dce: OK
+data/462.libquantum/no_dce.text.bin: OK
+data/462.libquantum/no_simplifycfg: OK
+data/462.libquantum/no_simplifycfg.text.bin: OK
+data/462.libquantum/no_vectors: OK
+data/462.libquantum/no_vectors.text.bin: OK
+data/462.libquantum/o3: OK
+data/462.libquantum/o3.text.bin: OK
+462.libquantum double-vectorizer audit PASS
+data/403.gcc/raw.bc: OK
+data/445.gobmk/raw.bc: OK
+data/462.libquantum/raw.bc: OK
+spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in: OK
+spec-cpu2006-redist/modified/445.gobmk/data/train/input/arb.tst: OK
+external/debs/clang-14_1%3a14.0.6-12_amd64.deb: OK
+external/debs/datamash_1.7-2_amd64.deb: OK
+external/debs/hyperfine_1.15.0-2_amd64.deb: OK
+external/debs/libclang-common-14-dev_1%3a14.0.6-12_all.deb: OK
+external/debs/libclang-cpp14_1%3a14.0.6-12_amd64.deb: OK
+external/debs/libclang1-14_1%3a14.0.6-12_amd64.deb: OK
+external/debs/libcurl3-nss_7.88.1-10+deb12u15_amd64.deb: OK
+external/debs/libllvm14_1%3a14.0.6-12_amd64.deb: OK
+external/debs/libpfm4_4.13.0-1_amd64.deb: OK
+external/debs/libz3-4_4.8.12-3.1_amd64.deb: OK
+external/debs/llvm-14-linker-tools_1%3a14.0.6-12_amd64.deb: OK
+external/debs/llvm-14-runtime_1%3a14.0.6-12_amd64.deb: OK
+external/debs/llvm-14_1%3a14.0.6-12_amd64.deb: OK
+external/debs/sysstat_12.6.1-1_amd64.deb: OK
+external/debs/time_1.9-0.2_amd64.deb: OK
+664 successful samples; three identical-ELF controls; source tree clean: PASS

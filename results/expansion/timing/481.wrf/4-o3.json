@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 ../o3",
+      "mean": 0.79950024216,
+      "stddev": null,
+      "median": 0.79950024216,
+      "user": 0.7819105,
+      "system": 0.017481519999999997,
+      "min": 0.79950024216,
+      "max": 0.79950024216,
+      "times": [
+        0.79950024216
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 ../full",
+      "mean": 0.78253616416,
+      "stddev": null,
+      "median": 0.78253616416,
+      "user": 0.7682324999999999,
+      "system": 0.01275352,
+      "min": 0.78253616416,
+      "max": 0.78253616416,
+      "times": [
+        0.78253616416
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

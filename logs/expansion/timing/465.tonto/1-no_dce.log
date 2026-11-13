@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full < stdin
+  Time (abs ≡):        477.4 ms               [User: 472.5 ms, System: 4.8 ms]
+ 
+Benchmark 2: taskset -c 2 ../no_dce < stdin
+  Time (abs ≡):        482.1 ms               [User: 481.1 ms, System: 0.9 ms]
+ 
+Summary
+  'taskset -c 2 ../full < stdin' ran
+    1.01 times faster than 'taskset -c 2 ../no_dce < stdin'

@@ -1,0 +1,34 @@
+data/403.gcc/o3  :
+section                 size      addr
+.interp                   28       792
+.note.gnu.property        32       824
+.note.gnu.build-id        36       856
+.note.ABI-tag             32       892
+.hash                    580       928
+.gnu.hash                 60      1512
+.dynsym                 1824      1576
+.dynstr                  623      3400
+.gnu.version             152      4024
+.gnu.version_r            80      4176
+.rela.dyn             285384      4256
+.rela.plt               1512    289640
+.init                     23    294912
+.plt                    1024    294944
+.plt.got                  24    295968
+.text                3298886    296000
+.fini                      9   3594888
+.rodata               483826   3596288
+.eh_frame_hdr          35636   4080116
+.eh_frame             241576   4115752
+.init_array                8   4359168
+.fini_array                8   4359176
+.data.rel.ro          153992   4359184
+.dynamic                 512   4513176
+.got                      72   4513688
+.got.plt                 528   4513768
+.data                   6552   4514304
+.bss                  749288   4520864
+.comment                  67         0
+Total                5262374
+
+

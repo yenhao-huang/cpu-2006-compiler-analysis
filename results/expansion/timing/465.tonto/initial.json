@@ -1,0 +1,232 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../no_mem2reg < stdin",
+      "mean": 0.5194558366400001,
+      "stddev": null,
+      "median": 0.5194558366400001,
+      "user": 0.51832142,
+      "system": 0.0009768199999999998,
+      "min": 0.5194558366400001,
+      "max": 0.5194558366400001,
+      "times": [
+        0.5194558366400001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_mem2reg"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_dce < stdin",
+      "mean": 0.46230329064000003,
+      "stddev": null,
+      "median": 0.46230329064000003,
+      "user": 0.45835941999999996,
+      "system": 0.00384282,
+      "min": 0.46230329064000003,
+      "max": 0.46230329064000003,
+      "times": [
+        0.46230329064000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_dce"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_simplifycfg < stdin",
+      "mean": 0.46912470864000005,
+      "stddev": null,
+      "median": 0.46912470864000005,
+      "user": 0.46709441999999995,
+      "system": 0.0018428199999999998,
+      "min": 0.46912470864000005,
+      "max": 0.46912470864000005,
+      "times": [
+        0.46912470864000005
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_simplifycfg"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_unroll < stdin",
+      "mean": 0.46815211764000003,
+      "stddev": null,
+      "median": 0.46815211764000003,
+      "user": 0.46348242,
+      "system": 0.00457782,
+      "min": 0.46815211764000003,
+      "max": 0.46815211764000003,
+      "times": [
+        0.46815211764000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_unroll"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_loop_vectorize < stdin",
+      "mean": 0.48455194264000007,
+      "stddev": null,
+      "median": 0.48455194264000007,
+      "user": 0.48259641999999997,
+      "system": 0.00184082,
+      "min": 0.48455194264000007,
+      "max": 0.48455194264000007,
+      "times": [
+        0.48455194264000007
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_loop_vectorize"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../full < stdin",
+      "mean": 0.49557926364000005,
+      "stddev": null,
+      "median": 0.49557926364000005,
+      "user": 0.49264642,
+      "system": 0.00283982,
+      "min": 0.49557926364000005,
+      "max": 0.49557926364000005,
+      "times": [
+        0.49557926364000005
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../o3 < stdin",
+      "mean": 0.38619880964000003,
+      "stddev": null,
+      "median": 0.38619880964000003,
+      "user": 0.38424842,
+      "system": 0.0018428199999999998,
+      "min": 0.38619880964000003,
+      "max": 0.38619880964000003,
+      "times": [
+        0.38619880964000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_vectors < stdin",
+      "mean": 0.48460580764000005,
+      "stddev": null,
+      "median": 0.48460580764000005,
+      "user": 0.48297041999999996,
+      "system": 0.00155082,
+      "min": 0.48460580764000005,
+      "max": 0.48460580764000005,
+      "times": [
+        0.48460580764000005
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_vectors"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_slp < stdin",
+      "mean": 0.48259526864,
+      "stddev": null,
+      "median": 0.48259526864,
+      "user": 0.48069542,
+      "system": 0.0005148199999999999,
+      "min": 0.48259526864,
+      "max": 0.48259526864,
+      "times": [
+        0.48259526864
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_slp"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../baseline < stdin",
+      "mean": 0.55564162364,
+      "stddev": null,
+      "median": 0.55564162364,
+      "user": 0.5499504199999999,
+      "system": 0.0024918199999999996,
+      "min": 0.55564162364,
+      "max": 0.55564162364,
+      "times": [
+        0.55564162364
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "baseline"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_licm < stdin",
+      "mean": 0.48949163464000006,
+      "stddev": null,
+      "median": 0.48949163464000006,
+      "user": 0.48759241999999997,
+      "system": 0.0018448199999999996,
+      "min": 0.48949163464000006,
+      "max": 0.48949163464000006,
+      "times": [
+        0.48949163464000006
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_licm"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_inline < stdin",
+      "mean": 0.45864781464000004,
+      "stddev": null,
+      "median": 0.45864781464000004,
+      "user": 0.45702541999999996,
+      "system": 0.00158382,
+      "min": 0.45864781464000004,
+      "max": 0.45864781464000004,
+      "times": [
+        0.45864781464000004
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_inline"
+      }
+    }
+  ]
+}

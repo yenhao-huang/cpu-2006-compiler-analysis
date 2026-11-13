@@ -1,0 +1,49 @@
+Benchmark 1: for n in $(seq 1 20); do taskset -c 2 ../no_loop_vectorize t/op/regexp.t > /dev/null || exit; done
+  Time (abs ≡):        327.6 ms               [User: 295.3 ms, System: 31.9 ms]
+ 
+Benchmark 2: for n in $(seq 1 20); do taskset -c 2 ../no_licm t/op/regexp.t > /dev/null || exit; done
+  Time (abs ≡):        335.8 ms               [User: 305.4 ms, System: 29.9 ms]
+ 
+Benchmark 3: for n in $(seq 1 20); do taskset -c 2 ../o3 t/op/regexp.t > /dev/null || exit; done
+  Time (abs ≡):        317.2 ms               [User: 284.5 ms, System: 32.1 ms]
+ 
+Benchmark 4: for n in $(seq 1 20); do taskset -c 2 ../baseline t/op/regexp.t > /dev/null || exit; done
+  Time (abs ≡):        492.4 ms               [User: 465.9 ms, System: 25.7 ms]
+ 
+Benchmark 5: for n in $(seq 1 20); do taskset -c 2 ../no_dce t/op/regexp.t > /dev/null || exit; done
+  Time (abs ≡):        351.5 ms               [User: 315.2 ms, System: 35.6 ms]
+ 
+Benchmark 6: for n in $(seq 1 20); do taskset -c 2 ../no_mem2reg t/op/regexp.t > /dev/null || exit; done
+  Time (abs ≡):        437.7 ms               [User: 407.5 ms, System: 29.8 ms]
+ 
+Benchmark 7: for n in $(seq 1 20); do taskset -c 2 ../no_slp t/op/regexp.t > /dev/null || exit; done
+  Time (abs ≡):        347.4 ms               [User: 316.6 ms, System: 30.2 ms]
+ 
+Benchmark 8: for n in $(seq 1 20); do taskset -c 2 ../no_inline t/op/regexp.t > /dev/null || exit; done
+  Time (abs ≡):        359.3 ms               [User: 330.2 ms, System: 28.5 ms]
+ 
+Benchmark 9: for n in $(seq 1 20); do taskset -c 2 ../no_unroll t/op/regexp.t > /dev/null || exit; done
+  Time (abs ≡):        351.9 ms               [User: 320.9 ms, System: 30.5 ms]
+ 
+Benchmark 10: for n in $(seq 1 20); do taskset -c 2 ../no_vectors t/op/regexp.t > /dev/null || exit; done
+  Time (abs ≡):        340.2 ms               [User: 303.7 ms, System: 36.0 ms]
+ 
+Benchmark 11: for n in $(seq 1 20); do taskset -c 2 ../no_simplifycfg t/op/regexp.t > /dev/null || exit; done
+  Time (abs ≡):        326.8 ms               [User: 297.0 ms, System: 29.3 ms]
+ 
+Benchmark 12: for n in $(seq 1 20); do taskset -c 2 ../full t/op/regexp.t > /dev/null || exit; done
+  Time (abs ≡):        345.9 ms               [User: 310.6 ms, System: 31.7 ms]
+ 
+Summary
+  'for n in $(seq 1 20); do taskset -c 2 ../o3 t/op/regexp.t > /dev/null || exit; done' ran
+    1.03 times faster than 'for n in $(seq 1 20); do taskset -c 2 ../no_simplifycfg t/op/regexp.t > /dev/null || exit; done'
+    1.03 times faster than 'for n in $(seq 1 20); do taskset -c 2 ../no_loop_vectorize t/op/regexp.t > /dev/null || exit; done'
+    1.06 times faster than 'for n in $(seq 1 20); do taskset -c 2 ../no_licm t/op/regexp.t > /dev/null || exit; done'
+    1.07 times faster than 'for n in $(seq 1 20); do taskset -c 2 ../no_vectors t/op/regexp.t > /dev/null || exit; done'
+    1.09 times faster than 'for n in $(seq 1 20); do taskset -c 2 ../full t/op/regexp.t > /dev/null || exit; done'
+    1.10 times faster than 'for n in $(seq 1 20); do taskset -c 2 ../no_slp t/op/regexp.t > /dev/null || exit; done'
+    1.11 times faster than 'for n in $(seq 1 20); do taskset -c 2 ../no_dce t/op/regexp.t > /dev/null || exit; done'
+    1.11 times faster than 'for n in $(seq 1 20); do taskset -c 2 ../no_unroll t/op/regexp.t > /dev/null || exit; done'
+    1.13 times faster than 'for n in $(seq 1 20); do taskset -c 2 ../no_inline t/op/regexp.t > /dev/null || exit; done'
+    1.38 times faster than 'for n in $(seq 1 20); do taskset -c 2 ../no_mem2reg t/op/regexp.t > /dev/null || exit; done'
+    1.55 times faster than 'for n in $(seq 1 20); do taskset -c 2 ../baseline t/op/regexp.t > /dev/null || exit; done'

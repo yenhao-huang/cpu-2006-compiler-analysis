@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full_control < stdin
+  Time (abs ≡):        461.6 ms               [User: 459.0 ms, System: 2.5 ms]
+ 
+Benchmark 2: taskset -c 2 ../full < stdin
+  Time (abs ≡):        489.2 ms               [User: 486.5 ms, System: 2.5 ms]
+ 
+Summary
+  'taskset -c 2 ../full_control < stdin' ran
+    1.06 times faster than 'taskset -c 2 ../full < stdin'

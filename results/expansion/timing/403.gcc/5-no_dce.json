@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 data/403.gcc/no_dce spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.30957100242,
+      "stddev": null,
+      "median": 0.30957100242,
+      "user": 0.30172018,
+      "system": 0.007772279999999999,
+      "min": 0.30957100242,
+      "max": 0.30957100242,
+      "times": [
+        0.30957100242
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_dce"
+      }
+    },
+    {
+      "command": "taskset -c 2 data/403.gcc/full spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.30008442242000005,
+      "stddev": null,
+      "median": 0.30008442242000005,
+      "user": 0.29057418,
+      "system": 0.00939928,
+      "min": 0.30008442242000005,
+      "max": 0.30008442242000005,
+      "times": [
+        0.30008442242000005
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  52386	    804	     96	  53286	   d026	data/462.libquantum/no_simplifycfg

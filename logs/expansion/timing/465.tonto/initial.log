@@ -1,0 +1,49 @@
+Benchmark 1: taskset -c 2 ../no_mem2reg < stdin
+  Time (abs ≡):        519.5 ms               [User: 518.3 ms, System: 1.0 ms]
+ 
+Benchmark 2: taskset -c 2 ../no_dce < stdin
+  Time (abs ≡):        462.3 ms               [User: 458.4 ms, System: 3.8 ms]
+ 
+Benchmark 3: taskset -c 2 ../no_simplifycfg < stdin
+  Time (abs ≡):        469.1 ms               [User: 467.1 ms, System: 1.8 ms]
+ 
+Benchmark 4: taskset -c 2 ../no_unroll < stdin
+  Time (abs ≡):        468.2 ms               [User: 463.5 ms, System: 4.6 ms]
+ 
+Benchmark 5: taskset -c 2 ../no_loop_vectorize < stdin
+  Time (abs ≡):        484.6 ms               [User: 482.6 ms, System: 1.8 ms]
+ 
+Benchmark 6: taskset -c 2 ../full < stdin
+  Time (abs ≡):        495.6 ms               [User: 492.6 ms, System: 2.8 ms]
+ 
+Benchmark 7: taskset -c 2 ../o3 < stdin
+  Time (abs ≡):        386.2 ms               [User: 384.2 ms, System: 1.8 ms]
+ 
+Benchmark 8: taskset -c 2 ../no_vectors < stdin
+  Time (abs ≡):        484.6 ms               [User: 483.0 ms, System: 1.6 ms]
+ 
+Benchmark 9: taskset -c 2 ../no_slp < stdin
+  Time (abs ≡):        482.6 ms               [User: 480.7 ms, System: 0.5 ms]
+ 
+Benchmark 10: taskset -c 2 ../baseline < stdin
+  Time (abs ≡):        555.6 ms               [User: 550.0 ms, System: 2.5 ms]
+ 
+Benchmark 11: taskset -c 2 ../no_licm < stdin
+  Time (abs ≡):        489.5 ms               [User: 487.6 ms, System: 1.8 ms]
+ 
+Benchmark 12: taskset -c 2 ../no_inline < stdin
+  Time (abs ≡):        458.6 ms               [User: 457.0 ms, System: 1.6 ms]
+ 
+Summary
+  'taskset -c 2 ../o3 < stdin' ran
+    1.19 times faster than 'taskset -c 2 ../no_inline < stdin'
+    1.20 times faster than 'taskset -c 2 ../no_dce < stdin'
+    1.21 times faster than 'taskset -c 2 ../no_unroll < stdin'
+    1.21 times faster than 'taskset -c 2 ../no_simplifycfg < stdin'
+    1.25 times faster than 'taskset -c 2 ../no_slp < stdin'
+    1.25 times faster than 'taskset -c 2 ../no_loop_vectorize < stdin'
+    1.25 times faster than 'taskset -c 2 ../no_vectors < stdin'
+    1.27 times faster than 'taskset -c 2 ../no_licm < stdin'
+    1.28 times faster than 'taskset -c 2 ../full < stdin'
+    1.35 times faster than 'taskset -c 2 ../no_mem2reg < stdin'
+    1.44 times faster than 'taskset -c 2 ../baseline < stdin'

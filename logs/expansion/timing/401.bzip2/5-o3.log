@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../o3 -3 < input.ref > /dev/null
+  Time (abs ≡):         1.945 s               [User: 1.943 s, System: 0.002 s]
+ 
+Benchmark 2: taskset -c 2 ../full -3 < input.ref > /dev/null
+  Time (abs ≡):         1.860 s               [User: 1.857 s, System: 0.004 s]
+ 
+Summary
+  'taskset -c 2 ../full -3 < input.ref > /dev/null' ran
+    1.05 times faster than 'taskset -c 2 ../o3 -3 < input.ref > /dev/null'

@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ./full 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.08344171574,
+      "stddev": null,
+      "median": 0.08344171574,
+      "user": 0.08060635999999999,
+      "system": 0.0027825799999999998,
+      "min": 0.08344171574,
+      "max": 0.08344171574,
+      "times": [
+        0.08344171574
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 ./no_slp 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1; status=$?; test \"$status\" -eq 1",
+      "mean": 0.07435577874,
+      "stddev": null,
+      "median": 0.07435577874,
+      "user": 0.06985135999999999,
+      "system": 0.0044475800000000005,
+      "min": 0.07435577874,
+      "max": 0.07435577874,
+      "times": [
+        0.07435577874
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_slp"
+      }
+    }
+  ]
+}

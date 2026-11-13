@@ -1,0 +1,49 @@
+Benchmark 1: taskset -c 2 ../full -3 < input.ref > /dev/null
+  Time (abs ≡):         1.753 s               [User: 1.749 s, System: 0.004 s]
+ 
+Benchmark 2: taskset -c 2 ../no_licm -3 < input.ref > /dev/null
+  Time (abs ≡):         1.756 s               [User: 1.752 s, System: 0.004 s]
+ 
+Benchmark 3: taskset -c 2 ../no_unroll -3 < input.ref > /dev/null
+  Time (abs ≡):         1.839 s               [User: 1.832 s, System: 0.007 s]
+ 
+Benchmark 4: taskset -c 2 ../no_inline -3 < input.ref > /dev/null
+  Time (abs ≡):         1.803 s               [User: 1.796 s, System: 0.006 s]
+ 
+Benchmark 5: taskset -c 2 ../no_vectors -3 < input.ref > /dev/null
+  Time (abs ≡):         1.818 s               [User: 1.816 s, System: 0.002 s]
+ 
+Benchmark 6: taskset -c 2 ../no_loop_vectorize -3 < input.ref > /dev/null
+  Time (abs ≡):         1.820 s               [User: 1.817 s, System: 0.002 s]
+ 
+Benchmark 7: taskset -c 2 ../no_slp -3 < input.ref > /dev/null
+  Time (abs ≡):         1.738 s               [User: 1.737 s, System: 0.001 s]
+ 
+Benchmark 8: taskset -c 2 ../baseline -3 < input.ref > /dev/null
+  Time (abs ≡):         3.418 s               [User: 3.416 s, System: 0.002 s]
+ 
+Benchmark 9: taskset -c 2 ../no_dce -3 < input.ref > /dev/null
+  Time (abs ≡):         1.814 s               [User: 1.811 s, System: 0.002 s]
+ 
+Benchmark 10: taskset -c 2 ../o3 -3 < input.ref > /dev/null
+  Time (abs ≡):         1.824 s               [User: 1.821 s, System: 0.003 s]
+ 
+Benchmark 11: taskset -c 2 ../no_mem2reg -3 < input.ref > /dev/null
+  Time (abs ≡):         2.724 s               [User: 2.720 s, System: 0.003 s]
+ 
+Benchmark 12: taskset -c 2 ../no_simplifycfg -3 < input.ref > /dev/null
+  Time (abs ≡):         1.772 s               [User: 1.764 s, System: 0.008 s]
+ 
+Summary
+  'taskset -c 2 ../no_slp -3 < input.ref > /dev/null' ran
+    1.01 times faster than 'taskset -c 2 ../full -3 < input.ref > /dev/null'
+    1.01 times faster than 'taskset -c 2 ../no_licm -3 < input.ref > /dev/null'
+    1.02 times faster than 'taskset -c 2 ../no_simplifycfg -3 < input.ref > /dev/null'
+    1.04 times faster than 'taskset -c 2 ../no_inline -3 < input.ref > /dev/null'
+    1.04 times faster than 'taskset -c 2 ../no_dce -3 < input.ref > /dev/null'
+    1.05 times faster than 'taskset -c 2 ../no_vectors -3 < input.ref > /dev/null'
+    1.05 times faster than 'taskset -c 2 ../no_loop_vectorize -3 < input.ref > /dev/null'
+    1.05 times faster than 'taskset -c 2 ../o3 -3 < input.ref > /dev/null'
+    1.06 times faster than 'taskset -c 2 ../no_unroll -3 < input.ref > /dev/null'
+    1.57 times faster than 'taskset -c 2 ../no_mem2reg -3 < input.ref > /dev/null'
+    1.97 times faster than 'taskset -c 2 ../baseline -3 < input.ref > /dev/null'

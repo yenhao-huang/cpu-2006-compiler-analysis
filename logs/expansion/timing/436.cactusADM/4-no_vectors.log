@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full test_Bench.par
+  Time (abs ≡):         29.0 ms               [User: 26.7 ms, System: 2.4 ms]
+ 
+Benchmark 2: taskset -c 2 ../no_vectors test_Bench.par
+  Time (abs ≡):         27.2 ms               [User: 23.3 ms, System: 3.8 ms]
+ 
+Summary
+  'taskset -c 2 ../no_vectors test_Bench.par' ran
+    1.07 times faster than 'taskset -c 2 ../full test_Bench.par'

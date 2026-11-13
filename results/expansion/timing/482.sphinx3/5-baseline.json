@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../full ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test",
+      "mean": 1.1064317941800001,
+      "stddev": null,
+      "median": 1.1064317941800001,
+      "user": 0.92967088,
+      "system": 0.1738294,
+      "min": 1.1064317941800001,
+      "max": 1.1064317941800001,
+      "times": [
+        1.1064317941800001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../baseline ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test",
+      "mean": 1.75471415618,
+      "stddev": null,
+      "median": 1.75471415618,
+      "user": 1.58739388,
+      "system": 0.16413940000000002,
+      "min": 1.75471415618,
+      "max": 1.75471415618,
+      "times": [
+        1.75471415618
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "baseline"
+      }
+    }
+  ]
+}

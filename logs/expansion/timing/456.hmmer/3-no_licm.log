@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         2.659 s               [User: 2.655 s, System: 0.000 s]
+ 
+Benchmark 2: taskset -c 2 ../no_licm --fixed 500 --num 10000 --seed 1 ig.hmm
+  Time (abs ≡):         2.738 s               [User: 2.729 s, System: 0.001 s]
+ 
+Summary
+  'taskset -c 2 ../full --fixed 500 --num 10000 --seed 1 ig.hmm' ran
+    1.03 times faster than 'taskset -c 2 ../no_licm --fixed 500 --num 10000 --seed 1 ig.hmm'

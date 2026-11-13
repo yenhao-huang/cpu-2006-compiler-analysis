@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  55074	    804	     96	  55974	   daa6	data/462.libquantum/no_mem2reg

@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 ../full test_Bench.par",
+      "mean": 0.0285832367,
+      "stddev": null,
+      "median": 0.0285832367,
+      "user": 0.026838239999999996,
+      "system": 0.0017486799999999999,
+      "min": 0.0285832367,
+      "max": 0.0285832367,
+      "times": [
+        0.0285832367
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 ../no_slp test_Bench.par",
+      "mean": 0.027979007700000003,
+      "stddev": null,
+      "median": 0.027979007700000003,
+      "user": 0.026162239999999996,
+      "system": 0.0017716799999999999,
+      "min": 0.027979007700000003,
+      "max": 0.027979007700000003,
+      "times": [
+        0.027979007700000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "no_slp"
+      }
+    }
+  ]
+}

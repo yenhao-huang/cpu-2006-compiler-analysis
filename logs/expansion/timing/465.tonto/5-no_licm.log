@@ -1,0 +1,9 @@
+Benchmark 1: taskset -c 2 ../full < stdin
+  Time (abs ≡):        450.3 ms               [User: 447.8 ms, System: 2.4 ms]
+ 
+Benchmark 2: taskset -c 2 ../no_licm < stdin
+  Time (abs ≡):        470.6 ms               [User: 468.6 ms, System: 1.8 ms]
+ 
+Summary
+  'taskset -c 2 ../full < stdin' ran
+    1.04 times faster than 'taskset -c 2 ../no_licm < stdin'

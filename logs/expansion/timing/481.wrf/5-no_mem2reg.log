@@ -1,0 +1,9 @@
+Benchmark 1: ulimit -s unlimited; taskset -c 2 ../no_mem2reg
+  Time (abs ≡):        814.9 ms               [User: 799.7 ms, System: 13.8 ms]
+ 
+Benchmark 2: ulimit -s unlimited; taskset -c 2 ../full
+  Time (abs ≡):        752.3 ms               [User: 729.7 ms, System: 22.5 ms]
+ 
+Summary
+  'ulimit -s unlimited; taskset -c 2 ../full' ran
+    1.08 times faster than 'ulimit -s unlimited; taskset -c 2 ../no_mem2reg'
