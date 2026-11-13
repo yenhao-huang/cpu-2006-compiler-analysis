@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/435.gromacs/full -s water.tpr -deffnm timed > /dev/null 2>&1",
+      "mean": 1.2860570168,
+      "stddev": null,
+      "median": 1.2860570168,
+      "user": 1.28102686,
+      "system": 0.004755059999999999,
+      "min": 1.2860570168,
+      "max": 1.2860570168,
+      "times": [
+        1.2860570168
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/435.gromacs/tuned -s water.tpr -deffnm timed > /dev/null 2>&1",
+      "mean": 1.2365770158,
+      "stddev": null,
+      "median": 1.2365770158,
+      "user": 1.23542686,
+      "system": 0.00081106,
+      "min": 1.2365770158,
+      "max": 1.2365770158,
+      "times": [
+        1.2365770158
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/435.gromacs/lto_inl -s water.tpr -deffnm timed > /dev/null 2>&1",
+      "mean": 1.2376345098,
+      "stddev": null,
+      "median": 1.2376345098,
+      "user": 1.23558886,
+      "system": 0.00181106,
+      "min": 1.2376345098,
+      "max": 1.2376345098,
+      "times": [
+        1.2376345098
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/435.gromacs/o3 -s water.tpr -deffnm timed > /dev/null 2>&1",
+      "mean": 1.2405264828,
+      "stddev": null,
+      "median": 1.2405264828,
+      "user": 1.23697686,
+      "system": 0.00280806,
+      "min": 1.2405264828,
+      "max": 1.2405264828,
+      "times": [
+        1.2405264828
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    }
+  ]
+}

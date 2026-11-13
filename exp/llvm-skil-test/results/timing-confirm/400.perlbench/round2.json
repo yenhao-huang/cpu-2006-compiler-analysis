@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/lto_inl t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.2464125591,
+      "stddev": null,
+      "median": 0.2464125591,
+      "user": 0.23218728,
+      "system": 0.014055999999999999,
+      "min": 0.2464125591,
+      "max": 0.2464125591,
+      "times": [
+        0.2464125591
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/full t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.2712022391,
+      "stddev": null,
+      "median": 0.2712022391,
+      "user": 0.24602328,
+      "system": 0.024716,
+      "min": 0.2712022391,
+      "max": 0.2712022391,
+      "times": [
+        0.2712022391
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/tuned t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.2404178341,
+      "stddev": null,
+      "median": 0.2404178341,
+      "user": 0.22483828,
+      "system": 0.015267999999999999,
+      "min": 0.2404178341,
+      "max": 0.2404178341,
+      "times": [
+        0.2404178341
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/o3 t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.25567963810000005,
+      "stddev": null,
+      "median": 0.25567963810000005,
+      "user": 0.23636928,
+      "system": 0.018855999999999998,
+      "min": 0.25567963810000005,
+      "max": 0.25567963810000005,
+      "times": [
+        0.25567963810000005
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    }
+  ]
+}

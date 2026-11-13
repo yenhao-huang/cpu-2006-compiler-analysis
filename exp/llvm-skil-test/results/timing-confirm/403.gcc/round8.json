@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/403.gcc/lto_inl spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.2383234421,
+      "stddev": null,
+      "median": 0.2383234421,
+      "user": 0.2323654,
+      "system": 0.00585644,
+      "min": 0.2383234421,
+      "max": 0.2383234421,
+      "times": [
+        0.2383234421
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/403.gcc/o3 spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.24023540410000002,
+      "stddev": null,
+      "median": 0.24023540410000002,
+      "user": 0.2296174,
+      "system": 0.010575439999999998,
+      "min": 0.24023540410000002,
+      "max": 0.24023540410000002,
+      "times": [
+        0.24023540410000002
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/403.gcc/tuned spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.2364281761,
+      "stddev": null,
+      "median": 0.2364281761,
+      "user": 0.2275084,
+      "system": 0.008823439999999998,
+      "min": 0.2364281761,
+      "max": 0.2364281761,
+      "times": [
+        0.2364281761
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/403.gcc/full spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.25694570110000003,
+      "stddev": null,
+      "median": 0.25694570110000003,
+      "user": 0.2461594,
+      "system": 0.010750439999999998,
+      "min": 0.25694570110000003,
+      "max": 0.25694570110000003,
+      "times": [
+        0.25694570110000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

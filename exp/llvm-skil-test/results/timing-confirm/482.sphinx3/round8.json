@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/lto_inl ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.85013315978,
+      "stddev": null,
+      "median": 0.85013315978,
+      "user": 0.6864754,
+      "system": 0.16091969999999997,
+      "min": 0.85013315978,
+      "max": 0.85013315978,
+      "times": [
+        0.85013315978
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/full ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.93521057878,
+      "stddev": null,
+      "median": 0.93521057878,
+      "user": 0.7726184,
+      "system": 0.1601897,
+      "min": 0.93521057878,
+      "max": 0.93521057878,
+      "times": [
+        0.93521057878
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/o3 ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.85674389978,
+      "stddev": null,
+      "median": 0.85674389978,
+      "user": 0.7000874,
+      "system": 0.15399569999999999,
+      "min": 0.85674389978,
+      "max": 0.85674389978,
+      "times": [
+        0.85674389978
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/tuned ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.8378230277800001,
+      "stddev": null,
+      "median": 0.8378230277800001,
+      "user": 0.6897104000000001,
+      "system": 0.1455697,
+      "min": 0.8378230277800001,
+      "max": 0.8378230277800001,
+      "times": [
+        0.8378230277800001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    }
+  ]
+}

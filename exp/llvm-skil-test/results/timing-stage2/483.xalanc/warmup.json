@@ -1,0 +1,156 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/o2 -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.73516836566,
+      "stddev": null,
+      "median": 0.73516836566,
+      "user": 0.69216952,
+      "system": 0.04272812,
+      "min": 0.73516836566,
+      "max": 0.73516836566,
+      "times": [
+        0.73516836566
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o2"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/full -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.83259023566,
+      "stddev": null,
+      "median": 0.83259023566,
+      "user": 0.79484952,
+      "system": 0.03755312,
+      "min": 0.83259023566,
+      "max": 0.83259023566,
+      "times": [
+        0.83259023566
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/o3_native -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.70769617566,
+      "stddev": null,
+      "median": 0.70769617566,
+      "user": 0.66589152,
+      "system": 0.041523120000000004,
+      "min": 0.70769617566,
+      "max": 0.70769617566,
+      "times": [
+        0.70769617566
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3_native"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/lto_inl -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.67707547966,
+      "stddev": null,
+      "median": 0.67707547966,
+      "user": 0.63434052,
+      "system": 0.04248912,
+      "min": 0.67707547966,
+      "max": 0.67707547966,
+      "times": [
+        0.67707547966
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/lto_noslp -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.69834578366,
+      "stddev": null,
+      "median": 0.69834578366,
+      "user": 0.66548952,
+      "system": 0.03272412,
+      "min": 0.69834578366,
+      "max": 0.69834578366,
+      "times": [
+        0.69834578366
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_noslp"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/lto_unroll -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.70573296066,
+      "stddev": null,
+      "median": 0.70573296066,
+      "user": 0.6725655199999999,
+      "system": 0.03272412,
+      "min": 0.70573296066,
+      "max": 0.70573296066,
+      "times": [
+        0.70573296066
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_unroll"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/o3 -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.70786025766,
+      "stddev": null,
+      "median": 0.70786025766,
+      "user": 0.66924852,
+      "system": 0.038429120000000004,
+      "min": 0.70786025766,
+      "max": 0.70786025766,
+      "times": [
+        0.70786025766
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/lto_native -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.71119282066,
+      "stddev": null,
+      "median": 0.71119282066,
+      "user": 0.6642415199999999,
+      "system": 0.04675612,
+      "min": 0.71119282066,
+      "max": 0.71119282066,
+      "times": [
+        0.71119282066
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_native"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# bench	tuned variant	reason (stage-2 evidence vs O3, 10 paired rounds)
+400.perlbench	lto_inl_noslp	inline500 +8.4% and SLP-off +6.8% both clear of noise; combined
+401.bzip2	full	repo explicit pipeline +1.7% over O3; no LTO/native knob helped
+403.gcc	lto_inl	only knob clear of noise (+2.2%)
+435.gromacs	o3	no variant clear of noise (all within +-1%, wide ranges)
+436.cactusADM	o3	LTO -7% vs O3; nothing beat O3
+445.gobmk	lto_inl_unroll	inline500 +3.2% and unroll600 +3.2%; combined
+454.calculix	lto_inl_noslp	SLP-off +15.5% (SLP regression seen in original ablation) + inline500 +1.8%
+456.hmmer	o3	all variants within noise (+-2.5%)
+462.libquantum	o3	nothing beat O3
+465.tonto	o3	bit-exact native (no FMA) gives no gain; FMA variant is not bit-exact
+481.wrf	lto_unroll	native ISA (no FMA) +10-11%; unroll600 had the narrowest range
+482.sphinx3	o3_native	native ISA +2.2%; SLP-off hurts (-4.7%)
+483.xalanc	lto_inl	inline500 +3.9% (inlining is Xalan's dominant pass in the original study)

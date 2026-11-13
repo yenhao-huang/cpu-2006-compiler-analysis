@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/462.libquantum/tuned 143 25 > /dev/null",
+      "mean": 0.38513566548,
+      "stddev": null,
+      "median": 0.38513566548,
+      "user": 0.38102231999999997,
+      "system": 0.003961879999999999,
+      "min": 0.38513566548,
+      "max": 0.38513566548,
+      "times": [
+        0.38513566548
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/462.libquantum/lto_inl 143 25 > /dev/null",
+      "mean": 0.37716746048,
+      "stddev": null,
+      "median": 0.37716746048,
+      "user": 0.37543931999999997,
+      "system": 0.00168888,
+      "min": 0.37716746048,
+      "max": 0.37716746048,
+      "times": [
+        0.37716746048
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/462.libquantum/full 143 25 > /dev/null",
+      "mean": 0.41866310648000005,
+      "stddev": null,
+      "median": 0.41866310648000005,
+      "user": 0.41623232,
+      "system": 0.00234288,
+      "min": 0.41866310648000005,
+      "max": 0.41866310648000005,
+      "times": [
+        0.41866310648000005
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/462.libquantum/o3 143 25 > /dev/null",
+      "mean": 0.38579854448,
+      "stddev": null,
+      "median": 0.38579854448,
+      "user": 0.38329831999999997,
+      "system": 0.00244388,
+      "min": 0.38579854448,
+      "max": 0.38579854448,
+      "times": [
+        0.38579854448
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "results": [
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/o3_native_nofma test_Bench.par > /dev/null || exit; done",
+      "mean": 0.34243075210000007,
+      "stddev": null,
+      "median": 0.34243075210000007,
+      "user": 0.29498369999999996,
+      "system": 0.04695038,
+      "min": 0.34243075210000007,
+      "max": 0.34243075210000007,
+      "times": [
+        0.34243075210000007
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3_native_nofma"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/o2 test_Bench.par > /dev/null || exit; done",
+      "mean": 0.34415113910000006,
+      "stddev": null,
+      "median": 0.34415113910000006,
+      "user": 0.28677569999999997,
+      "system": 0.05684138,
+      "min": 0.34415113910000006,
+      "max": 0.34415113910000006,
+      "times": [
+        0.34415113910000006
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o2"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/full test_Bench.par > /dev/null || exit; done",
+      "mean": 0.4997978821000001,
+      "stddev": null,
+      "median": 0.4997978821000001,
+      "user": 0.4514987,
+      "system": 0.04781138,
+      "min": 0.4997978821000001,
+      "max": 0.4997978821000001,
+      "times": [
+        0.4997978821000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/lto test_Bench.par > /dev/null || exit; done",
+      "mean": 0.35890109410000004,
+      "stddev": null,
+      "median": 0.35890109410000004,
+      "user": 0.3055207,
+      "system": 0.053043379999999994,
+      "min": 0.35890109410000004,
+      "max": 0.35890109410000004,
+      "times": [
+        0.35890109410000004
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/lto_native test_Bench.par > /dev/null || exit; done",
+      "mean": 0.32867963210000006,
+      "stddev": null,
+      "median": 0.32867963210000006,
+      "user": 0.27989369999999997,
+      "system": 0.04825538,
+      "min": 0.32867963210000006,
+      "max": 0.32867963210000006,
+      "times": [
+        0.32867963210000006
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_native"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/lto_native_nofma test_Bench.par > /dev/null || exit; done",
+      "mean": 0.35811492610000006,
+      "stddev": null,
+      "median": 0.35811492610000006,
+      "user": 0.29769369999999995,
+      "system": 0.059990379999999996,
+      "min": 0.35811492610000006,
+      "max": 0.35811492610000006,
+      "times": [
+        0.35811492610000006
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_native_nofma"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/os test_Bench.par > /dev/null || exit; done",
+      "mean": 0.36994938310000003,
+      "stddev": null,
+      "median": 0.36994938310000003,
+      "user": 0.32543469999999997,
+      "system": 0.04327738,
+      "min": 0.36994938310000003,
+      "max": 0.36994938310000003,
+      "times": [
+        0.36994938310000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "os"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/o3 test_Bench.par > /dev/null || exit; done",
+      "mean": 0.33041719410000003,
+      "stddev": null,
+      "median": 0.33041719410000003,
+      "user": 0.2800947,
+      "system": 0.049942379999999995,
+      "min": 0.33041719410000003,
+      "max": 0.33041719410000003,
+      "times": [
+        0.33041719410000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/full_control test_Bench.par > /dev/null || exit; done",
+      "mean": 0.4898009911000001,
+      "stddev": null,
+      "median": 0.4898009911000001,
+      "user": 0.43298269999999994,
+      "system": 0.05634338,
+      "min": 0.4898009911000001,
+      "max": 0.4898009911000001,
+      "times": [
+        0.4898009911000001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full_control"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/o3_native test_Bench.par > /dev/null || exit; done",
+      "mean": 0.33653794110000007,
+      "stddev": null,
+      "median": 0.33653794110000007,
+      "user": 0.2942897,
+      "system": 0.04183438,
+      "min": 0.33653794110000007,
+      "max": 0.33653794110000007,
+      "times": [
+        0.33653794110000007
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3_native"
+      }
+    }
+  ]
+}

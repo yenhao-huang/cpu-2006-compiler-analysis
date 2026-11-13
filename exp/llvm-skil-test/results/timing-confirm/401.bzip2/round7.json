@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/401.bzip2/o3 -3 < input.ref > /dev/null",
+      "mean": 1.5164703481600001,
+      "stddev": null,
+      "median": 1.5164703481600001,
+      "user": 1.51568178,
+      "system": 0.00039412,
+      "min": 1.5164703481600001,
+      "max": 1.5164703481600001,
+      "times": [
+        1.5164703481600001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/401.bzip2/full -3 < input.ref > /dev/null",
+      "mean": 1.48487696416,
+      "stddev": null,
+      "median": 1.48487696416,
+      "user": 1.4827407799999999,
+      "system": 0.0018551199999999998,
+      "min": 1.48487696416,
+      "max": 1.48487696416,
+      "times": [
+        1.48487696416
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/401.bzip2/lto_inl -3 < input.ref > /dev/null",
+      "mean": 1.53192229516,
+      "stddev": null,
+      "median": 1.53192229516,
+      "user": 1.52767678,
+      "system": 0.00385512,
+      "min": 1.53192229516,
+      "max": 1.53192229516,
+      "times": [
+        1.53192229516
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/401.bzip2/tuned -3 < input.ref > /dev/null",
+      "mean": 1.48458175316,
+      "stddev": null,
+      "median": 1.48458175316,
+      "user": 1.47873978,
+      "system": 0.0055951199999999994,
+      "min": 1.48458175316,
+      "max": 1.48458175316,
+      "times": [
+        1.48458175316
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    }
+  ]
+}

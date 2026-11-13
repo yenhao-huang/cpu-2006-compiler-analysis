@@ -1,0 +1,194 @@
+{
+  "results": [
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/lto_native_nofma test_Bench.par > /dev/null || exit; done",
+      "mean": 0.37427728132000004,
+      "stddev": null,
+      "median": 0.37427728132000004,
+      "user": 0.3146288,
+      "system": 0.05878222,
+      "min": 0.37427728132000004,
+      "max": 0.37427728132000004,
+      "times": [
+        0.37427728132000004
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_native_nofma"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/lto test_Bench.par > /dev/null || exit; done",
+      "mean": 0.35575454032000003,
+      "stddev": null,
+      "median": 0.35575454032000003,
+      "user": 0.3083478,
+      "system": 0.04698322,
+      "min": 0.35575454032000003,
+      "max": 0.35575454032000003,
+      "times": [
+        0.35575454032000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/o2 test_Bench.par > /dev/null || exit; done",
+      "mean": 0.33249762732000004,
+      "stddev": null,
+      "median": 0.33249762732000004,
+      "user": 0.2816278,
+      "system": 0.05052322,
+      "min": 0.33249762732000004,
+      "max": 0.33249762732000004,
+      "times": [
+        0.33249762732000004
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o2"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/o3_native_nofma test_Bench.par > /dev/null || exit; done",
+      "mean": 0.33860506932000006,
+      "stddev": null,
+      "median": 0.33860506932000006,
+      "user": 0.2920838,
+      "system": 0.04617122,
+      "min": 0.33860506932000006,
+      "max": 0.33860506932000006,
+      "times": [
+        0.33860506932000006
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3_native_nofma"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/o3_native test_Bench.par > /dev/null || exit; done",
+      "mean": 0.33502352732000007,
+      "stddev": null,
+      "median": 0.33502352732000007,
+      "user": 0.2872928,
+      "system": 0.04726022,
+      "min": 0.33502352732000007,
+      "max": 0.33502352732000007,
+      "times": [
+        0.33502352732000007
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3_native"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/o3 test_Bench.par > /dev/null || exit; done",
+      "mean": 0.33545611832000005,
+      "stddev": null,
+      "median": 0.33545611832000005,
+      "user": 0.2824348,
+      "system": 0.04979822,
+      "min": 0.33545611832000005,
+      "max": 0.33545611832000005,
+      "times": [
+        0.33545611832000005
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/lto_native test_Bench.par > /dev/null || exit; done",
+      "mean": 0.33444461932,
+      "stddev": null,
+      "median": 0.33444461932,
+      "user": 0.28342480000000003,
+      "system": 0.05060022,
+      "min": 0.33444461932,
+      "max": 0.33444461932,
+      "times": [
+        0.33444461932
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_native"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/os test_Bench.par > /dev/null || exit; done",
+      "mean": 0.37086037932000004,
+      "stddev": null,
+      "median": 0.37086037932000004,
+      "user": 0.3207938,
+      "system": 0.04955622,
+      "min": 0.37086037932000004,
+      "max": 0.37086037932000004,
+      "times": [
+        0.37086037932000004
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "os"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/full_control test_Bench.par > /dev/null || exit; done",
+      "mean": 0.49482047632000004,
+      "stddev": null,
+      "median": 0.49482047632000004,
+      "user": 0.4408168,
+      "system": 0.05235722,
+      "min": 0.49482047632000004,
+      "max": 0.49482047632000004,
+      "times": [
+        0.49482047632000004
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full_control"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/436.cactusADM/full test_Bench.par > /dev/null || exit; done",
+      "mean": 0.49015070532000005,
+      "stddev": null,
+      "median": 0.49015070532000005,
+      "user": 0.4471368,
+      "system": 0.04188622,
+      "min": 0.49015070532000005,
+      "max": 0.49015070532000005,
+      "times": [
+        0.49015070532000005
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

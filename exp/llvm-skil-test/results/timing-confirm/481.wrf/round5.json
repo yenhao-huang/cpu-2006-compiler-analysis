@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/lto_inl > /dev/null",
+      "mean": 0.5880053495800001,
+      "stddev": null,
+      "median": 0.5880053495800001,
+      "user": 0.5761148399999999,
+      "system": 0.01180486,
+      "min": 0.5880053495800001,
+      "max": 0.5880053495800001,
+      "times": [
+        0.5880053495800001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/tuned > /dev/null",
+      "mean": 0.57169720258,
+      "stddev": null,
+      "median": 0.57169720258,
+      "user": 0.5591348399999999,
+      "system": 0.01245386,
+      "min": 0.57169720258,
+      "max": 0.57169720258,
+      "times": [
+        0.57169720258
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/o3 > /dev/null",
+      "mean": 0.62490379758,
+      "stddev": null,
+      "median": 0.62490379758,
+      "user": 0.61627384,
+      "system": 0.008434859999999999,
+      "min": 0.62490379758,
+      "max": 0.62490379758,
+      "times": [
+        0.62490379758
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/full > /dev/null",
+      "mean": 0.61322484458,
+      "stddev": null,
+      "median": 0.61322484458,
+      "user": 0.5986698399999999,
+      "system": 0.014393859999999998,
+      "min": 0.61322484458,
+      "max": 0.61322484458,
+      "times": [
+        0.61322484458
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

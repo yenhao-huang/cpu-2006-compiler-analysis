@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/o3 -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.72274558494,
+      "stddev": null,
+      "median": 0.72274558494,
+      "user": 0.68257784,
+      "system": 0.03989768,
+      "min": 0.72274558494,
+      "max": 0.72274558494,
+      "times": [
+        0.72274558494
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/tuned -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.68225157294,
+      "stddev": null,
+      "median": 0.68225157294,
+      "user": 0.64035384,
+      "system": 0.04176368,
+      "min": 0.68225157294,
+      "max": 0.68225157294,
+      "times": [
+        0.68225157294
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/full -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.83399114694,
+      "stddev": null,
+      "median": 0.83399114694,
+      "user": 0.80501184,
+      "system": 0.02880168,
+      "min": 0.83399114694,
+      "max": 0.83399114694,
+      "times": [
+        0.83399114694
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/483.xalanc/lto_inl -o /dev/null birds5000.xml birds.xsl",
+      "mean": 0.68030366794,
+      "stddev": null,
+      "median": 0.68030366794,
+      "user": 0.63056484,
+      "system": 0.04958768,
+      "min": 0.68030366794,
+      "max": 0.68030366794,
+      "times": [
+        0.68030366794
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    }
+  ]
+}

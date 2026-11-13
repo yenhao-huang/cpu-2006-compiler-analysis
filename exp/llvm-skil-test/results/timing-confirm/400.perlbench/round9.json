@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/lto_inl t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.24545549676,
+      "stddev": null,
+      "median": 0.24545549676,
+      "user": 0.22713203999999998,
+      "system": 0.01806012,
+      "min": 0.24545549676,
+      "max": 0.24545549676,
+      "times": [
+        0.24545549676
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/full t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.27289599576,
+      "stddev": null,
+      "median": 0.27289599576,
+      "user": 0.24934704,
+      "system": 0.02304312,
+      "min": 0.27289599576,
+      "max": 0.27289599576,
+      "times": [
+        0.27289599576
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/o3 t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.25590539676,
+      "stddev": null,
+      "median": 0.25590539676,
+      "user": 0.22755804,
+      "system": 0.02796612,
+      "min": 0.25590539676,
+      "max": 0.25590539676,
+      "times": [
+        0.25590539676
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/tuned t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.23827140576,
+      "stddev": null,
+      "median": 0.23827140576,
+      "user": 0.21621604,
+      "system": 0.02186812,
+      "min": 0.23827140576,
+      "max": 0.23827140576,
+      "times": [
+        0.23827140576
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    }
+  ]
+}

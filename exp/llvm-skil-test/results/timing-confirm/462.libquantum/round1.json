@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/462.libquantum/o3 143 25 > /dev/null",
+      "mean": 0.38687585574000005,
+      "stddev": null,
+      "median": 0.38687585574000005,
+      "user": 0.38591632,
+      "system": 0.00086604,
+      "min": 0.38687585574000005,
+      "max": 0.38687585574000005,
+      "times": [
+        0.38687585574000005
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/462.libquantum/full 143 25 > /dev/null",
+      "mean": 0.44055791474000006,
+      "stddev": null,
+      "median": 0.44055791474000006,
+      "user": 0.43978732,
+      "system": 0.00068604,
+      "min": 0.44055791474000006,
+      "max": 0.44055791474000006,
+      "times": [
+        0.44055791474000006
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/462.libquantum/lto_inl 143 25 > /dev/null",
+      "mean": 0.3815737087400001,
+      "stddev": null,
+      "median": 0.3815737087400001,
+      "user": 0.37855432,
+      "system": 0.00286104,
+      "min": 0.3815737087400001,
+      "max": 0.3815737087400001,
+      "times": [
+        0.3815737087400001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/462.libquantum/tuned 143 25 > /dev/null",
+      "mean": 0.37711074774000003,
+      "stddev": null,
+      "median": 0.37711074774000003,
+      "user": 0.37511832,
+      "system": 0.00186704,
+      "min": 0.37711074774000003,
+      "max": 0.37711074774000003,
+      "times": [
+        0.37711074774000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    }
+  ]
+}

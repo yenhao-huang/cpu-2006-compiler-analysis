@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "for n in $(seq 1 10); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/454.calculix/tuned 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1 > /dev/null; test $? -eq 1 || exit; done",
+      "mean": 0.6211777642,
+      "stddev": null,
+      "median": 0.6211777642,
+      "user": 0.5641565,
+      "system": 0.054061559999999995,
+      "min": 0.6211777642,
+      "max": 0.6211777642,
+      "times": [
+        0.6211777642
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 10); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/454.calculix/lto_inl 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1 > /dev/null; test $? -eq 1 || exit; done",
+      "mean": 0.6950942762,
+      "stddev": null,
+      "median": 0.6950942762,
+      "user": 0.6334685,
+      "system": 0.061396559999999996,
+      "min": 0.6950942762,
+      "max": 0.6950942762,
+      "times": [
+        0.6950942762
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 10); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/454.calculix/o3 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1 > /dev/null; test $? -eq 1 || exit; done",
+      "mean": 0.7047147812,
+      "stddev": null,
+      "median": 0.7047147812,
+      "user": 0.6613945,
+      "system": 0.04302755999999999,
+      "min": 0.7047147812,
+      "max": 0.7047147812,
+      "times": [
+        0.7047147812
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 10); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/454.calculix/full 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1 > /dev/null; test $? -eq 1 || exit; done",
+      "mean": 0.7042129322,
+      "stddev": null,
+      "median": 0.7042129322,
+      "user": 0.6574724999999999,
+      "system": 0.04334655999999999,
+      "min": 0.7042129322,
+      "max": 0.7042129322,
+      "times": [
+        0.7042129322
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

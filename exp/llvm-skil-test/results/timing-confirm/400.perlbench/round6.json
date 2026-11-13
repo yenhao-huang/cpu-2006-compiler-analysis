@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/o3 t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.25937341880000003,
+      "stddev": null,
+      "median": 0.25937341880000003,
+      "user": 0.24025068,
+      "system": 0.018731119999999997,
+      "min": 0.25937341880000003,
+      "max": 0.25937341880000003,
+      "times": [
+        0.25937341880000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/tuned t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.2440255388,
+      "stddev": null,
+      "median": 0.2440255388,
+      "user": 0.22814868,
+      "system": 0.01554712,
+      "min": 0.2440255388,
+      "max": 0.2440255388,
+      "times": [
+        0.2440255388
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/full t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.2732534218,
+      "stddev": null,
+      "median": 0.2732534218,
+      "user": 0.25068767999999997,
+      "system": 0.022072119999999997,
+      "min": 0.2732534218,
+      "max": 0.2732534218,
+      "times": [
+        0.2732534218
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/lto_inl t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.2395109778,
+      "stddev": null,
+      "median": 0.2395109778,
+      "user": 0.21497268,
+      "system": 0.024178119999999997,
+      "min": 0.2395109778,
+      "max": 0.2395109778,
+      "times": [
+        0.2395109778
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    }
+  ]
+}

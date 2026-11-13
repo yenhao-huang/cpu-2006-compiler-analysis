@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/o3 > /dev/null",
+      "mean": 0.63030217058,
+      "stddev": null,
+      "median": 0.63030217058,
+      "user": 0.61659918,
+      "system": 0.013548339999999999,
+      "min": 0.63030217058,
+      "max": 0.63030217058,
+      "times": [
+        0.63030217058
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/lto_inl > /dev/null",
+      "mean": 0.56749619858,
+      "stddev": null,
+      "median": 0.56749619858,
+      "user": 0.55590818,
+      "system": 0.01150034,
+      "min": 0.56749619858,
+      "max": 0.56749619858,
+      "times": [
+        0.56749619858
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/tuned > /dev/null",
+      "mean": 0.56744939858,
+      "stddev": null,
+      "median": 0.56744939858,
+      "user": 0.5537681799999999,
+      "system": 0.01354534,
+      "min": 0.56744939858,
+      "max": 0.56744939858,
+      "times": [
+        0.56744939858
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "ulimit -s unlimited; taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/481.wrf/full > /dev/null",
+      "mean": 0.61366302058,
+      "stddev": null,
+      "median": 0.61366302058,
+      "user": 0.60002018,
+      "system": 0.01348434,
+      "min": 0.61366302058,
+      "max": 0.61366302058,
+      "times": [
+        0.61366302058
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

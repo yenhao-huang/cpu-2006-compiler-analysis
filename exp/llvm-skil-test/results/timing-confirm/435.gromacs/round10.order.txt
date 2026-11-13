@@ -1,0 +1,1 @@
+full,lto_inl,o3,tuned

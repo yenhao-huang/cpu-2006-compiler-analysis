@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/462.libquantum/lto_inl 143 25 > /dev/null",
+      "mean": 0.38072175098,
+      "stddev": null,
+      "median": 0.38072175098,
+      "user": 0.3777785,
+      "system": 0.00285244,
+      "min": 0.38072175098,
+      "max": 0.38072175098,
+      "times": [
+        0.38072175098
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/462.libquantum/full 143 25 > /dev/null",
+      "mean": 0.42039065698,
+      "stddev": null,
+      "median": 0.42039065698,
+      "user": 0.4194695,
+      "system": 0.0008574399999999999,
+      "min": 0.42039065698,
+      "max": 0.42039065698,
+      "times": [
+        0.42039065698
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/462.libquantum/o3 143 25 > /dev/null",
+      "mean": 0.38987070798,
+      "stddev": null,
+      "median": 0.38987070798,
+      "user": 0.3873395,
+      "system": 0.00246444,
+      "min": 0.38987070798,
+      "max": 0.38987070798,
+      "times": [
+        0.38987070798
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/462.libquantum/tuned 143 25 > /dev/null",
+      "mean": 0.37768308398,
+      "stddev": null,
+      "median": 0.37768308398,
+      "user": 0.3760765,
+      "system": 0.0015154399999999998,
+      "min": 0.37768308398,
+      "max": 0.37768308398,
+      "times": [
+        0.37768308398
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# bench	raw_dir(relative to STUDY_ROOT)	llvm	driver	link_flags
+400.perlbench	data/expansion/400.perlbench	14	clang-14	-lm -ldl -lcrypt
+401.bzip2	data/expansion/401.bzip2	14	clang-14	-lm
+403.gcc	data/403.gcc	14	clang-14	-lm
+435.gromacs	data/expansion/435.gromacs	14	clang-14	-lm -ldl -lcrypt -lnsl
+436.cactusADM	data/expansion/436.cactusADM	19	flang-new-19	-lm
+445.gobmk	data/445.gobmk	14	clang-14	-lm
+454.calculix	data/expansion/454.calculix	14	clang-14	-lm -lpthread
+456.hmmer	data/expansion/456.hmmer	14	clang-14	-lm
+462.libquantum	data/462.libquantum	14	clang-14	-lm
+465.tonto	data/expansion/465.tonto	19	flang-new-19	-lm
+481.wrf	data/expansion/481.wrf	19	flang-new-19	-lm
+482.sphinx3	data/expansion/482.sphinx3	14	clang-14	-lm -ldl -lcrypt -lnsl
+483.xalanc	data/expansion/483.xalanc	14	clang++-14	-lm -lpthread

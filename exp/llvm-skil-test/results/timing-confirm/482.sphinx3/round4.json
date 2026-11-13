@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/full ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.9406111931200001,
+      "stddev": null,
+      "median": 0.9406111931200001,
+      "user": 0.7682777599999999,
+      "system": 0.1697797,
+      "min": 0.9406111931200001,
+      "max": 0.9406111931200001,
+      "times": [
+        0.9406111931200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/o3 ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.8595117361200001,
+      "stddev": null,
+      "median": 0.8595117361200001,
+      "user": 0.7041367599999999,
+      "system": 0.1527057,
+      "min": 0.8595117361200001,
+      "max": 0.8595117361200001,
+      "times": [
+        0.8595117361200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/lto_inl ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.8544474521200001,
+      "stddev": null,
+      "median": 0.8544474521200001,
+      "user": 0.68984276,
+      "system": 0.1619777,
+      "min": 0.8544474521200001,
+      "max": 0.8544474521200001,
+      "times": [
+        0.8544474521200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/482.sphinx3/tuned ../an4x20.ctl model/lm/an4 model/lm/an4/args.an4.test > /dev/null 2>&1",
+      "mean": 0.8453087891200001,
+      "stddev": null,
+      "median": 0.8453087891200001,
+      "user": 0.68237876,
+      "system": 0.1600247,
+      "min": 0.8453087891200001,
+      "max": 0.8453087891200001,
+      "times": [
+        0.8453087891200001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    }
+  ]
+}

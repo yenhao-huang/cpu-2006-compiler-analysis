@@ -1,0 +1,155 @@
+400.perlbench	full	MATCH	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	o3	MATCH	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	o2	MATCH	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	os	MATCH	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	o3_native	MATCH	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	lto	MATCH	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	lto_native	MATCH	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	lto_inl_noslp	MATCH	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	lto_inl	MATCH	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	lto_noslp	MATCH	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	lto_unroll	MATCH	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	lto_inl_noslp	MATCH	ok=947 notok=0 bc8c1fa4e6421fc3
+401.bzip2	full	MATCH	roundtrip-ok 00a1523531c4cdfe
+401.bzip2	o3	MATCH	roundtrip-ok 00a1523531c4cdfe
+401.bzip2	o2	MATCH	roundtrip-ok 00a1523531c4cdfe
+401.bzip2	os	MATCH	roundtrip-ok 00a1523531c4cdfe
+401.bzip2	o3_native	MATCH	roundtrip-ok 00a1523531c4cdfe
+401.bzip2	lto	MATCH	roundtrip-ok 00a1523531c4cdfe
+401.bzip2	lto_native	MATCH	roundtrip-ok 00a1523531c4cdfe
+401.bzip2	lto_inl	MATCH	roundtrip-ok 00a1523531c4cdfe
+401.bzip2	lto_noslp	MATCH	roundtrip-ok 00a1523531c4cdfe
+401.bzip2	lto_unroll	MATCH	roundtrip-ok 00a1523531c4cdfe
+403.gcc	full	MATCH	d3e652f2b365e819
+403.gcc	o3	MATCH	d3e652f2b365e819
+403.gcc	o2	MATCH	d3e652f2b365e819
+403.gcc	os	MATCH	d3e652f2b365e819
+403.gcc	o3_native	MATCH	d3e652f2b365e819
+403.gcc	lto	MATCH	d3e652f2b365e819
+403.gcc	lto_native	MATCH	d3e652f2b365e819
+403.gcc	lto_inl	MATCH	d3e652f2b365e819
+403.gcc	lto_noslp	MATCH	d3e652f2b365e819
+403.gcc	lto_unroll	MATCH	d3e652f2b365e819
+435.gromacs	full	MATCH	46a6a93bd94e1c5e
+435.gromacs	o3	MATCH	46a6a93bd94e1c5e
+435.gromacs	o2	MATCH	46a6a93bd94e1c5e
+435.gromacs	os	MATCH	46a6a93bd94e1c5e
+435.gromacs	o3_native	MATCH	46a6a93bd94e1c5e
+435.gromacs	lto	MATCH	46a6a93bd94e1c5e
+435.gromacs	lto_native	MATCH	46a6a93bd94e1c5e
+435.gromacs	lto_inl	MATCH	46a6a93bd94e1c5e
+435.gromacs	lto_noslp	MATCH	46a6a93bd94e1c5e
+435.gromacs	lto_unroll	MATCH	46a6a93bd94e1c5e
+436.cactusADM	full	MATCH	files=32 d2a6553350d97b53
+436.cactusADM	o3	MATCH	files=32 d2a6553350d97b53
+436.cactusADM	o2	MATCH	files=32 d2a6553350d97b53
+436.cactusADM	os	MATCH	files=32 d2a6553350d97b53
+436.cactusADM	o3_native	DIFF	files=32 b46870c537e53014
+436.cactusADM	lto	MATCH	files=32 d2a6553350d97b53
+436.cactusADM	lto_native	DIFF	files=32 b46870c537e53014
+436.cactusADM	o3_native_nofma	MATCH	files=32 d2a6553350d97b53
+436.cactusADM	lto_native_nofma	MATCH	files=32 d2a6553350d97b53
+436.cactusADM	lto_inl	MATCH	files=32 d2a6553350d97b53
+436.cactusADM	lto_noslp	MATCH	files=32 d2a6553350d97b53
+436.cactusADM	lto_unroll	MATCH	files=32 d2a6553350d97b53
+445.gobmk	full	MATCH	4d21aa4daf8e8255
+445.gobmk	o3	MATCH	4d21aa4daf8e8255
+445.gobmk	o2	MATCH	4d21aa4daf8e8255
+445.gobmk	os	MATCH	4d21aa4daf8e8255
+445.gobmk	o3_native	MATCH	4d21aa4daf8e8255
+445.gobmk	lto	MATCH	4d21aa4daf8e8255
+445.gobmk	lto_native	MATCH	4d21aa4daf8e8255
+445.gobmk	lto_inl_unroll	MATCH	4d21aa4daf8e8255
+445.gobmk	lto_inl	MATCH	4d21aa4daf8e8255
+445.gobmk	lto_noslp	MATCH	4d21aa4daf8e8255
+445.gobmk	lto_unroll	MATCH	4d21aa4daf8e8255
+445.gobmk	lto_inl_unroll	MATCH	4d21aa4daf8e8255
+454.calculix	full	MATCH	residual-ok
+454.calculix	o3	MATCH	residual-ok
+454.calculix	o2	MATCH	residual-ok
+454.calculix	os	MATCH	residual-ok
+454.calculix	o3_native	MATCH	residual-ok
+454.calculix	lto	MATCH	residual-ok
+454.calculix	lto_native	MATCH	residual-ok
+454.calculix	lto_inl_noslp	MATCH	residual-ok
+454.calculix	lto_inl	MATCH	residual-ok
+454.calculix	lto_noslp	MATCH	residual-ok
+454.calculix	lto_unroll	MATCH	residual-ok
+454.calculix	lto_inl_noslp	MATCH	residual-ok
+456.hmmer	full	MATCH	44497fb992e44f98
+456.hmmer	o3	MATCH	44497fb992e44f98
+456.hmmer	o2	MATCH	44497fb992e44f98
+456.hmmer	os	MATCH	44497fb992e44f98
+456.hmmer	o3_native	MATCH	44497fb992e44f98
+456.hmmer	lto	MATCH	44497fb992e44f98
+456.hmmer	lto_native	MATCH	44497fb992e44f98
+456.hmmer	lto_inl	MATCH	44497fb992e44f98
+456.hmmer	lto_noslp	MATCH	44497fb992e44f98
+456.hmmer	lto_unroll	MATCH	44497fb992e44f98
+462.libquantum	full	MATCH	32272e005b871a6b
+462.libquantum	o3	MATCH	32272e005b871a6b
+462.libquantum	o2	MATCH	32272e005b871a6b
+462.libquantum	os	MATCH	32272e005b871a6b
+462.libquantum	o3_native	MATCH	32272e005b871a6b
+462.libquantum	lto	MATCH	32272e005b871a6b
+462.libquantum	lto_native	MATCH	32272e005b871a6b
+462.libquantum	lto_inl	MATCH	32272e005b871a6b
+462.libquantum	lto_noslp	MATCH	32272e005b871a6b
+462.libquantum	lto_unroll	MATCH	32272e005b871a6b
+465.tonto	full	MATCH	SCF energy = -76.046397 486241d505a0e14d
+465.tonto	o3	MATCH	SCF energy = -76.046397 486241d505a0e14d
+465.tonto	o2	MATCH	SCF energy = -76.046397 486241d505a0e14d
+465.tonto	os	MATCH	SCF energy = -76.046397 486241d505a0e14d
+465.tonto	o3_native	DIFF	SCF energy = -76.046397 cdeee54a4e2638a1
+465.tonto	lto	MATCH	SCF energy = -76.046397 486241d505a0e14d
+465.tonto	lto_native	DIFF	SCF energy = -76.046397 59f20b28db5404ce
+465.tonto	o3_native_nofma	MATCH	SCF energy = -76.046397 486241d505a0e14d
+465.tonto	lto_native_nofma	MATCH	SCF energy = -76.046397 486241d505a0e14d
+465.tonto	lto_inl	MATCH	SCF energy = -76.046397 486241d505a0e14d
+465.tonto	lto_noslp	MATCH	SCF energy = -76.046397 486241d505a0e14d
+465.tonto	lto_unroll	MATCH	SCF energy = -76.046397 486241d505a0e14d
+481.wrf	full	MATCH	steps=60 ca3ab7bbde9558b1
+481.wrf	o3	MATCH	steps=60 ca3ab7bbde9558b1
+481.wrf	o2	MATCH	steps=60 ca3ab7bbde9558b1
+481.wrf	os	MATCH	steps=60 ca3ab7bbde9558b1
+481.wrf	o3_native	DIFF	steps=60 a8e50a34b1f6145c
+481.wrf	lto	MATCH	steps=60 ca3ab7bbde9558b1
+481.wrf	lto_native	DIFF	steps=60 25ffbba0f12664d1
+481.wrf	o3_native_nofma	MATCH	steps=60 ca3ab7bbde9558b1
+481.wrf	lto_native_nofma	MATCH	steps=60 ca3ab7bbde9558b1
+481.wrf	lto_inl	MATCH	steps=60 ca3ab7bbde9558b1
+481.wrf	lto_noslp	MATCH	steps=60 ca3ab7bbde9558b1
+481.wrf	lto_unroll	MATCH	steps=60 ca3ab7bbde9558b1
+482.sphinx3	full	MATCH	lines=560 41857cb8f06eaba2
+482.sphinx3	o3	MATCH	lines=560 41857cb8f06eaba2
+482.sphinx3	o2	MATCH	lines=560 41857cb8f06eaba2
+482.sphinx3	os	MATCH	lines=560 41857cb8f06eaba2
+482.sphinx3	o3_native	MATCH	lines=560 41857cb8f06eaba2
+482.sphinx3	lto	MATCH	lines=560 41857cb8f06eaba2
+482.sphinx3	lto_native	MATCH	lines=560 41857cb8f06eaba2
+482.sphinx3	lto_inl	MATCH	lines=560 41857cb8f06eaba2
+482.sphinx3	lto_noslp	MATCH	lines=560 41857cb8f06eaba2
+482.sphinx3	lto_unroll	MATCH	lines=560 41857cb8f06eaba2
+483.xalanc	full	MATCH	oracle-match
+483.xalanc	o3	MATCH	oracle-match
+483.xalanc	o2	MATCH	oracle-match
+483.xalanc	os	MATCH	oracle-match
+483.xalanc	o3_native	MATCH	oracle-match
+483.xalanc	lto	MATCH	oracle-match
+483.xalanc	lto_native	MATCH	oracle-match
+483.xalanc	lto_inl	MATCH	oracle-match
+483.xalanc	lto_noslp	MATCH	oracle-match
+483.xalanc	lto_unroll	MATCH	oracle-match
+400.perlbench	tuned	MATCH	ok=947 notok=0 bc8c1fa4e6421fc3
+401.bzip2	tuned	MATCH	roundtrip-ok 00a1523531c4cdfe
+403.gcc	tuned	MATCH	d3e652f2b365e819
+435.gromacs	tuned	MATCH	46a6a93bd94e1c5e
+436.cactusADM	tuned	MATCH	files=32 d2a6553350d97b53
+445.gobmk	tuned	MATCH	4d21aa4daf8e8255
+454.calculix	tuned	MATCH	residual-ok
+456.hmmer	tuned	MATCH	44497fb992e44f98
+462.libquantum	tuned	MATCH	32272e005b871a6b
+465.tonto	tuned	MATCH	SCF energy = -76.046397 486241d505a0e14d
+481.wrf	tuned	MATCH	steps=60 ca3ab7bbde9558b1
+482.sphinx3	tuned	MATCH	lines=560 41857cb8f06eaba2
+483.xalanc	tuned	MATCH	oracle-match

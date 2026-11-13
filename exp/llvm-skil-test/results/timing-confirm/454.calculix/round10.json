@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "for n in $(seq 1 10); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/454.calculix/tuned 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1 > /dev/null; test $? -eq 1 || exit; done",
+      "mean": 0.6156469280600001,
+      "stddev": null,
+      "median": 0.6156469280600001,
+      "user": 0.5679197,
+      "system": 0.047500839999999996,
+      "min": 0.6156469280600001,
+      "max": 0.6156469280600001,
+      "times": [
+        0.6156469280600001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 10); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/454.calculix/o3 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1 > /dev/null; test $? -eq 1 || exit; done",
+      "mean": 0.7084541870600001,
+      "stddev": null,
+      "median": 0.7084541870600001,
+      "user": 0.6469807,
+      "system": 0.061079839999999996,
+      "min": 0.7084541870600001,
+      "max": 0.7084541870600001,
+      "times": [
+        0.7084541870600001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 10); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/454.calculix/lto_inl 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1 > /dev/null; test $? -eq 1 || exit; done",
+      "mean": 0.6903105890600001,
+      "stddev": null,
+      "median": 0.6903105890600001,
+      "user": 0.6420287,
+      "system": 0.047257839999999995,
+      "min": 0.6903105890600001,
+      "max": 0.6903105890600001,
+      "times": [
+        0.6903105890600001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 10); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/454.calculix/full 0 stdout 20 20 20 0 64 10101 1 0 0 0 100 0 0 1 > /dev/null; test $? -eq 1 || exit; done",
+      "mean": 0.7003410120600001,
+      "stddev": null,
+      "median": 0.7003410120600001,
+      "user": 0.6528307,
+      "system": 0.046050839999999996,
+      "min": 0.7003410120600001,
+      "max": 0.7003410120600001,
+      "times": [
+        0.7003410120600001
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}

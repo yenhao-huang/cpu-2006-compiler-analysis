@@ -26,6 +26,10 @@
 
 正值表示加入該 pass 後較快；效果依工作量而異，小幅差異須考慮噪音。完整數值與限制見 [結果報告](docs/Result.md)。這是 repo 內程式的實驗，不是官方 SPEC 分數；`454.calculix` 評測其提供的 SPOOLES 元件。
 
+## 延伸實驗
+
+- [llvm-optimization skill 測試與優化](exp/llvm-skil-test/README.md)：依 skill 建議測 O2/O3/Os、LTO、目標 ISA 與 inline/unroll/SLP knob；逐項調校後 13 項幾何平均比 O3 快 3.29%，比原研究 pipeline 快 23.89%。
+
 ## 取得與重現
 
 ```bash

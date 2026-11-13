@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/435.gromacs/lto_inl -s water.tpr -deffnm timed > /dev/null 2>&1",
+      "mean": 1.2407775063800002,
+      "stddev": null,
+      "median": 1.2407775063800002,
+      "user": 1.2387101999999999,
+      "system": 0.00186018,
+      "min": 1.2407775063800002,
+      "max": 1.2407775063800002,
+      "times": [
+        1.2407775063800002
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/435.gromacs/tuned -s water.tpr -deffnm timed > /dev/null 2>&1",
+      "mean": 1.2364256883800002,
+      "stddev": null,
+      "median": 1.2364256883800002,
+      "user": 1.2362171999999998,
+      "system": 0.0,
+      "min": 1.2364256883800002,
+      "max": 1.2364256883800002,
+      "times": [
+        1.2364256883800002
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/435.gromacs/full -s water.tpr -deffnm timed > /dev/null 2>&1",
+      "mean": 1.27935080338,
+      "stddev": null,
+      "median": 1.27935080338,
+      "user": 1.2776281999999999,
+      "system": 0.00145018,
+      "min": 1.27935080338,
+      "max": 1.27935080338,
+      "times": [
+        1.27935080338
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/435.gromacs/o3 -s water.tpr -deffnm timed > /dev/null 2>&1",
+      "mean": 1.25370034138,
+      "stddev": null,
+      "median": 1.25370034138,
+      "user": 1.2501322,
+      "system": 0.0028581799999999997,
+      "min": 1.25370034138,
+      "max": 1.25370034138,
+      "times": [
+        1.25370034138
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    }
+  ]
+}

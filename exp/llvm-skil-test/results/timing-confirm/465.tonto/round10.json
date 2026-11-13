@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/465.tonto/tuned < stdin > /dev/null",
+      "mean": 0.33306328308000005,
+      "stddev": null,
+      "median": 0.33306328308000005,
+      "user": 0.3277737,
+      "system": 0.00515782,
+      "min": 0.33306328308000005,
+      "max": 0.33306328308000005,
+      "times": [
+        0.33306328308000005
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/465.tonto/o3 < stdin > /dev/null",
+      "mean": 0.32030913708000003,
+      "stddev": null,
+      "median": 0.32030913708000003,
+      "user": 0.3194917,
+      "system": 0.0007708200000000001,
+      "min": 0.32030913708000003,
+      "max": 0.32030913708000003,
+      "times": [
+        0.32030913708000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/465.tonto/full < stdin > /dev/null",
+      "mean": 0.38742501808,
+      "stddev": null,
+      "median": 0.38742501808,
+      "user": 0.3846077,
+      "system": 0.00277382,
+      "min": 0.38742501808,
+      "max": 0.38742501808,
+      "times": [
+        0.38742501808
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/465.tonto/lto_inl < stdin > /dev/null",
+      "mean": 0.32802901608,
+      "stddev": null,
+      "median": 0.32802901608,
+      "user": 0.3271867,
+      "system": 0.0007698199999999999,
+      "min": 0.32802901608,
+      "max": 0.32802901608,
+      "times": [
+        0.32802901608
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    }
+  ]
+}

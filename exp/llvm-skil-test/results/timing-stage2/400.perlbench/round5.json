@@ -1,0 +1,156 @@
+{
+  "results": [
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/o3 t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.27414394342000004,
+      "stddev": null,
+      "median": 0.27414394342000004,
+      "user": 0.25241714,
+      "system": 0.021350119999999997,
+      "min": 0.27414394342000004,
+      "max": 0.27414394342000004,
+      "times": [
+        0.27414394342000004
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/lto_inl t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.24649997142000002,
+      "stddev": null,
+      "median": 0.24649997142000002,
+      "user": 0.22782013999999998,
+      "system": 0.018427119999999998,
+      "min": 0.24649997142000002,
+      "max": 0.24649997142000002,
+      "times": [
+        0.24649997142000002
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/o2 t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.26175295842,
+      "stddev": null,
+      "median": 0.26175295842,
+      "user": 0.24320313999999998,
+      "system": 0.018284119999999997,
+      "min": 0.26175295842,
+      "max": 0.26175295842,
+      "times": [
+        0.26175295842
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o2"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/lto_unroll t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.25091574142,
+      "stddev": null,
+      "median": 0.25091574142,
+      "user": 0.23348713999999998,
+      "system": 0.01730012,
+      "min": 0.25091574142,
+      "max": 0.25091574142,
+      "times": [
+        0.25091574142
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_unroll"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/full t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.28588217342,
+      "stddev": null,
+      "median": 0.28588217342,
+      "user": 0.26197114,
+      "system": 0.02073112,
+      "min": 0.28588217342,
+      "max": 0.28588217342,
+      "times": [
+        0.28588217342
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/lto_noslp t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.24922568942,
+      "stddev": null,
+      "median": 0.24922568942,
+      "user": 0.22908214,
+      "system": 0.01706112,
+      "min": 0.24922568942,
+      "max": 0.24922568942,
+      "times": [
+        0.24922568942
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_noslp"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/lto_native t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.25910803342,
+      "stddev": null,
+      "median": 0.25910803342,
+      "user": 0.23266014,
+      "system": 0.023320119999999996,
+      "min": 0.25910803342,
+      "max": 0.25910803342,
+      "times": [
+        0.25910803342
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_native"
+      }
+    },
+    {
+      "command": "for n in $(seq 1 20); do taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/400.perlbench/o3_native t/op/regexp.t > /dev/null || exit; done",
+      "mean": 0.26357710242000004,
+      "stddev": null,
+      "median": 0.26357710242000004,
+      "user": 0.24242914,
+      "system": 0.020747119999999997,
+      "min": 0.26357710242000004,
+      "max": 0.26357710242000004,
+      "times": [
+        0.26357710242000004
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3_native"
+      }
+    }
+  ]
+}

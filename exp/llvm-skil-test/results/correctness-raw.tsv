@@ -1,0 +1,155 @@
+400.perlbench	full	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	o3	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	o2	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	os	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	o3_native	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	lto	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	lto_native	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	lto_inl_noslp	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	lto_inl	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	lto_noslp	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	lto_unroll	ok=947 notok=0 bc8c1fa4e6421fc3
+400.perlbench	lto_inl_noslp	ok=947 notok=0 bc8c1fa4e6421fc3
+401.bzip2	full	roundtrip-ok 00a1523531c4cdfe
+401.bzip2	o3	roundtrip-ok 00a1523531c4cdfe
+401.bzip2	o2	roundtrip-ok 00a1523531c4cdfe
+401.bzip2	os	roundtrip-ok 00a1523531c4cdfe
+401.bzip2	o3_native	roundtrip-ok 00a1523531c4cdfe
+401.bzip2	lto	roundtrip-ok 00a1523531c4cdfe
+401.bzip2	lto_native	roundtrip-ok 00a1523531c4cdfe
+401.bzip2	lto_inl	roundtrip-ok 00a1523531c4cdfe
+401.bzip2	lto_noslp	roundtrip-ok 00a1523531c4cdfe
+401.bzip2	lto_unroll	roundtrip-ok 00a1523531c4cdfe
+403.gcc	full	d3e652f2b365e819
+403.gcc	o3	d3e652f2b365e819
+403.gcc	o2	d3e652f2b365e819
+403.gcc	os	d3e652f2b365e819
+403.gcc	o3_native	d3e652f2b365e819
+403.gcc	lto	d3e652f2b365e819
+403.gcc	lto_native	d3e652f2b365e819
+403.gcc	lto_inl	d3e652f2b365e819
+403.gcc	lto_noslp	d3e652f2b365e819
+403.gcc	lto_unroll	d3e652f2b365e819
+435.gromacs	full	46a6a93bd94e1c5e
+435.gromacs	o3	46a6a93bd94e1c5e
+435.gromacs	o2	46a6a93bd94e1c5e
+435.gromacs	os	46a6a93bd94e1c5e
+435.gromacs	o3_native	46a6a93bd94e1c5e
+435.gromacs	lto	46a6a93bd94e1c5e
+435.gromacs	lto_native	46a6a93bd94e1c5e
+435.gromacs	lto_inl	46a6a93bd94e1c5e
+435.gromacs	lto_noslp	46a6a93bd94e1c5e
+435.gromacs	lto_unroll	46a6a93bd94e1c5e
+436.cactusADM	full	files=32 d2a6553350d97b53
+436.cactusADM	o3	files=32 d2a6553350d97b53
+436.cactusADM	o2	files=32 d2a6553350d97b53
+436.cactusADM	os	files=32 d2a6553350d97b53
+436.cactusADM	o3_native	files=32 b46870c537e53014
+436.cactusADM	lto	files=32 d2a6553350d97b53
+436.cactusADM	lto_native	files=32 b46870c537e53014
+436.cactusADM	o3_native_nofma	files=32 d2a6553350d97b53
+436.cactusADM	lto_native_nofma	files=32 d2a6553350d97b53
+436.cactusADM	lto_inl	files=32 d2a6553350d97b53
+436.cactusADM	lto_noslp	files=32 d2a6553350d97b53
+436.cactusADM	lto_unroll	files=32 d2a6553350d97b53
+445.gobmk	full	4d21aa4daf8e8255
+445.gobmk	o3	4d21aa4daf8e8255
+445.gobmk	o2	4d21aa4daf8e8255
+445.gobmk	os	4d21aa4daf8e8255
+445.gobmk	o3_native	4d21aa4daf8e8255
+445.gobmk	lto	4d21aa4daf8e8255
+445.gobmk	lto_native	4d21aa4daf8e8255
+445.gobmk	lto_inl_unroll	4d21aa4daf8e8255
+445.gobmk	lto_inl	4d21aa4daf8e8255
+445.gobmk	lto_noslp	4d21aa4daf8e8255
+445.gobmk	lto_unroll	4d21aa4daf8e8255
+445.gobmk	lto_inl_unroll	4d21aa4daf8e8255
+454.calculix	full	residual-ok
+454.calculix	o3	residual-ok
+454.calculix	o2	residual-ok
+454.calculix	os	residual-ok
+454.calculix	o3_native	residual-ok
+454.calculix	lto	residual-ok
+454.calculix	lto_native	residual-ok
+454.calculix	lto_inl_noslp	residual-ok
+454.calculix	lto_inl	residual-ok
+454.calculix	lto_noslp	residual-ok
+454.calculix	lto_unroll	residual-ok
+454.calculix	lto_inl_noslp	residual-ok
+456.hmmer	full	44497fb992e44f98
+456.hmmer	o3	44497fb992e44f98
+456.hmmer	o2	44497fb992e44f98
+456.hmmer	os	44497fb992e44f98
+456.hmmer	o3_native	44497fb992e44f98
+456.hmmer	lto	44497fb992e44f98
+456.hmmer	lto_native	44497fb992e44f98
+456.hmmer	lto_inl	44497fb992e44f98
+456.hmmer	lto_noslp	44497fb992e44f98
+456.hmmer	lto_unroll	44497fb992e44f98
+462.libquantum	full	32272e005b871a6b
+462.libquantum	o3	32272e005b871a6b
+462.libquantum	o2	32272e005b871a6b
+462.libquantum	os	32272e005b871a6b
+462.libquantum	o3_native	32272e005b871a6b
+462.libquantum	lto	32272e005b871a6b
+462.libquantum	lto_native	32272e005b871a6b
+462.libquantum	lto_inl	32272e005b871a6b
+462.libquantum	lto_noslp	32272e005b871a6b
+462.libquantum	lto_unroll	32272e005b871a6b
+465.tonto	full	SCF energy = -76.046397 486241d505a0e14d
+465.tonto	o3	SCF energy = -76.046397 486241d505a0e14d
+465.tonto	o2	SCF energy = -76.046397 486241d505a0e14d
+465.tonto	os	SCF energy = -76.046397 486241d505a0e14d
+465.tonto	o3_native	SCF energy = -76.046397 cdeee54a4e2638a1
+465.tonto	lto	SCF energy = -76.046397 486241d505a0e14d
+465.tonto	lto_native	SCF energy = -76.046397 59f20b28db5404ce
+465.tonto	o3_native_nofma	SCF energy = -76.046397 486241d505a0e14d
+465.tonto	lto_native_nofma	SCF energy = -76.046397 486241d505a0e14d
+465.tonto	lto_inl	SCF energy = -76.046397 486241d505a0e14d
+465.tonto	lto_noslp	SCF energy = -76.046397 486241d505a0e14d
+465.tonto	lto_unroll	SCF energy = -76.046397 486241d505a0e14d
+481.wrf	full	steps=60 ca3ab7bbde9558b1
+481.wrf	o3	steps=60 ca3ab7bbde9558b1
+481.wrf	o2	steps=60 ca3ab7bbde9558b1
+481.wrf	os	steps=60 ca3ab7bbde9558b1
+481.wrf	o3_native	steps=60 a8e50a34b1f6145c
+481.wrf	lto	steps=60 ca3ab7bbde9558b1
+481.wrf	lto_native	steps=60 25ffbba0f12664d1
+481.wrf	o3_native_nofma	steps=60 ca3ab7bbde9558b1
+481.wrf	lto_native_nofma	steps=60 ca3ab7bbde9558b1
+481.wrf	lto_inl	steps=60 ca3ab7bbde9558b1
+481.wrf	lto_noslp	steps=60 ca3ab7bbde9558b1
+481.wrf	lto_unroll	steps=60 ca3ab7bbde9558b1
+482.sphinx3	full	lines=560 41857cb8f06eaba2
+482.sphinx3	o3	lines=560 41857cb8f06eaba2
+482.sphinx3	o2	lines=560 41857cb8f06eaba2
+482.sphinx3	os	lines=560 41857cb8f06eaba2
+482.sphinx3	o3_native	lines=560 41857cb8f06eaba2
+482.sphinx3	lto	lines=560 41857cb8f06eaba2
+482.sphinx3	lto_native	lines=560 41857cb8f06eaba2
+482.sphinx3	lto_inl	lines=560 41857cb8f06eaba2
+482.sphinx3	lto_noslp	lines=560 41857cb8f06eaba2
+482.sphinx3	lto_unroll	lines=560 41857cb8f06eaba2
+483.xalanc	full	oracle-match
+483.xalanc	o3	oracle-match
+483.xalanc	o2	oracle-match
+483.xalanc	os	oracle-match
+483.xalanc	o3_native	oracle-match
+483.xalanc	lto	oracle-match
+483.xalanc	lto_native	oracle-match
+483.xalanc	lto_inl	oracle-match
+483.xalanc	lto_noslp	oracle-match
+483.xalanc	lto_unroll	oracle-match
+400.perlbench	tuned	ok=947 notok=0 bc8c1fa4e6421fc3
+401.bzip2	tuned	roundtrip-ok 00a1523531c4cdfe
+403.gcc	tuned	d3e652f2b365e819
+435.gromacs	tuned	46a6a93bd94e1c5e
+436.cactusADM	tuned	files=32 d2a6553350d97b53
+445.gobmk	tuned	4d21aa4daf8e8255
+454.calculix	tuned	residual-ok
+456.hmmer	tuned	44497fb992e44f98
+462.libquantum	tuned	32272e005b871a6b
+465.tonto	tuned	SCF energy = -76.046397 486241d505a0e14d
+481.wrf	tuned	steps=60 ca3ab7bbde9558b1
+482.sphinx3	tuned	lines=560 41857cb8f06eaba2
+483.xalanc	tuned	oracle-match

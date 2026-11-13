@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/403.gcc/lto_inl spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.23724447948000002,
+      "stddev": null,
+      "median": 0.23724447948000002,
+      "user": 0.22624436,
+      "system": 0.01086836,
+      "min": 0.23724447948000002,
+      "max": 0.23724447948000002,
+      "times": [
+        0.23724447948000002
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "lto_inl"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/403.gcc/tuned spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.23632352348000002,
+      "stddev": null,
+      "median": 0.23632352348000002,
+      "user": 0.22671436,
+      "system": 0.00951936,
+      "min": 0.23632352348000002,
+      "max": 0.23632352348000002,
+      "times": [
+        0.23632352348000002
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "tuned"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/403.gcc/o3 spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.23957687648000003,
+      "stddev": null,
+      "median": 0.23957687648000003,
+      "user": 0.22882136,
+      "system": 0.01067036,
+      "min": 0.23957687648000003,
+      "max": 0.23957687648000003,
+      "times": [
+        0.23957687648000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "o3"
+      }
+    },
+    {
+      "command": "taskset -c 2 /workspace/compiler_optimization/transform_pass_research/exp/llvm-skil-test/build/403.gcc/full spec-cpu2006-redist/modified/403.gcc/data/train/input/integrate.in -o /dev/null",
+      "mean": 0.25649844648000003,
+      "stddev": null,
+      "median": 0.25649844648000003,
+      "user": 0.24561236,
+      "system": 0.01083636,
+      "min": 0.25649844648000003,
+      "max": 0.25649844648000003,
+      "times": [
+        0.25649844648000003
+      ],
+      "exit_codes": [
+        0
+      ],
+      "parameters": {
+        "variant": "full"
+      }
+    }
+  ]
+}
